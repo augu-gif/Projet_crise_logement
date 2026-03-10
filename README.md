@@ -1,15 +1,14 @@
-# Projet : Crise du logement en France
+# Projet : Crise du logement dans la Métropole Européenne de Lille
 
 ## Contexte
 
 Le logement est devenu l’un des principaux enjeux sociaux et politiques en France.
-La hausse des prix de l’immobilier, la difficulté d’accès à la propriété et la tension sur le marché locatif posent de nombreuses questions, en particulier dans les grandes métropoles.
+La hausse des prix de l’immobilier, la difficulté d’accès à la propriété et la tension sur le marché locatif rendent l’accès au logement de plus en plus complexe pour de nombreux ménages.
 
-Ce projet de data analyse vise à mieux comprendre les dynamiques du logement en France en croisant différentes données publiques (INSEE, données immobilières, recensement des logements, etc.).
+Dans ce projet, nous avons choisi de nous concentrer sur **la Métropole Européenne de Lille (MEL)** afin d’analyser les dynamiques locales du marché du logement. En nous appuyant sur différentes données publiques (INSEE, données immobilières, recensement des logements…), nous cherchons à mieux comprendre les tensions immobilières, les inégalités territoriales et les difficultés d’accès au logement dans cette métropole.
 
-L’objectif est d’identifier les zones de tension, les inégalités territoriales et les leviers d’action possibles pour les collectivités locales.
+L’objectif est d’identifier les zones les plus en tension et d’explorer des pistes de solutions à l’échelle locale, comme si nous étions **conseillers auprès de la MEL** pour éclairer les décisions publiques en matière de politique du logement.
 
----
 
 ## Problématique
 
