@@ -30,6 +30,7 @@ L’objectif est de produire une analyse accessible permettant de :
 * identifier les zones où la pression immobilière est la plus forte
 * mettre en évidence les inégalités territoriales
 * proposer des pistes de solutions pour les décideurs publics
+* budgetiser des solutions et proposer une solution sur 5 ans 
 
 Le projet est présenté comme si nous étions **conseillers auprès de la Métropole Européenne de Lille (MEL)**.
 
@@ -51,6 +52,7 @@ Ces données permettent de croiser :
 * part de logements sociaux
 * logements vacants
 * évolution des prix de l’immobilier
+* répartition du budget dans la MEL
 
 ---
 
@@ -80,6 +82,9 @@ Plusieurs axes d’analyse sont explorés :
 * part de propriétaires vs locataires
 * évolution du parc immobilier
 
+### 5. Répartition du budget entre les différentes communes 
+* identifier les communes excedentes et déficitaires
+* proposer des solutions locales 
 ---
 
 ## Modélisation
@@ -99,8 +104,8 @@ Plusieurs pistes d’action sont étudiées :
 
 * mobilisation des logements vacants
 * développement du parc de logements sociaux
-* estimation du **coût moyen de travaux par m²**
-* réflexion sur l’utilisation de **la fiscalité locale (taxe foncière)** comme levier d’action
+* estimation du coût moyen de travaux par m²
+* réflexion sur l’utilisation de la fiscalité locale (taxe foncière) comme levier d’action
 
 ---
 
@@ -124,4 +129,4 @@ Le projet est structuré en plusieurs parties :
 
 Produire une analyse claire et visuelle permettant de mettre en évidence les tensions du marché du logement et d’alimenter la réflexion sur les politiques publiques locales.
 
-Ce projet s’inscrit dans une démarche à la fois **data, sociale et politique**, visant à rendre les données plus accessibles pour comprendre les enjeux du logement.
+Ce projet s’inscrit dans une démarche à la fois data, sociale et politique, visant à rendre les données plus accessibles pour comprendre les enjeux du logement.
