@@ -7,17 +7,18 @@ La hausse des prix de l’immobilier, la difficulté d’accès à la propriét�
 
 Dans ce projet, nous avons choisi de nous concentrer sur **la Métropole Européenne de Lille (MEL)** afin d’analyser les dynamiques locales du marché du logement. En nous appuyant sur différentes données publiques (INSEE, données immobilières, recensement des logements…), nous cherchons à mieux comprendre les tensions immobilières, les inégalités territoriales et les difficultés d’accès au logement dans cette métropole.
 
-L’objectif est d’identifier les zones les plus en tension et d’explorer des pistes de solutions à l’échelle locale, comme si nous étions **conseillers auprès de la MEL** pour éclairer les décisions publiques en matière de politique du logement.
+L’objectif est d’identifier les zones les plus en tension et d’explorer des pistes de solutions à l’échelle locale, comme si nous étions **conseillers auprès de la MEL** afin d’éclairer les décisions publiques en matière de politique du logement.
 
+---
 
 ## Problématique
 
 Nous cherchons à répondre à plusieurs questions clés :
 
 * Où manque-t-il le plus de logements sociaux ?
-* Les logements vacants peuvent-ils être une solution à la crise du logement ?
+* Les logements vacants peuvent-ils constituer une solution à la crise du logement ?
 * Pourquoi certains logements restent-ils vacants ?
-* Quelle est la part de propriétaires vs locataires selon les territoires ?
+* Quelle est la part de propriétaires par rapport aux locataires selon les territoires ?
 * Est-il possible de devenir propriétaire dans la Métropole Européenne de Lille (MEL) avec un revenu moyen, et si oui dans quelles communes ?
 
 ---
@@ -30,6 +31,7 @@ L’objectif est de produire une analyse accessible permettant de :
 * identifier les zones où la pression immobilière est la plus forte
 * mettre en évidence les inégalités territoriales
 * proposer des pistes de solutions pour les décideurs publics
+* budgétiser des solutions et proposer un plan d’action sur 5 ans
 
 Le projet est présenté comme si nous étions **conseillers auprès de la Métropole Européenne de Lille (MEL)**.
 
@@ -46,22 +48,23 @@ Les analyses s’appuient sur plusieurs sources de données publiques :
 
 Ces données permettent de croiser :
 
-* structure du parc immobilier
-* niveau de revenu des habitants
-* part de logements sociaux
-* logements vacants
-* évolution des prix de l’immobilier
+* la structure du parc immobilier
+* le niveau de revenu des habitants
+* la part de logements sociaux
+* les logements vacants
+* l’évolution des prix de l’immobilier
+* la répartition du budget dans la MEL
 
 ---
 
 ## Analyses réalisées
 
-Plusieurs axes d’analyse sont explorés :
+Plusieurs axes d’analyse sont explorés.
 
 ### 1. Logements sociaux
 
 * répartition territoriale
-* zones où l’offre est insuffisante
+* identification des zones où l’offre est insuffisante
 
 ### 2. Logements vacants
 
@@ -73,12 +76,17 @@ Plusieurs axes d’analyse sont explorés :
 
 * comparaison des revenus et des prix immobiliers
 * estimation de la capacité d’achat immobilier
-* analyse spécifique sur la MEL
+* analyse spécifique à la MEL
 
 ### 4. Structure du marché du logement
 
 * part de propriétaires vs locataires
 * évolution du parc immobilier
+
+### 5. Répartition du budget entre les différentes communes
+
+* identifier les communes excédentaires et déficitaires
+* proposer des solutions locales
 
 ---
 
@@ -99,8 +107,8 @@ Plusieurs pistes d’action sont étudiées :
 
 * mobilisation des logements vacants
 * développement du parc de logements sociaux
-* estimation du **coût moyen de travaux par m²**
-* réflexion sur l’utilisation de **la fiscalité locale (taxe foncière)** comme levier d’action
+* estimation du coût moyen des travaux par m²
+* réflexion sur l’utilisation de la fiscalité locale (taxe foncière) comme levier d’action
 
 ---
 
@@ -124,4 +132,5 @@ Le projet est structuré en plusieurs parties :
 
 Produire une analyse claire et visuelle permettant de mettre en évidence les tensions du marché du logement et d’alimenter la réflexion sur les politiques publiques locales.
 
-Ce projet s’inscrit dans une démarche à la fois **data, sociale et politique**, visant à rendre les données plus accessibles pour comprendre les enjeux du logement.
+Ce projet s’inscrit dans une démarche à la fois **data, sociale et politique**, visant à rendre les données plus accessibles afin de mieux comprendre les enjeux du logement.
+
