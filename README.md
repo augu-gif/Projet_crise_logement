@@ -127,7 +127,12 @@ Le projet est structuré en plusieurs parties :
 * restitution des insights
 
 ---
+## Applications
 
+Application Streamlit sur les insights liées au nombre de sans-abris dans la métropole lilloise et prédiction de leur nombre sur 10 ans :
+https://homelessmelanalysis-fnhvfq6nzfiude9nsnjc4z.streamlit.app/
+
+---
 ## Objectif final
 
 Produire une analyse claire et visuelle permettant de mettre en évidence les tensions du marché du logement et d’alimenter la réflexion sur les politiques publiques locales.

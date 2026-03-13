@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "eb868f56bcba63dc7ea8",
+  "position": {
+    "x": 959.1798857602306,
+    "y": 445.97061927335471,
+    "z": 6000,
+    "height": 38.422084122012095,
+    "width": 259.34906782358166,
+    "tabOrder": 5000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "QR code application Streamlit",
+                    "textStyle": {
+                      "fontSize": "12pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
