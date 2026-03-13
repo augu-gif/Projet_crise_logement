@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Crise_immo"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e1d1c33a-e0e2-40bd-83ac-ee737f81eb4c"
+  }
+}

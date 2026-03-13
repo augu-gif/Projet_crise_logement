@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Crise_immo"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5f4cdb11-74a8-4d38-8f78-7b7d81d8c4c1"
+  }
+}

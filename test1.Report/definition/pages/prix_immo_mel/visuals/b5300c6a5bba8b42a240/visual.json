@@ -1,0 +1,62 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "b5300c6a5bba8b42a240",
+  "position": {
+    "x": 0,
+    "y": 376.28140703517585,
+    "z": 0,
+    "height": 344.12060301507535,
+    "width": 539.22948073701843,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DVF_MEL"
+                    }
+                  },
+                  "Property": "Date mutation"
+                }
+              },
+              "queryRef": "DVF_MEL.Date mutation.Variation.Hiérarchie de dates.Année",
+              "nativeQueryRef": "Date mutation Année",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DVF_MEL"
+                        }
+                      },
+                      "Property": "Valeur fonciere"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(DVF_MEL.Valeur fonciere)",
+              "nativeQueryRef": "Somme de Valeur fonciere"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

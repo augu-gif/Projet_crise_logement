@@ -1,0 +1,286 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "03240846b650b6ed5d09",
+  "position": {
+    "x": 49.399822442586981,
+    "y": 270.32680614415654,
+    "z": 0,
+    "height": 426.75957721234863,
+    "width": 621.61443240255289,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "map",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "RepartitionSansAbris_MEL"
+                    }
+                  },
+                  "Property": "CODE_POSTAL"
+                }
+              },
+              "queryRef": "RepartitionSansAbris_MEL.CODE_POSTAL",
+              "nativeQueryRef": "Sum of CODE_POSTAL",
+              "active": true
+            }
+          ]
+        },
+        "Size": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "RepartitionSansAbris_MEL"
+                        }
+                      },
+                      "Property": "sans_abris_2026"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(RepartitionSansAbris_MEL.sans_abris_2026)",
+              "nativeQueryRef": "Sum of sans_abris_2026"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "mapStyles": [
+        {
+          "properties": {
+            "mapTheme": {
+              "expr": {
+                "Literal": {
+                  "Value": "'grayscale'"
+                }
+              }
+            },
+            "showLabels": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "bubbles": [
+        {
+          "properties": {
+            "bubbleSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10L"
+                }
+              }
+            },
+            "markerRangeType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'auto'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "heatMap": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "color100": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "color50": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            },
+            "color0": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "mapControls": [
+        {
+          "properties": {
+            "autoZoom": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "showZoomButtons": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "showLassoButton": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Répartition des sans-abris dans la MEL en 2026'"
+                }
+              }
+            },
+            "heading": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Heading3'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "b4e57ad4bb49d690509b",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "RepartitionSansAbris_MEL"
+              }
+            },
+            "Property": "sans_abris_2026"
+          }
+        },
+        "type": "Advanced",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "r",
+              "Entity": "RepartitionSansAbris_MEL",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 3,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "r"
+                        }
+                      },
+                      "Property": "sans_abris_2026"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "700L"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  }
+}
