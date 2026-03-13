@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "937c463218d0b0403dba",
+  "name": "cef380ca139c1db89395",
   "position": {
     "x": 0,
-    "y": 14.762809217602234,
-    "z": 1000,
-    "height": 695.96100597267673,
-    "width": 312.12796631501868,
-    "tabOrder": 1000
+    "y": 15,
+    "z": 3001,
+    "height": 695,
+    "width": 308,
+    "tabOrder": 3001
   },
   "visual": {
     "visualType": "slicer",
@@ -35,31 +35,6 @@
       }
     },
     "objects": {
-      "general": [
-        {
-          "properties": {}
-        }
-      ],
-      "selection": [
-        {
-          "properties": {
-            "singleSelect": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "selectAllCheckboxEnabled": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
       "data": [
         {
           "properties": {
@@ -80,13 +55,18 @@
           }
         }
       ],
-      "header": [
+      "general": [
+        {
+          "properties": {}
+        }
+      ],
+      "selection": [
         {
           "properties": {
-            "show": {
+            "selectAllCheckboxEnabled": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }
@@ -98,6 +78,20 @@
       "title": [
         {
           "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "heading": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Heading4'"
+                }
+              }
+            },
             "titleWrap": {
               "expr": {
                 "Literal": {
@@ -105,14 +99,21 @@
                 }
               }
             },
-            "bold": {
+            "alignment": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "'center'"
                 }
               }
             },
-            "show": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            },
+            "bold": {
               "expr": {
                 "Literal": {
                   "Value": "true"
@@ -125,14 +126,23 @@
                   "Value": "'Villes de la MEL'"
                 }
               }
-            },
-            "alignment": {
+            }
+          }
+        }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "verticalSpacing": {
               "expr": {
                 "Literal": {
-                  "Value": "'center'"
+                  "Value": "2D"
                 }
               }
             }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ],
@@ -183,8 +193,8 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 9,
-                      "Percent": -0.5
+                      "ColorId": 3,
+                      "Percent": 0.4
                     }
                   }
                 }
@@ -240,13 +250,6 @@
                       "Value": "'#FFFFFF'"
                     }
                   }
-                }
-              }
-            },
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
                 }
               }
             }

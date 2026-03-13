@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "d073ad266077b499206d",
   "position": {
-    "x": 324.78180278724915,
-    "y": 14.762809217602234,
+    "x": 325,
+    "y": 15,
     "z": 0,
-    "height": 540.95150918785328,
-    "width": 629.52836449346671,
+    "height": 527,
+    "width": 629,
     "tabOrder": 0
   },
   "visual": {
@@ -75,6 +75,13 @@
                 }
               }
             },
+            "showLabels": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
             "showNavigationControls": {
               "expr": {
                 "Literal": {
@@ -82,10 +89,17 @@
                 }
               }
             },
-            "showSelectionControl": {
+            "zoom": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "9.34D"
+                }
+              }
+            },
+            "centerLatitude": {
+              "expr": {
+                "Literal": {
+                  "Value": "50.64747607344657D"
                 }
               }
             },
@@ -96,24 +110,10 @@
                 }
               }
             },
-            "centerLatitude": {
+            "heading": {
               "expr": {
                 "Literal": {
-                  "Value": "50.6474760734466D"
-                }
-              }
-            },
-            "zoom": {
-              "expr": {
-                "Literal": {
-                  "Value": "9.32D"
-                }
-              }
-            },
-            "showLabels": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
+                  "Value": "0D"
                 }
               }
             },
@@ -138,10 +138,10 @@
                 }
               }
             },
-            "heading": {
+            "showSelectionControl": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "false"
                 }
               }
             },
@@ -213,10 +213,10 @@
                 }
               }
             },
-            "layerPosition": {
+            "minZoom": {
               "expr": {
                 "Literal": {
-                  "Value": "'labels'"
+                  "Value": "0L"
                 }
               }
             },
@@ -227,30 +227,13 @@
                 }
               }
             },
-            "minZoom": {
+            "layerPosition": {
               "expr": {
                 "Literal": {
-                  "Value": "0L"
+                  "Value": "'labels'"
                 }
               }
             }
-          }
-        }
-      ],
-      "dataPoint": [
-        {
-          "properties": {}
-        },
-        {
-          "properties": {},
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 1
-                }
-              }
-            ]
           }
         }
       ],
@@ -277,17 +260,17 @@
                 }
               }
             },
+            "barShape": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
             "barHeight": {
               "expr": {
                 "Literal": {
                   "Value": "5L"
-                }
-              }
-            },
-            "thickness": {
-              "expr": {
-                "Literal": {
-                  "Value": "2L"
                 }
               }
             },
@@ -298,17 +281,17 @@
                 }
               }
             },
+            "thickness": {
+              "expr": {
+                "Literal": {
+                  "Value": "2L"
+                }
+              }
+            },
             "scaleThicknessOnZoom": {
               "expr": {
                 "Literal": {
                   "Value": "true"
-                }
-              }
-            },
-            "barShape": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
                 }
               }
             },
@@ -325,6 +308,20 @@
       "bubbleLayer": [
         {
           "properties": {
+            "mapTransparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "bubbleRadius": {
+              "expr": {
+                "Literal": {
+                  "Value": "8L"
+                }
+              }
+            },
             "markerType": {
               "expr": {
                 "Literal": {
@@ -336,20 +333,6 @@
               "expr": {
                 "Literal": {
                   "Value": "'Home'"
-                }
-              }
-            },
-            "bubbleRadius": {
-              "expr": {
-                "Literal": {
-                  "Value": "8L"
-                }
-              }
-            },
-            "mapTransparency": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
                 }
               }
             }
@@ -521,17 +504,17 @@
                 }
               }
             },
-            "polygonStrokeTransparency": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
-                }
-              }
-            },
             "polygonStrokeWidth": {
               "expr": {
                 "Literal": {
                   "Value": "20L"
+                }
+              }
+            },
+            "polygonStrokeTransparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             },
@@ -561,6 +544,13 @@
                   "Value": "true"
                 }
               }
+            },
+            "showTrafficControl": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
             }
           }
         }
@@ -570,17 +560,31 @@
       "title": [
         {
           "properties": {
-            "bold": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'repartion du poids fiscal'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "titleWrap": {
               "expr": {
                 "Literal": {
                   "Value": "true"
                 }
               }
             },
-            "text": {
+            "bold": {
               "expr": {
                 "Literal": {
-                  "Value": "'repartion du poids fiscal'"
+                  "Value": "true"
                 }
               }
             }
@@ -590,10 +594,10 @@
       "background": [
         {
           "properties": {
-            "transparency": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "true"
                 }
               }
             },
@@ -606,6 +610,13 @@
                       "Percent": 0
                     }
                   }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             }
@@ -627,8 +638,8 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 9,
-                      "Percent": -0.5
+                      "ColorId": 3,
+                      "Percent": 0.4
                     }
                   }
                 }
@@ -645,6 +656,45 @@
               "expr": {
                 "Literal": {
                   "Value": "6D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#3a3a3a'"
+                    }
+                  }
+                }
+              }
+            },
+            "border": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#3a3a3a'"
+                    }
+                  }
+                }
+              }
+            },
+            "foreground": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
                 }
               }
             }

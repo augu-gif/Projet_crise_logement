@@ -1,0 +1,102 @@
+table DVF_MEL
+	lineageTag: bfbff290-0767-4053-8356-9f6ac7be602f
+
+	column 'Date mutation'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 5ec6bf21-4d3d-4967-8ba3-e34f679293c3
+		summarizeBy: none
+		sourceColumn: Date mutation
+
+		variation Variation
+			isDefault
+			relationship: 5032b89d-5f21-435b-b4eb-ae75afce22bb
+			defaultHierarchy: LocalDateTable_caef1a98-58e1-428e-a4d6-e69edd7a9043.'Hiérarchie de dates'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Commune
+		dataType: string
+		lineageTag: 48a00244-8bae-4c21-bfb4-80da28a64332
+		summarizeBy: none
+		sourceColumn: Commune
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Code postal'
+		dataType: int64
+		formatString: 0
+		lineageTag: 2466351d-3104-4357-8812-426e1b0dce5b
+		summarizeBy: sum
+		sourceColumn: Code postal
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nature mutation'
+		dataType: string
+		lineageTag: 09af75b6-48dd-4c2b-83ab-8d141b3166d6
+		summarizeBy: none
+		sourceColumn: Nature mutation
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Type local'
+		dataType: string
+		lineageTag: 9d8ff1ab-77f4-4c8c-84b5-61444d403f44
+		summarizeBy: none
+		sourceColumn: Type local
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Valeur fonciere'
+		dataType: double
+		lineageTag: d8f946d5-e33d-45a8-9eae-cebcced3df9b
+		summarizeBy: sum
+		sourceColumn: Valeur fonciere
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Surface reelle bati'
+		dataType: int64
+		formatString: 0
+		lineageTag: bcfd0bd3-c279-4c69-bec1-5346600764bf
+		summarizeBy: sum
+		sourceColumn: Surface reelle bati
+
+		annotation SummarizationSetBy = Automatic
+
+	column prix_m2
+		dataType: double
+		lineageTag: 4beb2a17-d578-4b16-8c20-092cd1083b68
+		summarizeBy: sum
+		sourceColumn: prix_m2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column LIB_COM_POSTAL
+		dataType: string
+		lineageTag: e85ce982-fb21-4355-8f98-44f162e1f427
+		summarizeBy: none
+		sourceColumn: LIB_COM_POSTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DVF_MEL = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Formation\crise_immo\Projet_crise_logement\dataset_bi\DVF_MEL.xlsx"), null, true),
+				    DVF_MEL_Sheet = Source{[Item="DVF_MEL",Kind="Sheet"]}[Data],
+				    #"En-têtes promus" = Table.PromoteHeaders(DVF_MEL_Sheet, [PromoteAllScalars=true]),
+				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"Date mutation", type date}, {"Commune", type text}, {"Code postal", Int64.Type}, {"Nature mutation", type text}, {"Type local", type text}, {"Valeur fonciere", type number}, {"Surface reelle bati", Int64.Type}, {"prix_m2", type number}, {"LIB_COM_POSTAL", type text}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_ResultType = Table
+

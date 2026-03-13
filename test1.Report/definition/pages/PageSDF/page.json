@@ -23,5 +23,11 @@
         "howCreated": "User"
       }
     ]
+  },
+  "pageBinding": {
+    "name": "ee96a864ec39a5e5bc56",
+    "type": "Default",
+    "parameters": [],
+    "acceptsFilterContext": "None"
   }
 }

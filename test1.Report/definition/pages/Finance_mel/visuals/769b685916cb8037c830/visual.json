@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "769b685916cb8037c830",
   "position": {
-    "x": 953.80607067072606,
-    "y": 191.97047698127133,
-    "z": 4000,
-    "height": 170.80837715656426,
-    "width": 315.91991881169849,
-    "tabOrder": 4000
+    "x": 964,
+    "y": 15,
+    "z": 3000,
+    "height": 695,
+    "width": 307,
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -25,14 +25,95 @@
                           "Entity": "Sheet1"
                         }
                       },
-                      "Property": "REC_FILCAL_COM"
+                      "Property": "recettes_fiscales"
                     }
                   },
                   "Function": 0
                 }
               },
-              "queryRef": "Sum(Sheet1.REC_FILCAL_COM)",
-              "nativeQueryRef": "Somme de REC_FILCAL_COM"
+              "queryRef": "CountNonNull(Sheet1.recettes_fiscales)",
+              "nativeQueryRef": "Revenus fiscaux",
+              "displayName": "Revenus fiscaux"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sheet1"
+                        }
+                      },
+                      "Property": "recettes_non_fiscales"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "CountNonNull(Sheet1.recettes_non_fiscales)",
+              "nativeQueryRef": "Revenus non fiscaux",
+              "displayName": "Revenus non fiscaux"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sheet1"
+                        }
+                      },
+                      "Property": "recettes_MEL"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "CountNonNull(Sheet1.recettes_MEL)",
+              "nativeQueryRef": "Revenus MEL",
+              "displayName": "Revenus MEL"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sheet1"
+                        }
+                      },
+                      "Property": "prelevements_MEL"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "CountNonNull(Sheet1.prelevements_MEL)",
+              "nativeQueryRef": "Montant prélevé MEL",
+              "displayName": "Montant prélevé MEL"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sheet1"
+                        }
+                      },
+                      "Property": "reversements_MEL"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "CountNonNull(Sheet1.reversements_MEL)",
+              "nativeQueryRef": "Montant reversé MEL",
+              "displayName": "Montant reversé MEL"
             }
           ]
         }
@@ -49,7 +130,7 @@
                         "Entity": "Sheet1"
                       }
                     },
-                    "Property": "REC_FILCAL_COM"
+                    "Property": "recettes_fiscales"
                   }
                 },
                 "Function": 0
@@ -84,7 +165,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }
@@ -93,12 +174,39 @@
             "id": "default"
           }
         }
+      ],
+      "layout": [
+        {
+          "properties": {
+            "orientation": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            },
+            "rowCount": {
+              "expr": {
+                "Literal": {
+                  "Value": "5L"
+                }
+              }
+            }
+          }
+        }
       ]
     },
     "visualContainerObjects": {
       "title": [
         {
           "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Puissance fiscale communale'"
+                }
+              }
+            },
             "show": {
               "expr": {
                 "Literal": {
@@ -131,13 +239,6 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'TFPNB ( Commune )'"
                 }
               }
             }
@@ -191,8 +292,8 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 9,
-                      "Percent": -0.5
+                      "ColorId": 3,
+                      "Percent": 0.4
                     }
                   }
                 }

@@ -1,0 +1,9 @@
+relationship 5032b89d-5f21-435b-b4eb-ae75afce22bb
+	joinOnDateBehavior: datePartOnly
+	fromColumn: DVF_MEL.'Date mutation'
+	toColumn: LocalDateTable_caef1a98-58e1-428e-a4d6-e69edd7a9043.Date
+
+relationship AutoDetected_89b9c3ba-f819-4e1a-9bf9-6e3014459c0c
+	fromColumn: DVF_MEL.LIB_COM_POSTAL
+	toColumn: Sheet1.LIB_COM_POSTAL
+

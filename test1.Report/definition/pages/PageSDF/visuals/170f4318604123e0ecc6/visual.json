@@ -1,68 +1,86 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "e133bd8ae652e5a4a5be",
+  "name": "170f4318604123e0ecc6",
   "position": {
-    "x": 953.80607067072606,
-    "y": 15.115785589076483,
-    "z": 3000,
-    "height": 172.31995571547191,
-    "width": 315.91991881169849,
-    "tabOrder": 3000
+    "x": 0,
+    "y": 149.56441174466926,
+    "z": 4000,
+    "height": 571.46999114381083,
+    "width": 244.43735949315348,
+    "tabOrder": 4000
   },
   "visual": {
-    "visualType": "cardVisual",
+    "visualType": "slicer",
     "query": {
       "queryState": {
-        "Data": {
+        "Values": {
           "projections": [
             {
               "field": {
-                "Aggregation": {
+                "Column": {
                   "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Sheet1"
-                        }
-                      },
-                      "Property": "BASE_FILCAL"
+                    "SourceRef": {
+                      "Entity": "RepartitionSansAbris_MEL"
                     }
                   },
-                  "Function": 0
+                  "Property": "LIBVILLE"
                 }
               },
-              "queryRef": "Sum(Sheet1.BASE_FILCAL)",
-              "nativeQueryRef": "Somme de BASE_FILCAL"
+              "queryRef": "RepartitionSansAbris_MEL.LIBVILLE",
+              "nativeQueryRef": "LIBVILLE",
+              "active": true
             }
           ]
         }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Aggregation": {
-                "Expression": {
-                  "Column": {
-                    "Expression": {
-                      "SourceRef": {
-                        "Entity": "Sheet1"
-                      }
-                    },
-                    "Property": "BASE_FILCAL"
-                  }
-                },
-                "Function": 0
-              }
-            },
-            "direction": "Descending"
-          }
-        ],
-        "isDefaultSort": true
       }
     },
     "objects": {
-      "label": [
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Basic'"
+                }
+              }
+            },
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
+      ],
+      "selection": [
+        {
+          "properties": {
+            "selectAllCheckboxEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "singleSelect": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "header": [
         {
           "properties": {
             "show": {
@@ -72,25 +90,6 @@
                 }
               }
             }
-          },
-          "selector": {
-            "id": "default"
-          }
-        }
-      ],
-      "referenceLabelLayout": [
-        {
-          "properties": {
-            "position": {
-              "expr": {
-                "Literal": {
-                  "Value": "'below'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
           }
         }
       ]
@@ -99,20 +98,6 @@
       "title": [
         {
           "properties": {
-            "titleWrap": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "bold": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
             "show": {
               "expr": {
                 "Literal": {
@@ -120,17 +105,10 @@
                 }
               }
             },
-            "fontSize": {
+            "titleWrap": {
               "expr": {
                 "Literal": {
-                  "Value": "20D"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "' VALEUR LOCATIVE CADASTRALE'"
+                  "Value": "true"
                 }
               }
             },
@@ -138,6 +116,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'center'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }
@@ -192,7 +177,7 @@
                   "expr": {
                     "ThemeDataColor": {
                       "ColorId": 9,
-                      "Percent": -0.5
+                      "Percent": 0.4
                     }
                   }
                 }
@@ -218,6 +203,13 @@
       "visualHeader": [
         {
           "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
             "background": {
               "solid": {
                 "color": {
@@ -254,19 +246,16 @@
           }
         }
       ],
-      "spacing": [
+      "lockAspect": [
         {
           "properties": {
-            "verticalSpacing": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "2D"
+                  "Value": "true"
                 }
               }
             }
-          },
-          "selector": {
-            "id": "default"
           }
         }
       ]
