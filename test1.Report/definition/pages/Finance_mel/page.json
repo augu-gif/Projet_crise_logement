@@ -8,7 +8,6 @@
   "pageBinding": {
     "name": "67fe288083e2b95e963c",
     "type": "Default",
-    "parameters": [],
-    "referenceScope": "CrossReport"
+    "parameters": []
   }
 }

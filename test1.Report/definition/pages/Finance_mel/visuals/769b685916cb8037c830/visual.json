@@ -4,10 +4,10 @@
   "position": {
     "x": 964,
     "y": 15,
-    "z": 3000,
+    "z": 2000,
     "height": 695,
     "width": 307,
-    "tabOrder": 3000
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -65,15 +65,15 @@
                           "Entity": "Sheet1"
                         }
                       },
-                      "Property": "recettes_MEL"
+                      "Property": "reversements_MEL"
                     }
                   },
                   "Function": 0
                 }
               },
-              "queryRef": "CountNonNull(Sheet1.recettes_MEL)",
-              "nativeQueryRef": "Revenus MEL",
-              "displayName": "Revenus MEL"
+              "queryRef": "CountNonNull(Sheet1.reversements_MEL)",
+              "nativeQueryRef": "Montant reversé MEL",
+              "displayName": "Montant reversé MEL"
             },
             {
               "field": {
@@ -105,15 +105,15 @@
                           "Entity": "Sheet1"
                         }
                       },
-                      "Property": "reversements_MEL"
+                      "Property": "recettes_MEL"
                     }
                   },
                   "Function": 0
                 }
               },
-              "queryRef": "CountNonNull(Sheet1.reversements_MEL)",
-              "nativeQueryRef": "Montant reversé MEL",
-              "displayName": "Montant reversé MEL"
+              "queryRef": "CountNonNull(Sheet1.recettes_MEL)",
+              "nativeQueryRef": "Revenus MEL",
+              "displayName": "Revenus MEL"
             }
           ]
         }

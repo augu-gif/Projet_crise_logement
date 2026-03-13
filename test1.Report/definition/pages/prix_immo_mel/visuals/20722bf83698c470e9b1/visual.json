@@ -37,70 +37,7 @@
     "objects": {
       "general": [
         {
-          "properties": {
-            "filter": {
-              "filter": {
-                "Version": 2,
-                "From": [
-                  {
-                    "Name": "d",
-                    "Entity": "DVF_MEL",
-                    "Type": 0
-                  }
-                ],
-                "Where": [
-                  {
-                    "Condition": {
-                      "In": {
-                        "Expressions": [
-                          {
-                            "Column": {
-                              "Expression": {
-                                "SourceRef": {
-                                  "Source": "d"
-                                }
-                              },
-                              "Property": "LIB_COM_POSTAL"
-                            }
-                          }
-                        ],
-                        "Values": [
-                          [
-                            {
-                              "Literal": {
-                                "Value": "'Annœullin 59112,France'"
-                              }
-                            }
-                          ],
-                          [
-                            {
-                              "Literal": {
-                                "Value": "'Armentières 59280,France'"
-                              }
-                            }
-                          ],
-                          [
-                            {
-                              "Literal": {
-                                "Value": "'Aubers 59249,France'"
-                              }
-                            }
-                          ],
-                          [
-                            {
-                              "Literal": {
-                                "Value": "'Baisieux 59780,France'"
-                              }
-                            }
-                          ]
-                        ]
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          }
+          "properties": {}
         }
       ],
       "selection": [
@@ -130,6 +67,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Basic'"
+                }
+              }
+            },
+            "isInvertedSelectionMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

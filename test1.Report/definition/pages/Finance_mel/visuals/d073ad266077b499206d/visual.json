@@ -23,11 +23,11 @@
                       "Entity": "Sheet1"
                     }
                   },
-                  "Property": "LIB_COM_POSTAL"
+                  "Property": "LIBVILLE"
                 }
               },
-              "queryRef": "Sheet1.LIB_COM_POSTAL",
-              "nativeQueryRef": "LIB_COM_POSTAL",
+              "queryRef": "Sheet1.LIBVILLE",
+              "nativeQueryRef": "LIBVILLE",
               "active": true
             }
           ]
@@ -92,21 +92,21 @@
             "zoom": {
               "expr": {
                 "Literal": {
-                  "Value": "9.34D"
+                  "Value": "5.45D"
                 }
               }
             },
             "centerLatitude": {
               "expr": {
                 "Literal": {
-                  "Value": "50.64747607344657D"
+                  "Value": "49.49423943626698D"
                 }
               }
             },
             "centerLongitude": {
               "expr": {
                 "Literal": {
-                  "Value": "3.034220000000005D"
+                  "Value": "7.05943000000002D"
                 }
               }
             },
