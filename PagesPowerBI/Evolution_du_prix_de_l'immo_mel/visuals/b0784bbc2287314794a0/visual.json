@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "b0784bbc2287314794a0",
+  "position": {
+    "x": 805.5075022065314,
+    "y": 79.08208296557811,
+    "z": 3000,
+    "height": 297.12268314210064,
+    "width": 474.49249779346866,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "pieChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DVF_MEL"
+                    }
+                  },
+                  "Property": "Type local"
+                }
+              },
+              "queryRef": "DVF_MEL.Type local",
+              "nativeQueryRef": "Type local1",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DVF_MEL"
+                        }
+                      },
+                      "Property": "Type local"
+                    }
+                  },
+                  "Function": 5
+                }
+              },
+              "queryRef": "CountNonNull(DVF_MEL.Type local)",
+              "nativeQueryRef": "Nombre de Type local"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "DVF_MEL"
+                      }
+                    },
+                    "Property": "Type local"
+                  }
+                },
+                "Function": 5
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

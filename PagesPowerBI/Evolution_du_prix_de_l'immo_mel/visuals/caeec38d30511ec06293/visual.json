@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "caeec38d30511ec06293",
+  "position": {
+    "x": 0,
+    "y": 79.08208296557811,
+    "z": 1000,
+    "height": 297.12268314210064,
+    "width": 521.94174757281553,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "columnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DVF_MEL"
+                    }
+                  },
+                  "Property": "Commune"
+                }
+              },
+              "queryRef": "DVF_MEL.Commune",
+              "nativeQueryRef": "Commune1",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DVF_MEL"
+                        }
+                      },
+                      "Property": "Valeur fonciere"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(DVF_MEL.Valeur fonciere)",
+              "nativeQueryRef": "Somme de Valeur fonciere"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "DVF_MEL"
+                      }
+                    },
+                    "Property": "Valeur fonciere"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

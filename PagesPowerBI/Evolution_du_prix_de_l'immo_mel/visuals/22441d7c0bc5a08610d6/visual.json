@@ -1,0 +1,66 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "22441d7c0bc5a08610d6",
+  "position": {
+    "x": 522.07705192629817,
+    "y": 171.52428810720266,
+    "z": 6000,
+    "height": 109.3467336683417,
+    "width": 283.0150753768844,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DVF_MEL"
+                        }
+                      },
+                      "Property": "prix_m2"
+                    }
+                  },
+                  "Function": 1
+                }
+              },
+              "queryRef": "Sum(DVF_MEL.prix_m2)",
+              "nativeQueryRef": "Moyenne de prix_m2"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "DVF_MEL"
+                      }
+                    },
+                    "Property": "prix_m2"
+                  }
+                },
+                "Function": 1
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
