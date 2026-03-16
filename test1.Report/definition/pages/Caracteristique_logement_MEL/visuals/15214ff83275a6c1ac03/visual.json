@@ -293,23 +293,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "0b52e74dab7c39a28a00",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "LogementsVacants_MEL_Exploitabl"
-              }
-            },
-            "Property": "pourcentage_de_logement_vacant_24"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

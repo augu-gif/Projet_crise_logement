@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.2.0/schema.json",
   "themeCollection": {
     "baseTheme": {
       "name": "CY26SU02",
@@ -70,8 +70,13 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "qr_code_homelessapp12855057728818697.png",
-          "path": "qr_code_homelessapp12855057728818697.png",
+          "name": "_Pngtree_euro_icon_37004170609937941141282.png",
+          "path": "_Pngtree_euro_icon_37004170609937941141282.png",
+          "type": "Image"
+        },
+        {
+          "name": "_Pngtree_vector_house_icon_vec7605104205871787.png",
+          "path": "_Pngtree_vector_house_icon_vec7605104205871787.png",
           "type": "Image"
         },
         {
@@ -82,6 +87,16 @@
         {
           "name": "logo-MEL4793577676648533.jpg",
           "path": "logo-MEL4793577676648533.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "qr_code_homelessapp12855057728818697.png",
+          "path": "qr_code_homelessapp12855057728818697.png",
+          "type": "Image"
+        },
+        {
+          "name": "transparent-people-icon-png-ve8223562021952864.png",
+          "path": "transparent-people-icon-png-ve8223562021952864.png",
           "type": "Image"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "a5c50a3dba9487b3813c",
   "position": {
     "x": 0,
@@ -290,42 +290,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "885faccd2a4a2d067066",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "logements_sociaux_MEL_clean"
-              }
-            },
-            "Property": "Type de construction - Libellé"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "c86d5b18b08575acc5c8",
-        "field": {
-          "Aggregation": {
-            "Expression": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "logements_sociaux_MEL_clean"
-                  }
-                },
-                "Property": "Type de construction - Libellé"
-              }
-            },
-            "Function": 5
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

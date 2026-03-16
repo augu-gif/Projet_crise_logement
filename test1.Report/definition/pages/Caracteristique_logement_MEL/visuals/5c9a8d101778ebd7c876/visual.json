@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "5c9a8d101778ebd7c876",
   "position": {
     "x": 0,
@@ -350,20 +350,6 @@
             }
           ]
         }
-      },
-      {
-        "name": "c9065b297a0c91b6126c",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "LogementsVacants_MEL_Exploitabl"
-              }
-            },
-            "Property": "LIBGEO_25"
-          }
-        },
-        "type": "Categorical"
       }
     ]
   }

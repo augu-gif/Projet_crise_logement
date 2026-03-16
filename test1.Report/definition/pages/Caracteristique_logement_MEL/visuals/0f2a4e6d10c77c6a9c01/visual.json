@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "0f2a4e6d10c77c6a9c01",
   "position": {
     "x": 886.15384615384608,
@@ -345,20 +345,6 @@
         },
         "type": "Advanced",
         "howCreated": "User"
-      },
-      {
-        "name": "a84fb2334db0b2db60d1",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "LogementsVacants_MEL_Exploitabl"
-              }
-            },
-            "Property": "pourcentage_de_logement_vacant_24_de_plus_de_deux_ans"
-          }
-        },
-        "type": "Advanced"
       }
     ]
   }
