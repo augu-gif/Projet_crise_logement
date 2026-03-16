@@ -1,0 +1,151 @@
+table logements_sociaux_MEL_clean
+	lineageTag: c138df6d-2d74-47a9-bbc5-3cf172e8ed54
+
+	column 'Libéllé Commune'
+		dataType: string
+		lineageTag: 8a601462-a8c2-48b1-b417-0216093247c1
+		summarizeBy: none
+		sourceColumn: Libéllé Commune
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Code Postal'
+		dataType: int64
+		formatString: 0
+		lineageTag: e1fe203e-a455-495b-a66e-78a90f399c25
+		summarizeBy: sum
+		sourceColumn: Code Postal
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Code IRIS - Code de la zone'
+		dataType: string
+		lineageTag: 69c18504-5f45-4259-98f6-dd5a76753d7a
+		summarizeBy: none
+		sourceColumn: Code IRIS - Code de la zone
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Type de construction - Libellé'
+		dataType: string
+		lineageTag: 4f1ac614-df5d-4c3a-a735-354acc000d9d
+		summarizeBy: none
+		sourceColumn: Type de construction - Libellé
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Année de construction'
+		dataType: int64
+		formatString: 0
+		lineageTag: c7c5b581-000c-4be1-b4bd-6d98b84f46bb
+		summarizeBy: sum
+		sourceColumn: Année de construction
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Année de première mise en location'
+		dataType: int64
+		formatString: 0
+		lineageTag: fff1a1a8-790b-4826-a172-2392ef993bf3
+		summarizeBy: sum
+		sourceColumn: Année de première mise en location
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Année d’entrée dans le patrimoine'
+		dataType: int64
+		formatString: 0
+		lineageTag: 49d22c2e-1b05-460a-9430-ab3a79b0ba8c
+		summarizeBy: sum
+		sourceColumn: Année d’entrée dans le patrimoine
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Etiquette DPE Energie'
+		dataType: string
+		lineageTag: 143fd413-74c4-46fb-a716-86a3d8bda654
+		summarizeBy: none
+		sourceColumn: Etiquette DPE Energie
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Etiquette DPE GES'
+		dataType: string
+		lineageTag: 79b7428f-ba4a-443c-b49f-6246d8628f57
+		summarizeBy: none
+		sourceColumn: Etiquette DPE GES
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Situation en QPV - Libellé'
+		dataType: string
+		lineageTag: e29222ea-df41-4560-9ee4-5992f8721edf
+		summarizeBy: none
+		sourceColumn: Situation en QPV - Libellé
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Code QPV 2024'
+		dataType: string
+		lineageTag: 4d9d0898-b320-4596-af2d-5fe8cc8fe30f
+		summarizeBy: none
+		sourceColumn: Code QPV 2024
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Financement initial - Libellé'
+		dataType: string
+		lineageTag: 2d6bdbdb-1b24-4e5a-b4cf-cecc7fd8afa9
+		summarizeBy: none
+		sourceColumn: Financement initial - Libellé
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Convention APL'
+		dataType: int64
+		formatString: 0
+		lineageTag: 93bebe99-b968-405b-9b08-346923e48d9e
+		summarizeBy: sum
+		sourceColumn: Convention APL
+
+		annotation SummarizationSetBy = Automatic
+
+	column passoire_energetique
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 6519417b-3219-47c3-b603-a44539949f2d
+		summarizeBy: none
+		sourceColumn: passoire_energetique
+
+		annotation SummarizationSetBy = Automatic
+
+	column logement_qpv
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: e49b4589-5188-45a2-9245-439819dcde27
+		summarizeBy: none
+		sourceColumn: logement_qpv
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_logement
+		dataType: int64
+		formatString: 0
+		lineageTag: 81fbcb0e-cef6-4c1d-82f8-5c14df835db0
+		summarizeBy: sum
+		sourceColumn: age_logement
+
+		annotation SummarizationSetBy = Automatic
+
+	partition logements_sociaux_MEL_clean = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\augus\OneDrive\Documents\GitHub\Projet_crise_logement\dataset_bi\logements_sociaux_MEL_clean.csv"),[Delimiter=",", Columns=16, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"En-têtes promus" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"Libéllé Commune", type text}, {"Code Postal", Int64.Type}, {"Code IRIS - Code de la zone", type text}, {"Type de construction - Libellé", type text}, {"Année de construction", Int64.Type}, {"Année de première mise en location", Int64.Type}, {"Année d’entrée dans le patrimoine", Int64.Type}, {"Etiquette DPE Energie", type text}, {"Etiquette DPE GES", type text}, {"Situation en QPV - Libellé", type text}, {"Code QPV 2024", type text}, {"Financement initial - Libellé", type text}, {"Convention APL", Int64.Type}, {"passoire_energetique", type logical}, {"logement_qpv", type logical}, {"age_logement", Int64.Type}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_ResultType = Table
+

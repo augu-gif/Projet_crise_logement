@@ -1,98 +1,126 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "d7a1ad3d537c33eb6090",
+  "name": "bdddeae7351463bd4525",
   "position": {
-    "x": 325.19586492074433,
-    "y": 291.32129565816678,
-    "z": 6002,
-    "height": 132.11082012405237,
-    "width": 292.45044796691934,
-    "tabOrder": 6002
+    "x": 500.1398601398601,
+    "y": 91.748251748251747,
+    "z": 6000,
+    "height": 157.76223776223776,
+    "width": 386.01398601398597,
+    "tabOrder": 6000
   },
   "visual": {
-    "visualType": "slicer",
+    "visualType": "cardVisual",
     "query": {
       "queryState": {
-        "Values": {
+        "Data": {
           "projections": [
             {
               "field": {
-                "Column": {
+                "Aggregation": {
                   "Expression": {
-                    "SourceRef": {
-                      "Entity": "per_ivs_mel"
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "logements_sociaux_MEL_clean"
+                        }
+                      },
+                      "Property": "age_logement"
                     }
                   },
-                  "Property": "per_ivs_mel"
+                  "Function": 1
                 }
               },
-              "queryRef": "per_ivs_mel.per_ivs_mel",
-              "nativeQueryRef": "per_ivs_mel",
-              "active": true
+              "queryRef": "Avg(logements_sociaux_MEL_clean.age_logement)",
+              "nativeQueryRef": "Moyenne de age_logement",
+              "format": "0"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "logements_sociaux_MEL_clean"
+                      }
+                    },
+                    "Property": "age_logement"
+                  }
+                },
+                "Function": 1
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
       }
     },
     "objects": {
-      "data": [
+      "fillCustom": [
         {
           "properties": {
-            "numericStart": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
+            "fillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.5
+                    }
+                  }
                 }
               }
             }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ],
-      "general": [
+      "label": [
         {
           "properties": {
-            "filter": {
-              "filter": {
-                "Version": 2,
-                "From": [
-                  {
-                    "Name": "p",
-                    "Entity": "per_ivs_mel",
-                    "Type": 0
-                  }
-                ],
-                "Where": [
-                  {
-                    "Condition": {
-                      "Comparison": {
-                        "ComparisonKind": 0,
-                        "Left": {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Source": "p"
-                              }
-                            },
-                            "Property": "per_ivs_mel"
-                          }
-                        },
-                        "Right": {
-                          "Literal": {
-                            "Value": "0D"
-                          }
-                        }
-                      }
-                    }
-                  }
-                ]
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
               }
             }
+          },
+          "selector": {
+            "id": "default"
           }
         }
-      ]
-    },
-    "visualContainerObjects": {
-      "title": [
+      ],
+      "outline": [
+        {
+          "properties": {
+            "lineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "shadowCustom": [
         {
           "properties": {
             "show": {
@@ -101,11 +129,45 @@
                   "Value": "true"
                 }
               }
-            },
-            "heading": {
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "value": [
+        {
+          "properties": {
+            "horizontalAlignment": {
               "expr": {
                 "Literal": {
-                  "Value": "'Heading4'"
+                  "Value": "'center'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'âge moyen des batiments '"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             },
@@ -123,17 +185,17 @@
                 }
               }
             },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "20D"
-                }
-              }
-            },
             "bold": {
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "underline": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
@@ -170,9 +232,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
+                    "Literal": {
+                      "Value": "'#3a3a3a'"
                     }
                   }
                 }
@@ -198,29 +259,17 @@
                 }
               }
             },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 3,
-                      "Percent": 0.4
-                    }
-                  }
-                }
-              }
-            },
             "radius": {
               "expr": {
                 "Literal": {
-                  "Value": "25D"
+                  "Value": "10D"
                 }
               }
             },
             "width": {
               "expr": {
                 "Literal": {
-                  "Value": "6D"
+                  "Value": "1D"
                 }
               }
             }
@@ -268,5 +317,28 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "39c6b4641e395ee890a0",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "logements_sociaux_MEL_clean"
+                  }
+                },
+                "Property": "age_logement"
+              }
+            },
+            "Function": 1
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

@@ -10,7 +10,7 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["Sheet1","DVF_MEL","RepartitionSansAbris_MEL"]
+annotation PBI_QueryOrder = ["Sheet1","DVF_MEL","RepartitionSansAbris_MEL","LogementsVacants_MEL_Exploitabl","logements_sociaux_MEL_clean"]
 
 ref table Sheet1
 ref table DVF_MEL
@@ -21,6 +21,8 @@ ref table Measure
 ref table Tx_fiscal_nouv
 ref table per_inv_log
 ref table per_ivs_mel
+ref table LogementsVacants_MEL_Exploitabl
+ref table logements_sociaux_MEL_clean
 
 ref cultureInfo fr-FR
 
