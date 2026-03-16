@@ -1,66 +1,75 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "7c61dfcbaa41d5378923",
+  "name": "a6409be0b94c06d201a4",
   "position": {
-    "x": 738.46560992419018,
-    "y": 154.69386629910406,
-    "z": 1000,
-    "height": 565.70530668504477,
-    "width": 541.99310820124049,
-    "tabOrder": 1000
+    "x": 304.8711233631978,
+    "y": 558.93039283252926,
+    "z": 5001,
+    "height": 151.3064093728463,
+    "width": 975.58759476223292,
+    "tabOrder": 5001
   },
   "visual": {
-    "visualType": "tableEx",
+    "visualType": "cardVisual",
     "query": {
       "queryState": {
-        "Values": {
+        "Data": {
           "projections": [
             {
               "field": {
-                "Column": {
+                "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1"
+                      "Entity": "finances_mel_5ans"
                     }
                   },
-                  "Property": "LIBVILLE"
+                  "Property": "base_fiscal_2028"
                 }
               },
-              "queryRef": "Sheet1.LIBVILLE",
-              "nativeQueryRef": "LIBVILLE"
-            },
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Sheet1"
-                        }
-                      },
-                      "Property": "recettes_fiscales"
-                    }
-                  },
-                  "Function": 0
-                }
-              },
-              "queryRef": "Sum(Sheet1.recettes_fiscales)",
-              "nativeQueryRef": "Somme de recettes_fiscales"
+              "queryRef": "finances_mel_5ans.base_fiscal_2028",
+              "nativeQueryRef": "base_fiscal_2028"
             },
             {
               "field": {
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1"
+                      "Entity": "finances_mel_5ans"
                     }
                   },
-                  "Property": "nouv_val_fiscal"
+                  "Property": "base_fiscal_2029"
                 }
               },
-              "queryRef": "Sheet1.nouv_val_fiscal",
-              "nativeQueryRef": "nouv_val_fiscal"
+              "queryRef": "finances_mel_5ans.base_fiscal_2029",
+              "nativeQueryRef": "base_fiscal_2029"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "finances_mel_5ans"
+                    }
+                  },
+                  "Property": "base_fiscal_2030"
+                }
+              },
+              "queryRef": "finances_mel_5ans.base_fiscal_2030",
+              "nativeQueryRef": "base_fiscal_2030"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "finances_mel_5ans"
+                    }
+                  },
+                  "Property": "base_fiscal_2031"
+                }
+              },
+              "queryRef": "finances_mel_5ans.base_fiscal_2031",
+              "nativeQueryRef": "base_fiscal_2031"
             }
           ]
         }
@@ -69,18 +78,13 @@
         "sort": [
           {
             "field": {
-              "Aggregation": {
+              "Measure": {
                 "Expression": {
-                  "Column": {
-                    "Expression": {
-                      "SourceRef": {
-                        "Entity": "Sheet1"
-                      }
-                    },
-                    "Property": "recettes_fiscales"
+                  "SourceRef": {
+                    "Entity": "finances_mel_5ans"
                   }
                 },
-                "Function": 0
+                "Property": "base_fiscal_2028"
               }
             },
             "direction": "Descending"
@@ -88,6 +92,21 @@
         ],
         "isDefaultSort": true
       }
+    },
+    "objects": {
+      "layout": [
+        {
+          "properties": {
+            "columnCount": {
+              "expr": {
+                "Literal": {
+                  "Value": "5L"
+                }
+              }
+            }
+          }
+        }
+      ]
     },
     "visualContainerObjects": {
       "title": [
@@ -97,6 +116,13 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "heading": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Heading4'"
                 }
               }
             },

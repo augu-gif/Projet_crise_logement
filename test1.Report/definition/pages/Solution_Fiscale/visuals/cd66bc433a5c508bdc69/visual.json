@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "cd66bc433a5c508bdc69",
   "position": {
-    "x": 883.65958031076229,
-    "y": 155.00949678482345,
-    "z": 4000,
-    "height": 273.11197052564131,
-    "width": 396.48687612988857,
-    "tabOrder": 4000
+    "x": 305.68122667837321,
+    "y": 128.43749020099716,
+    "z": 2000,
+    "height": 143.8499890251168,
+    "width": 974.84055062556843,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -20,30 +20,70 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Measure"
+                      "Entity": "mesures"
                     }
                   },
-                  "Property": "cout_invest"
+                  "Property": "nb_logement_2027"
                 }
               },
-              "queryRef": "Measure.cout_invest",
-              "nativeQueryRef": "cout_invest",
-              "format": "#,0.000 \"€\";-#,0.000 \"€\";#,0.000 \"€\""
+              "queryRef": "mesures.nb_logement_2027",
+              "nativeQueryRef": "nb_logement"
             },
             {
               "field": {
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Measure"
+                      "Entity": "mesures"
                     }
                   },
-                  "Property": "nb_logement"
+                  "Property": "nb_logement_2028"
                 }
               },
-              "queryRef": "Measure.nb_logement",
-              "nativeQueryRef": "nb_logement",
-              "format": "0"
+              "queryRef": "mesures.nb_logement_2028",
+              "nativeQueryRef": "nb_logement_2028"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mesures"
+                    }
+                  },
+                  "Property": "nb_logement_2029"
+                }
+              },
+              "queryRef": "mesures.nb_logement_2029",
+              "nativeQueryRef": "nb_logement_2029"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mesures"
+                    }
+                  },
+                  "Property": "nb_logement_2030"
+                }
+              },
+              "queryRef": "mesures.nb_logement_2030",
+              "nativeQueryRef": "nb_logement_2030"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mesures"
+                    }
+                  },
+                  "Property": "nb_logement_2031"
+                }
+              },
+              "queryRef": "mesures.nb_logement_2031",
+              "nativeQueryRef": "nb_logement_2031"
             }
           ]
         }
@@ -55,10 +95,10 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "Measure"
+                    "Entity": "mesures"
                   }
                 },
-                "Property": "cout_invest"
+                "Property": "nb_logement_2027"
               }
             },
             "direction": "Descending"
@@ -70,15 +110,7 @@
     "objects": {
       "layout": [
         {
-          "properties": {
-            "orientation": {
-              "expr": {
-                "Literal": {
-                  "Value": "1D"
-                }
-              }
-            }
-          }
+          "properties": {}
         }
       ]
     },

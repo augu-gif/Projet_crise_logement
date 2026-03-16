@@ -1,0 +1,69 @@
+table mesures
+	lineageTag: 6a3fa6fe-2f48-4905-823e-b628bf605d75
+
+	measure nb_logement_2027 = (finances_mel_5ans[recette_2027] * per_inv_log[Valeur per_inv_log]/100) / (average(DVF_MEL[prix_m2]) * average(DVF_MEL[Surface reelle bati]))
+		lineageTag: f520bd0b-993f-40e8-bfca-21f7160904cc
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure cout_invest_2027 = (finances_mel_5ans[recette_2027] * (per_inv_log[Valeur per_inv_log]/100))
+		formatString: 0
+		lineageTag: d09a1a97-1b98-4f4d-876b-75bbfa1a7de4
+
+	measure cout_invest_2028 = (finances_mel_5ans[recette_2028] * (per_inv_log[Valeur per_inv_log]/100))
+		lineageTag: 7e9ce6c0-419d-487a-b5ed-c95533cd2657
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure cout_invest_2029 = (finances_mel_5ans[recette_2029] * (per_inv_log[Valeur per_inv_log]/100))
+		lineageTag: 49bdd5e6-7dd0-46df-ac35-a9d3c3b88cf8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure cout_invest_2030 = (finances_mel_5ans[recette_2030] * (per_inv_log[Valeur per_inv_log]/100))
+		lineageTag: 55a78a64-3758-45a3-b49e-ec5e0aa4da8f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure cout_invest_2031 = (finances_mel_5ans[recette_2031] * (per_inv_log[Valeur per_inv_log]/100))
+		lineageTag: 06af8f95-878e-4f74-9e5a-46452e476280
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure nb_logement_2028 = (finances_mel_5ans[recette_2028] * per_inv_log[Valeur per_inv_log]/100) / (average(DVF_MEL[prix_m2]) * average(DVF_MEL[Surface reelle bati]))
+		lineageTag: 532bf05b-d643-4163-8e7d-797e96fbd472
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure nb_logement_2029 = (finances_mel_5ans[recette_2029] * per_inv_log[Valeur per_inv_log]/100) / (average(DVF_MEL[prix_m2]) * average(DVF_MEL[Surface reelle bati]))
+		lineageTag: dbfa07f7-e0ef-48b1-8fe7-6384bc76ddcb
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure nb_logement_2030 = (finances_mel_5ans[recette_2030] * per_inv_log[Valeur per_inv_log]/100) / (average(DVF_MEL[prix_m2]) * average(DVF_MEL[Surface reelle bati]))
+		lineageTag: e75d8472-c341-4ada-90e6-d896f530baec
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure nb_logement_2031 = (finances_mel_5ans[recette_2031] * per_inv_log[Valeur per_inv_log]/100) / (average(DVF_MEL[prix_m2]) * average(DVF_MEL[Surface reelle bati]))
+		lineageTag: 6e640c9f-45e4-458a-8d1b-8880a5bf26a0
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column impact_taux_impot
+		formatString: 0
+		lineageTag: c9a19479-54f2-4f1a-9ff3-6cf2ff04887d
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [impact_taux_impot]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition mesures = calculated
+		mode: import
+		source = Row("impact_taux_impot", BLANK())
+
+	annotation PBI_Id = 792f51485127485f8e4fbe86f806254a
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+

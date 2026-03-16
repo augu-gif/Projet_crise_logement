@@ -1,0 +1,608 @@
+table finances_mel_5ans
+	lineageTag: 0210862f-75ae-489a-a371-82a18bc8b0f5
+
+	measure recette_2027 = ```
+			
+			SUMX( finances_mel_5ans,
+			    finances_mel_5ans[2027_REC_FILCAL_COM] - 
+			    (finances_mel_5ans[2027_BASE_FILCAL_FB] * [tx_base]) +
+			    (finances_mel_5ans[2027_BASE_FILCAL_FB] * [tx_modif]))
+			```
+		lineageTag: a50ad4e0-48b7-4d43-86c3-31f5f2d661aa
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure recette_2028 =
+			
+			SUMX( finances_mel_5ans,
+			    [recette_2027] + (([base_fiscal_2028] - finances_mel_5ans[2027_BASE_FILCAL_FB])* [tx_modif]))
+		lineageTag: c9364a19-cfd6-4735-8558-7e4cc8afd882
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure base_fiscal_2028 = sumx(finances_mel_5ans,(finances_mel_5ans[2027_BASE_FILCAL_FB] + [cout_invest_2027]*0.06))
+		lineageTag: ddb2ca6b-adc0-4b09-b172-98b9c26dc524
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure recette_2029 =
+			
+			SUMX( finances_mel_5ans,
+			    [recette_2028] + (([base_fiscal_2029] - [base_fiscal_2028])* [tx_modif]))
+		lineageTag: e64cf41e-9bd8-442b-9949-bb53240b107b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure recette_2030 =
+			
+			SUMX( finances_mel_5ans,
+			    [recette_2029] - ([base_fiscal_2029] * [tx_modif]) +
+			    ([base_fiscal_2030] * [tx_modif]))
+		lineageTag: ee772fd8-99e2-4cfe-b097-b15aea6be7b2
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure recette_2031 =
+			
+			SUMX( finances_mel_5ans,
+			    [recette_2030] - ([base_fiscal_2030] * [tx_modif]) +
+			    ([base_fiscal_2031] * [tx_modif]))
+		lineageTag: 00f05faf-ccbe-4eb2-ae08-1e1749627ffd
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure recette_2032 =
+			SUMX( finances_mel_5ans,
+			    [recette_2031] - ([base_fiscal_2031] * [tx_modif]) +
+			    ([base_fiscal_2032] * [tx_modif]))
+		lineageTag: 3b1bbbd5-70e6-461f-a274-5281b4660076
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure tx_base = SUMX(finances_mel_5ans,finances_mel_5ans[2027_TAUX_FILCAL_COM_FB])
+		formatString: 0
+		lineageTag: 07f532ff-0199-438d-91b4-3b8de37e7ffc
+
+	measure base_fiscal_2029 = sumx(finances_mel_5ans,(finances_mel_5ans[base_fiscal_2028] + [cout_invest_2028]*0.06))
+		lineageTag: 501ea478-e0e8-4afa-89b5-95905bb78195
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure base_fiscal_2030 = sumx(finances_mel_5ans,(finances_mel_5ans[base_fiscal_2029] + [cout_invest_2029]*0.06))
+		lineageTag: 084fcfbc-2939-4786-a9e3-99c7c6ef4e55
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure base_fiscal_2031 = sumx(finances_mel_5ans,(finances_mel_5ans[base_fiscal_2030] + [cout_invest_2030]*0.06))
+		lineageTag: d67eaa92-1fa1-4764-9bb6-bf62d8a73af1
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure base_fiscal_2032 = sumx(finances_mel_5ans,(finances_mel_5ans[base_fiscal_2031] + [cout_invest_2031]*0.06))
+		lineageTag: bc5f584f-30f6-4c4f-89d6-ce65c0800a23
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure tx_modif = [tx_base] + [Valeur Tx fiscal]
+		lineageTag: ed5a658b-68ff-4943-bf6f-ffe9c507aa1f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2026_LIB_COM_POSTAL
+		dataType: string
+		lineageTag: 89dfc501-d25c-422c-a176-ce7a0e246ca8
+		summarizeBy: none
+		sourceColumn: 2026_LIB_COM_POSTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2026_BASE_FILCAL_FNB
+		dataType: double
+		lineageTag: 5554d003-3061-44e7-9484-d12bcd666ea7
+		summarizeBy: sum
+		sourceColumn: 2026_BASE_FILCAL_FNB
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2026_BASE_FILCAL_FB
+		dataType: double
+		lineageTag: fb825109-b16b-4095-9f17-b8b70ad55bda
+		summarizeBy: sum
+		sourceColumn: 2026_BASE_FILCAL_FB
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2026_TAUX_FILCAL_COM_FB
+		dataType: double
+		lineageTag: 061027ba-76fd-4191-baef-111169761e15
+		summarizeBy: sum
+		sourceColumn: 2026_TAUX_FILCAL_COM_FB
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2026_TAUX_FILCAL_COM_FNB
+		dataType: double
+		lineageTag: 5c4f5ed2-d5cf-4146-88e4-e7bb687436ad
+		summarizeBy: sum
+		sourceColumn: 2026_TAUX_FILCAL_COM_FNB
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2026_BASE_FILCAL
+		dataType: double
+		lineageTag: 5d6ba1c1-8359-46ff-bd1f-adcbf23151e9
+		summarizeBy: sum
+		sourceColumn: 2026_BASE_FILCAL
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2026_REC_FILCAL_COM
+		dataType: double
+		lineageTag: b3f87e3d-ed91-4b34-b7a0-0b12e649f49c
+		summarizeBy: sum
+		sourceColumn: 2026_REC_FILCAL_COM
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2026_REC_FILCAL_MEL
+		dataType: double
+		lineageTag: fe5f719d-80da-4fce-a933-1ea76f85a9d0
+		summarizeBy: sum
+		sourceColumn: 2026_REC_FILCAL_MEL
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2027_LIB_COM_POSTAL
+		dataType: string
+		lineageTag: c19afb2e-d2c0-47e4-bdbe-8e0d852b337d
+		summarizeBy: none
+		sourceColumn: 2027_LIB_COM_POSTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2027_BASE_FILCAL_FNB
+		dataType: double
+		lineageTag: 05225f92-eb3e-4181-85d4-f3f59c98d91b
+		summarizeBy: sum
+		sourceColumn: 2027_BASE_FILCAL_FNB
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2027_BASE_FILCAL_FB
+		dataType: double
+		lineageTag: 23c8a6d8-7fee-44ef-a4d2-842bb1acb3a8
+		summarizeBy: sum
+		sourceColumn: 2027_BASE_FILCAL_FB
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2027_TAUX_FILCAL_COM_FB
+		dataType: double
+		lineageTag: ef28deed-f66a-4371-8a8b-e1b53fd1626a
+		summarizeBy: sum
+		sourceColumn: 2027_TAUX_FILCAL_COM_FB
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2027_TAUX_FILCAL_COM_FNB
+		dataType: double
+		lineageTag: 15e20196-bb13-48ba-ab92-ad09ad201c8d
+		summarizeBy: sum
+		sourceColumn: 2027_TAUX_FILCAL_COM_FNB
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2027_BASE_FILCAL
+		dataType: double
+		lineageTag: e6339a24-61a8-4a78-b8a6-dc07624884b6
+		summarizeBy: sum
+		sourceColumn: 2027_BASE_FILCAL
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2027_REC_FILCAL_COM
+		dataType: double
+		lineageTag: c9def267-ad9f-4e8c-b111-1ea917d54f71
+		summarizeBy: sum
+		sourceColumn: 2027_REC_FILCAL_COM
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2027_REC_FILCAL_MEL
+		dataType: double
+		lineageTag: 2ab86532-62e1-479f-b49b-03b76dfb04b6
+		summarizeBy: sum
+		sourceColumn: 2027_REC_FILCAL_MEL
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 2028_LIB_COM_POSTAL
+		dataType: string
+		lineageTag: 6a0e1bf3-386b-4194-80bd-b0aee832788f
+		summarizeBy: none
+		sourceColumn: 2028_LIB_COM_POSTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2028_BASE_FILCAL_FNB
+		dataType: string
+		lineageTag: 96896392-5640-4e4b-98fe-b0c2f710b6c6
+		summarizeBy: none
+		sourceColumn: 2028_BASE_FILCAL_FNB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2028_BASE_FILCAL_FB
+		dataType: string
+		lineageTag: fbf748a0-8c93-4182-8c58-b12f25aabf46
+		summarizeBy: none
+		sourceColumn: 2028_BASE_FILCAL_FB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2028_TAUX_FILCAL_COM_FB
+		dataType: string
+		lineageTag: 98b33552-44f6-478c-b1a5-dff3d1ac2b9a
+		summarizeBy: none
+		sourceColumn: 2028_TAUX_FILCAL_COM_FB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2028_TAUX_FILCAL_COM_FNB
+		dataType: string
+		lineageTag: cb18cff1-fefd-4290-a346-2fa95a992fe1
+		summarizeBy: none
+		sourceColumn: 2028_TAUX_FILCAL_COM_FNB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2028_BASE_FILCAL
+		dataType: string
+		lineageTag: d954e027-de40-4d5d-8a87-45a69e1dc640
+		summarizeBy: none
+		sourceColumn: 2028_BASE_FILCAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2028_REC_FILCAL_COM
+		dataType: string
+		lineageTag: 38906c3f-cd91-43c7-9679-e9d088758f44
+		summarizeBy: none
+		sourceColumn: 2028_REC_FILCAL_COM
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2028_REC_FILCAL_MEL
+		dataType: string
+		lineageTag: a55534bf-ca26-454e-a949-9461c2160700
+		summarizeBy: none
+		sourceColumn: 2028_REC_FILCAL_MEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2029_LIB_COM_POSTAL
+		dataType: string
+		lineageTag: 3434f9c3-c057-4c70-8f56-434c7674d75b
+		summarizeBy: none
+		sourceColumn: 2029_LIB_COM_POSTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2029_BASE_FILCAL_FNB
+		dataType: string
+		lineageTag: 8f4da8e8-85af-43e2-983f-295063594cb6
+		summarizeBy: none
+		sourceColumn: 2029_BASE_FILCAL_FNB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2029_BASE_FILCAL_FB
+		dataType: string
+		lineageTag: 537c37ec-8af8-4361-a27d-f385ab2d1ce1
+		summarizeBy: none
+		sourceColumn: 2029_BASE_FILCAL_FB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2029_TAUX_FILCAL_COM_FB
+		dataType: string
+		lineageTag: 4f83e841-4329-4b19-b541-d0eb29684438
+		summarizeBy: none
+		sourceColumn: 2029_TAUX_FILCAL_COM_FB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2029_TAUX_FILCAL_COM_FNB
+		dataType: string
+		lineageTag: 4d409f32-26df-43fc-8625-fdcfd2c5fa4a
+		summarizeBy: none
+		sourceColumn: 2029_TAUX_FILCAL_COM_FNB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2029_BASE_FILCAL
+		dataType: string
+		lineageTag: b98ae08c-913d-47cc-8ae2-33073bab7203
+		summarizeBy: none
+		sourceColumn: 2029_BASE_FILCAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2029_REC_FILCAL_COM
+		dataType: string
+		lineageTag: 3649c5ea-b32e-4535-8432-0e9239f41599
+		summarizeBy: none
+		sourceColumn: 2029_REC_FILCAL_COM
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2029_REC_FILCAL_MEL
+		dataType: string
+		lineageTag: f2098fd2-b0bf-428d-b1c7-039d6f77f563
+		summarizeBy: none
+		sourceColumn: 2029_REC_FILCAL_MEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2030_LIB_COM_POSTAL
+		dataType: string
+		lineageTag: b7ee0893-4aa1-42f6-8c93-c44e0c71c6a3
+		summarizeBy: none
+		sourceColumn: 2030_LIB_COM_POSTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2030_BASE_FILCAL_FNB
+		dataType: string
+		lineageTag: 34e6fd67-8e19-4ad2-9e10-585b07b7d9ce
+		summarizeBy: none
+		sourceColumn: 2030_BASE_FILCAL_FNB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2030_BASE_FILCAL_FB
+		dataType: string
+		lineageTag: 1498791d-cbc5-4b02-bc06-b5998350e720
+		summarizeBy: none
+		sourceColumn: 2030_BASE_FILCAL_FB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2030_TAUX_FILCAL_COM_FB
+		dataType: string
+		lineageTag: 5d79d615-bac9-417b-b7dd-cffcd8816d84
+		summarizeBy: none
+		sourceColumn: 2030_TAUX_FILCAL_COM_FB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2030_TAUX_FILCAL_COM_FNB
+		dataType: string
+		lineageTag: 35bb17c4-590a-4d21-b231-9a150abd155d
+		summarizeBy: none
+		sourceColumn: 2030_TAUX_FILCAL_COM_FNB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2030_BASE_FILCAL
+		dataType: string
+		lineageTag: 7b1d602c-fd0c-4369-89ca-28b52351b50f
+		summarizeBy: none
+		sourceColumn: 2030_BASE_FILCAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2030_REC_FILCAL_COM
+		dataType: string
+		lineageTag: 698c4fcb-2496-4e20-9424-c42c81559caa
+		summarizeBy: none
+		sourceColumn: 2030_REC_FILCAL_COM
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2030_REC_FILCAL_MEL
+		dataType: string
+		lineageTag: dac653da-da25-4826-858d-b80598ed93b6
+		summarizeBy: none
+		sourceColumn: 2030_REC_FILCAL_MEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2031_LIB_COM_POSTAL
+		dataType: string
+		lineageTag: 14113cf8-0eb1-4894-b486-b716d348d671
+		summarizeBy: none
+		sourceColumn: 2031_LIB_COM_POSTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2031_BASE_FILCAL_FNB
+		dataType: string
+		lineageTag: be0247a7-df53-4084-b986-c72c79ed3b0b
+		summarizeBy: none
+		sourceColumn: 2031_BASE_FILCAL_FNB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2031_BASE_FILCAL_FB
+		dataType: string
+		lineageTag: beeae485-76bc-4069-983c-ee3f82743dae
+		summarizeBy: none
+		sourceColumn: 2031_BASE_FILCAL_FB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2031_TAUX_FILCAL_COM_FB
+		dataType: string
+		lineageTag: 6dba6a2b-3784-4f3d-99da-d4e8f9df0a24
+		summarizeBy: none
+		sourceColumn: 2031_TAUX_FILCAL_COM_FB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2031_TAUX_FILCAL_COM_FNB
+		dataType: string
+		lineageTag: 8d530d0b-612d-48c2-b53c-5a549fbf4570
+		summarizeBy: none
+		sourceColumn: 2031_TAUX_FILCAL_COM_FNB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2031_BASE_FILCAL
+		dataType: string
+		lineageTag: b837ad36-ec50-41ab-ba3a-6ac115c9afef
+		summarizeBy: none
+		sourceColumn: 2031_BASE_FILCAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2031_REC_FILCAL_COM
+		dataType: string
+		lineageTag: f6777ac5-ea20-40b7-9095-32589a32f396
+		summarizeBy: none
+		sourceColumn: 2031_REC_FILCAL_COM
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2031_REC_FILCAL_MEL
+		dataType: string
+		lineageTag: e449dc15-6437-433a-9775-7c4df39b9c20
+		summarizeBy: none
+		sourceColumn: 2031_REC_FILCAL_MEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2032_LIB_COM_POSTAL
+		dataType: string
+		lineageTag: d84a5986-108d-439a-bb4c-db48351b6db1
+		summarizeBy: none
+		sourceColumn: 2032_LIB_COM_POSTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2032_BASE_FILCAL_FNB
+		dataType: string
+		lineageTag: 817a8547-3668-4e22-9891-b5100fd27203
+		summarizeBy: none
+		sourceColumn: 2032_BASE_FILCAL_FNB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2032_BASE_FILCAL_FB
+		dataType: string
+		lineageTag: 0e2135e0-cf6d-44c0-9dc2-724b4c96d91b
+		summarizeBy: none
+		sourceColumn: 2032_BASE_FILCAL_FB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2032_TAUX_FILCAL_COM_FB
+		dataType: string
+		lineageTag: 69785eef-5dbc-41aa-bd94-81db5a37eb96
+		summarizeBy: none
+		sourceColumn: 2032_TAUX_FILCAL_COM_FB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2032_TAUX_FILCAL_COM_FNB
+		dataType: string
+		lineageTag: 6132d3e8-834b-4114-97a5-5abc3dd037a3
+		summarizeBy: none
+		sourceColumn: 2032_TAUX_FILCAL_COM_FNB
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2032_BASE_FILCAL
+		dataType: string
+		lineageTag: 020ceef9-d9b3-479e-a976-e0e9690341fe
+		summarizeBy: none
+		sourceColumn: 2032_BASE_FILCAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2032_REC_FILCAL_COM
+		dataType: string
+		lineageTag: 42c7f2fa-db4c-4500-88ac-b1b6ec13b7e1
+		summarizeBy: none
+		sourceColumn: 2032_REC_FILCAL_COM
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2032_REC_FILCAL_MEL
+		dataType: string
+		lineageTag: 938abb4e-faab-4c43-af88-b0d502d11e1a
+		summarizeBy: none
+		sourceColumn: 2032_REC_FILCAL_MEL
+
+		annotation SummarizationSetBy = Automatic
+
+	partition finances_mel_5ans = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Formation\crise_immo\Projet_crise_logement\dataset_bi\finances_mel_5ans.xlsx"), null, true),
+				    finances_mel_5ans_Sheet = Source{[Item="finances_mel_5ans",Kind="Sheet"]}[Data],
+				    #"En-têtes promus" = Table.PromoteHeaders(finances_mel_5ans_Sheet, [PromoteAllScalars=true])
+				in
+				    #"En-têtes promus"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

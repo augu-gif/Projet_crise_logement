@@ -1,90 +1,121 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "d7a1ad3d537c33eb6090",
+  "name": "6918d84278102bcec0c5",
   "position": {
-    "x": 325.19586492074433,
-    "y": 291.32129565816678,
-    "z": 6002,
-    "height": 132.11082012405237,
-    "width": 292.45044796691934,
-    "tabOrder": 6002
+    "x": 305.68122667837321,
+    "y": 272.28747922611393,
+    "z": 4000,
+    "height": 134.85936471104702,
+    "width": 974.84055062556843,
+    "tabOrder": 4000
   },
   "visual": {
-    "visualType": "slicer",
+    "visualType": "cardVisual",
     "query": {
       "queryState": {
-        "Values": {
+        "Data": {
           "projections": [
             {
               "field": {
-                "Column": {
+                "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "per_ivs_mel"
+                      "Entity": "mesures"
                     }
                   },
-                  "Property": "per_ivs_mel"
+                  "Property": "cout_invest_2027"
                 }
               },
-              "queryRef": "per_ivs_mel.per_ivs_mel",
-              "nativeQueryRef": "per_ivs_mel",
-              "active": true
+              "queryRef": "mesures.cout_invest_2027",
+              "nativeQueryRef": "cout_invest_2027"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mesures"
+                    }
+                  },
+                  "Property": "cout_invest_2028"
+                }
+              },
+              "queryRef": "mesures.cout_invest_2028",
+              "nativeQueryRef": "cout_invest_2028"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mesures"
+                    }
+                  },
+                  "Property": "cout_invest_2029"
+                }
+              },
+              "queryRef": "mesures.cout_invest_2029",
+              "nativeQueryRef": "cout_invest_2029"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mesures"
+                    }
+                  },
+                  "Property": "cout_invest_2030"
+                }
+              },
+              "queryRef": "mesures.cout_invest_2030",
+              "nativeQueryRef": "cout_invest_2030"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "mesures"
+                    }
+                  },
+                  "Property": "cout_invest_2031"
+                }
+              },
+              "queryRef": "mesures.cout_invest_2031",
+              "nativeQueryRef": "cout_invest_2031"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "mesures"
+                  }
+                },
+                "Property": "cout_invest_2027"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
       }
     },
     "objects": {
-      "data": [
+      "layout": [
         {
           "properties": {
-            "numericStart": {
+            "columnCount": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "5L"
                 }
-              }
-            }
-          }
-        }
-      ],
-      "general": [
-        {
-          "properties": {
-            "filter": {
-              "filter": {
-                "Version": 2,
-                "From": [
-                  {
-                    "Name": "p",
-                    "Entity": "per_ivs_mel",
-                    "Type": 0
-                  }
-                ],
-                "Where": [
-                  {
-                    "Condition": {
-                      "Comparison": {
-                        "ComparisonKind": 0,
-                        "Left": {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Source": "p"
-                              }
-                            },
-                            "Property": "per_ivs_mel"
-                          }
-                        },
-                        "Right": {
-                          "Literal": {
-                            "Value": "0D"
-                          }
-                        }
-                      }
-                    }
-                  }
-                ]
               }
             }
           }
