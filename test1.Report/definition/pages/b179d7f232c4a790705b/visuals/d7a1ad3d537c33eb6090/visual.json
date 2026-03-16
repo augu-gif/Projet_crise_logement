@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "7c61dfcbaa41d5378923",
+  "name": "d7a1ad3d537c33eb6090",
   "position": {
-    "x": 738.46560992419018,
-    "y": 154.69386629910406,
-    "z": 1000,
-    "height": 565.70530668504477,
-    "width": 541.99310820124049,
-    "tabOrder": 1000
+    "x": 325.19586492074433,
+    "y": 291.32129565816678,
+    "z": 6002,
+    "height": 132.11082012405237,
+    "width": 292.45044796691934,
+    "tabOrder": 6002
   },
   "visual": {
-    "visualType": "tableEx",
+    "visualType": "slicer",
     "query": {
       "queryState": {
         "Values": {
@@ -20,74 +20,76 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1"
+                      "Entity": "per_ivs_mel"
                     }
                   },
-                  "Property": "LIBVILLE"
+                  "Property": "per_ivs_mel"
                 }
               },
-              "queryRef": "Sheet1.LIBVILLE",
-              "nativeQueryRef": "LIBVILLE"
-            },
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Sheet1"
-                        }
-                      },
-                      "Property": "recettes_fiscales"
-                    }
-                  },
-                  "Function": 0
-                }
-              },
-              "queryRef": "Sum(Sheet1.recettes_fiscales)",
-              "nativeQueryRef": "Somme de recettes_fiscales"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Sheet1"
-                    }
-                  },
-                  "Property": "nouv_val_fiscal"
-                }
-              },
-              "queryRef": "Sheet1.nouv_val_fiscal",
-              "nativeQueryRef": "nouv_val_fiscal"
+              "queryRef": "per_ivs_mel.per_ivs_mel",
+              "nativeQueryRef": "per_ivs_mel",
+              "active": true
             }
           ]
         }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Aggregation": {
-                "Expression": {
-                  "Column": {
-                    "Expression": {
-                      "SourceRef": {
-                        "Entity": "Sheet1"
-                      }
-                    },
-                    "Property": "recettes_fiscales"
-                  }
-                },
-                "Function": 0
-              }
-            },
-            "direction": "Descending"
-          }
-        ],
-        "isDefaultSort": true
       }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "numericStart": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {
+            "filter": {
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "p",
+                    "Entity": "per_ivs_mel",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "Comparison": {
+                        "ComparisonKind": 0,
+                        "Left": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "p"
+                              }
+                            },
+                            "Property": "per_ivs_mel"
+                          }
+                        },
+                        "Right": {
+                          "Literal": {
+                            "Value": "0D"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
     },
     "visualContainerObjects": {
       "title": [
@@ -97,6 +99,13 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "heading": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Heading4'"
                 }
               }
             },

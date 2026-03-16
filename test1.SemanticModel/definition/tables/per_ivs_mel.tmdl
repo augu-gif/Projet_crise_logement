@@ -1,0 +1,28 @@
+table per_ivs_mel
+	lineageTag: bdcf31c5-6937-4c63-8d1c-1d5cc526ff19
+
+	measure 'Valeur per_ivs_mel' = SELECTEDVALUE('per_ivs_mel'[per_ivs_mel])
+		lineageTag: a4bbd1f8-3bed-469d-826b-f88809525dbc
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column per_ivs_mel
+		lineageTag: e295a985-d0d7-4088-9010-232fa2f1a22f
+		summarizeBy: none
+		sourceColumn: [Value]
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 0
+				}
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition per_ivs_mel = calculated
+		mode: import
+		source = GENERATESERIES(0, 20, 0.1)
+
+	annotation PBI_Id = 01c99c8acba7438796a5bd7df801d000
+

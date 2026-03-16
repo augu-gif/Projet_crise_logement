@@ -276,23 +276,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "db56661d51464318d430",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Tx_fiscal_nouv"
-              }
-            },
-            "Property": "tx_fiscal"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

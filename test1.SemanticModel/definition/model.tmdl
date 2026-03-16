@@ -20,6 +20,7 @@ ref table RepartitionSansAbris_MEL
 ref table Measure
 ref table Tx_fiscal_nouv
 ref table per_inv_log
+ref table per_ivs_mel
 
 ref cultureInfo fr-FR
 
