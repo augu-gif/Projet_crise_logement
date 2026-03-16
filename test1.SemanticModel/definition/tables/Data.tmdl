@@ -1,0 +1,71 @@
+table Data
+	lineageTag: bbac7de1-e23b-4505-9884-fd8f88287ee1
+
+	column Entity
+		dataType: string
+		lineageTag: 6b3ba31d-a8d1-48a1-abd9-6756cc98dac7
+		summarizeBy: none
+		sourceColumn: Entity
+
+		annotation SummarizationSetBy = Automatic
+
+	column Code
+		dataType: string
+		lineageTag: c8c6d21c-d112-42ae-9180-3d87bd65b023
+		summarizeBy: none
+		sourceColumn: Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: c10e3ab7-89b0-4c31-872f-14fa943b9aca
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column streets
+		dataType: double
+		lineageTag: 99fba6ae-1b77-4fa9-96e3-f129f72b2fdc
+		summarizeBy: sum
+		sourceColumn: streets
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column shelters
+		dataType: double
+		lineageTag: 6e00e72d-c339-4d2d-b6d1-22ba77ea6eac
+		summarizeBy: sum
+		sourceColumn: shelters
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Either
+		dataType: double
+		lineageTag: 4a63a8ef-71ef-46a2-bc10-4d64bc15290b
+		summarizeBy: sum
+		sourceColumn: Either
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Data = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Formation\crise_immo\Projet_crise_logement\dataset_bi\homelessness_rate.xlsx"), null, true),
+				    Data_Sheet = Source{[Item="Data",Kind="Sheet"]}[Data],
+				    #"En-têtes promus" = Table.PromoteHeaders(Data_Sheet, [PromoteAllScalars=true]),
+				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"Entity", type text}, {"Code", type text}, {"Year", Int64.Type}, {"streets", type number}, {"shelters", type number}, {"Either", type number}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_ResultType = Table
+

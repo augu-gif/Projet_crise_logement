@@ -10,7 +10,7 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["Finance_mel_2024","DVF_MEL","RepartitionSansAbris_MEL","finances_mel_5ans"]
+annotation PBI_QueryOrder = ["Finance_mel_2024","DVF_MEL","RepartitionSansAbris_MEL","finances_mel_5ans","LogementsVacants_MEL_Exploitabl","logements_sociaux_MEL_clean","Constat_SDF_France","Data"]
 
 ref table Finance_mel_2024
 ref table DVF_MEL
@@ -21,6 +21,10 @@ ref table mesures
 ref table Tx_fiscal_nouv
 ref table per_inv_log
 ref table finances_mel_5ans
+ref table LogementsVacants_MEL_Exploitabl
+ref table logements_sociaux_MEL_clean
+ref table Constat_SDF_France
+ref table Data
 
 ref cultureInfo fr-FR
 

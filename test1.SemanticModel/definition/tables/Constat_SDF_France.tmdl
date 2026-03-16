@@ -1,0 +1,32 @@
+table Constat_SDF_France
+	lineageTag: 72a8976f-2ea6-40d4-90b4-a5e3895f4122
+
+	column Column1
+		dataType: int64
+		formatString: 0
+		lineageTag: 54cb53e4-1e76-431a-8814-61d9eab2f7b7
+		summarizeBy: sum
+		sourceColumn: Column1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column2
+		dataType: int64
+		formatString: 0
+		lineageTag: b85e2044-8169-4668-b007-b434f01eadb0
+		summarizeBy: sum
+		sourceColumn: Column2
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Constat_SDF_France = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Formation\crise_immo\Projet_crise_logement\dataset_bi\Constat_SDF_France.csv"),[Delimiter=",", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Type modifié" = Table.TransformColumnTypes(Source,{{"Column1", Int64.Type}, {"Column2", Int64.Type}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_ResultType = Table
+

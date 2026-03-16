@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "HomelessnessRate"
+                      "Entity": "Data"
                     }
                   },
                   "Property": "Entity"
                 }
               },
-              "queryRef": "HomelessnessRate.Entity",
-              "nativeQueryRef": "Entity",
+              "queryRef": "Data.Entity",
+              "nativeQueryRef": "Entity1",
               "active": true
             }
           ]
@@ -41,7 +41,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "HomelessnessRate"
+                          "Entity": "Data"
                         }
                       },
                       "Property": "Either"
@@ -50,8 +50,8 @@
                   "Function": 0
                 }
               },
-              "queryRef": "Sum(HomelessnessRate.Either)",
-              "nativeQueryRef": "Sum of Either"
+              "queryRef": "Sum(Data.Either)",
+              "nativeQueryRef": "Somme de Either"
             }
           ]
         }
@@ -65,7 +65,7 @@
                   "Column": {
                     "Expression": {
                       "SourceRef": {
-                        "Entity": "HomelessnessRate"
+                        "Entity": "Data"
                       }
                     },
                     "Property": "Either"

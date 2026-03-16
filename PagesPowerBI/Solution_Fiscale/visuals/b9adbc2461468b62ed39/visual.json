@@ -1,0 +1,357 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+<<<<<<<< HEAD:test1.Report/definition/pages/Solution_Fiscale/visuals/a6409be0b94c06d201a4/visual.json
+  "name": "a6409be0b94c06d201a4",
+  "position": {
+    "x": 304.8711233631978,
+    "y": 558.93039283252926,
+    "z": 5001,
+    "height": 151.3064093728463,
+    "width": 975.58759476223292,
+    "tabOrder": 5001
+========
+  "name": "b9adbc2461468b62ed39",
+  "position": {
+    "x": 325.19586492074433,
+    "y": 154.69386629910406,
+    "z": 6001,
+    "height": 125.33590627153687,
+    "width": 292.45044796691934,
+    "tabOrder": 6001
+>>>>>>>> 9b47ac0c2603b22abb0e4afd3367695c00d2ec8c:PagesPowerBI/Solution_Fiscale/visuals/b9adbc2461468b62ed39/visual.json
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+<<<<<<<< HEAD:test1.Report/definition/pages/Solution_Fiscale/visuals/a6409be0b94c06d201a4/visual.json
+                      "Entity": "finances_mel_5ans"
+                    }
+                  },
+                  "Property": "base_fiscal_2028"
+                }
+              },
+              "queryRef": "finances_mel_5ans.base_fiscal_2028",
+              "nativeQueryRef": "base_fiscal_2028"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "finances_mel_5ans"
+                    }
+                  },
+                  "Property": "base_fiscal_2029"
+                }
+              },
+              "queryRef": "finances_mel_5ans.base_fiscal_2029",
+              "nativeQueryRef": "base_fiscal_2029"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "finances_mel_5ans"
+                    }
+                  },
+                  "Property": "base_fiscal_2030"
+                }
+              },
+              "queryRef": "finances_mel_5ans.base_fiscal_2030",
+              "nativeQueryRef": "base_fiscal_2030"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "finances_mel_5ans"
+                    }
+                  },
+                  "Property": "base_fiscal_2031"
+                }
+              },
+              "queryRef": "finances_mel_5ans.base_fiscal_2031",
+              "nativeQueryRef": "base_fiscal_2031"
+========
+                      "Entity": "per_inv_log"
+                    }
+                  },
+                  "Property": "per_inv_log"
+                }
+              },
+              "queryRef": "per_inv_log.per_inv_log",
+              "nativeQueryRef": "per_inv_log",
+              "active": true
+>>>>>>>> 9b47ac0c2603b22abb0e4afd3367695c00d2ec8c:PagesPowerBI/Solution_Fiscale/visuals/b9adbc2461468b62ed39/visual.json
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "finances_mel_5ans"
+                  }
+                },
+                "Property": "base_fiscal_2028"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "layout": [
+        {
+          "properties": {
+            "columnCount": {
+              "expr": {
+                "Literal": {
+                  "Value": "5L"
+                }
+              }
+            }
+          }
+        }
+<<<<<<<< HEAD:test1.Report/definition/pages/Solution_Fiscale/visuals/a6409be0b94c06d201a4/visual.json
+========
+      ],
+      "general": [
+        {
+          "properties": {
+            "filter": {
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "p",
+                    "Entity": "per_inv_log",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "Comparison": {
+                        "ComparisonKind": 0,
+                        "Left": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "p"
+                              }
+                            },
+                            "Property": "per_inv_log"
+                          }
+                        },
+                        "Right": {
+                          "Literal": {
+                            "Value": "0D"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+>>>>>>>> 9b47ac0c2603b22abb0e4afd3367695c00d2ec8c:PagesPowerBI/Solution_Fiscale/visuals/b9adbc2461468b62ed39/visual.json
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "heading": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Heading4'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "verticalSpacing": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "25D"
+                }
+              }
+            },
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "6D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#3a3a3a'"
+                    }
+                  }
+                }
+              }
+            },
+            "border": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#3a3a3a'"
+                    }
+                  }
+                }
+              }
+            },
+            "foreground": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
