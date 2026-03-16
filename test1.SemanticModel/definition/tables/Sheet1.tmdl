@@ -1,0 +1,268 @@
+table Sheet1
+	lineageTag: 58a58f03-7107-4cc7-afc2-a39987f5c516
+
+	measure nouv_val_fiscal = ```
+			
+			SUMX(
+			    sheet1,
+			    Sheet1[recettes_fiscales]-
+			    (Sheet1[base_FPB] * Sheet1[tx_FPB]) +
+			    (Sheet1[base_FPB] * (Sheet1[tx_FPB] +'Tx_fiscal_nouv'[Valeur Tx fiscal]))
+			)
+			
+			```
+		lineageTag: d5ffc45f-958e-471f-bfac-97cd8d4f3f3f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Gain_fiscal = ```
+			
+			SUMX(
+			    sheet1,
+			    Sheet1[nouv_val_fiscal] - Sheet1[recettes_fiscales] 
+			)
+			
+			```
+		formatString: 0
+		lineageTag: d467ab46-bc17-402a-8dfd-0b35888a25ae
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure qte_logement_rea = ```
+			
+			SUMX(
+			    sheet1,
+			    Sheet1[nouv_val_fiscal] - Sheet1[recettes_fiscales] 
+			)
+			```
+		formatString: 0
+		lineageTag: e5464ad3-6847-49fb-8dc9-cab1ab8e357d
+
+	column INSEE_x
+		dataType: int64
+		formatString: 0
+		lineageTag: 9462ddcf-59fd-4627-97a1-3cb93405cfe9
+		summarizeBy: none
+		sourceColumn: INSEE_x
+
+		annotation SummarizationSetBy = Automatic
+
+	column LIBVILLE
+		dataType: string
+		lineageTag: f17ae42b-569f-427d-b3c7-9bc90a928a64
+		summarizeBy: none
+		sourceColumn: LIBVILLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODE_POSTAL
+		dataType: int64
+		formatString: 0
+		lineageTag: e84633e3-5f13-41e4-a010-49ac523baeb7
+		summarizeBy: none
+		sourceColumn: CODE_POSTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column LIB_COM_POSTAL
+		dataType: string
+		lineageTag: 4e973d2e-e6b2-437b-b642-eaa5ad35a1b8
+		summarizeBy: none
+		sourceColumn: LIB_COM_POSTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column N_INSEE
+		dataType: int64
+		formatString: 0
+		lineageTag: 8f608fb5-44e3-44e7-a4dd-86e255b0e2ff
+		summarizeBy: none
+		sourceColumn: N_INSEE
+
+		annotation SummarizationSetBy = Automatic
+
+	column COM
+		dataType: int64
+		formatString: 0
+		lineageTag: 4ce98d53-5cf9-46f5-8c5b-38fc1b41ce36
+		summarizeBy: none
+		sourceColumn: COM
+
+		annotation SummarizationSetBy = Automatic
+
+	column INSEE_y
+		dataType: int64
+		formatString: 0
+		lineageTag: fb75a999-c644-4742-94b9-442a98eedfe8
+		summarizeBy: none
+		sourceColumn: INSEE_y
+
+		annotation SummarizationSetBy = Automatic
+
+	column SD
+		dataType: double
+		lineageTag: 42d7a5d6-f45f-48b3-b6cb-e99e3fafc2d0
+		summarizeBy: none
+		sourceColumn: SD
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SC
+		dataType: double
+		lineageTag: 6e9f89d6-e30e-46ae-afe6-cbe724732e6e
+		summarizeBy: none
+		sourceColumn: SC
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column solde
+		dataType: double
+		lineageTag: 01bc1973-aae6-4d1c-a2d3-d39d79b15fe1
+		summarizeBy: none
+		sourceColumn: solde
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column recettes_fiscales
+		dataType: double
+		lineageTag: 66bf14c7-c5bd-4425-bd2e-1ee6519e74a1
+		summarizeBy: none
+		sourceColumn: recettes_fiscales
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column recettes_non_fiscales
+		dataType: int64
+		formatString: 0
+		lineageTag: d896b7fe-8be1-4109-8a3c-8699131b6146
+		summarizeBy: none
+		sourceColumn: recettes_non_fiscales
+
+		annotation SummarizationSetBy = Automatic
+
+	column dotations
+		dataType: double
+		lineageTag: 7a18d882-0287-44ac-b790-7307eb7cc6ec
+		summarizeBy: none
+		sourceColumn: dotations
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column exceptionnels
+		dataType: int64
+		formatString: 0
+		lineageTag: d8f460b8-c8ca-4009-8bfd-e94e853e5962
+		summarizeBy: none
+		sourceColumn: exceptionnels
+
+		annotation SummarizationSetBy = Automatic
+
+	column recettes_totales
+		dataType: double
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: f5c7c4c0-bed7-48e7-811e-3dfd5e8185c1
+		summarizeBy: none
+		sourceColumn: recettes_totales
+
+		annotation SummarizationSetBy = Automatic
+
+	column ville_dep_pays
+		dataType: string
+		lineageTag: 5e24ecb3-4ccf-4ce2-a577-97530ae38dc6
+		summarizeBy: none
+		sourceColumn: ville_dep_pays
+
+		annotation SummarizationSetBy = Automatic
+
+	column LIBCOM
+		dataType: string
+		lineageTag: df6866cb-8128-4038-87de-4fa109bb256f
+		summarizeBy: none
+		sourceColumn: LIBCOM
+
+		annotation SummarizationSetBy = Automatic
+
+	column recettes_MEL
+		dataType: double
+		lineageTag: 82e6c3cd-f9c7-4f04-b0a4-c39fb46cbd4a
+		summarizeBy: none
+		sourceColumn: recettes_MEL
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column reversements_MEL
+		dataType: int64
+		formatString: 0
+		lineageTag: d2e4ec2c-16d8-45c6-a336-47f15350f543
+		summarizeBy: none
+		sourceColumn: reversements_MEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column prelevements_MEL
+		dataType: int64
+		formatString: 0
+		lineageTag: 9a604563-4601-42bd-a1e4-a2a88b71342d
+		summarizeBy: none
+		sourceColumn: prelevements_MEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column solde_MEL
+		dataType: int64
+		formatString: 0
+		lineageTag: 6ce2727e-f582-4e48-9f93-0211c8080c34
+		summarizeBy: none
+		sourceColumn: solde_MEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column produit_FPB
+		dataType: string
+		lineageTag: 6c5ae2ae-6a04-4e57-8245-14e05878b238
+		summarizeBy: none
+		sourceColumn: produit_FPB
+
+		annotation SummarizationSetBy = Automatic
+
+	column tx_FPB
+		dataType: string
+		lineageTag: aefd9a24-1cf6-419d-87a8-4392742662fb
+		summarizeBy: none
+		sourceColumn: tx_FPB
+
+		annotation SummarizationSetBy = Automatic
+
+	column base_FPB
+		dataType: string
+		lineageTag: 63c205d6-f1e3-4627-8132-d6b75afd9e25
+		summarizeBy: none
+		sourceColumn: base_FPB
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sheet1 = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Formation\crise_immo\Projet_crise_logement\dataset_bi\finances_publiques_mel.xlsx"), null, true),
+				    Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
+				    #"En-têtes promus" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"INSEE_x", Int64.Type}, {"LIBVILLE", type text}, {"CODE_POSTAL", Int64.Type}, {"LIB_COM_POSTAL", type text}, {"N_INSEE", Int64.Type}, {"COM", Int64.Type}, {"INSEE_y", Int64.Type}, {"SD", type number}, {"SC", type number}, {"solde", type number}, {"recettes_fiscales", type number}, {"recettes_non_fiscales", Int64.Type}, {"dotations", type number}, {"exceptionnels", Int64.Type}, {"recettes_totales", type number}, {"ville_dep_pays", type text}, {"LIBCOM", type text}, {"recettes_MEL", type number}, {"reversements_MEL", Int64.Type}, {"prelevements_MEL", Int64.Type}, {"solde_MEL", Int64.Type}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_ResultType = Table
+

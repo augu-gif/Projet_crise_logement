@@ -1,34 +1,39 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "7c61dfcbaa41d5378923",
+  "name": "6476144777ba63d22060",
   "position": {
-    "x": 325.19586492074433,
-    "y": 154.69386629910406,
-    "z": 1000,
-    "height": 565.70530668504477,
-    "width": 541.99310820124049,
-    "tabOrder": 1000
+    "x": 897.38647046801555,
+    "y": 149.56441174466926,
+    "z": 2000,
+    "height": 570.35383881735811,
+    "width": 382.84024797329516,
+    "tabOrder": 2000
   },
   "visual": {
-    "visualType": "tableEx",
+    "visualType": "barChart",
     "query": {
       "queryState": {
-        "Values": {
+        "Category": {
           "projections": [
             {
               "field": {
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1"
+                      "Entity": "RepartitionSansAbris_MEL"
                     }
                   },
                   "Property": "LIBVILLE"
                 }
               },
-              "queryRef": "Sheet1.LIBVILLE",
-              "nativeQueryRef": "LIBVILLE"
-            },
+              "queryRef": "RepartitionSansAbris_MEL.LIBVILLE",
+              "nativeQueryRef": "Count of LIBVILLE1",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
             {
               "field": {
                 "Aggregation": {
@@ -36,31 +41,17 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Sheet1"
+                          "Entity": "RepartitionSansAbris_MEL"
                         }
                       },
-                      "Property": "recettes_fiscales"
+                      "Property": "sans_abris_2026"
                     }
                   },
                   "Function": 0
                 }
               },
-              "queryRef": "Sum(Sheet1.recettes_fiscales)",
-              "nativeQueryRef": "Somme de recettes_fiscales"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Sheet1"
-                    }
-                  },
-                  "Property": "nouv_val_fiscal"
-                }
-              },
-              "queryRef": "Sheet1.nouv_val_fiscal",
-              "nativeQueryRef": "nouv_val_fiscal"
+              "queryRef": "Sum(RepartitionSansAbris_MEL.sans_abris_2026)",
+              "nativeQueryRef": "Sum of sans_abris_2026"
             }
           ]
         }
@@ -74,10 +65,10 @@
                   "Column": {
                     "Expression": {
                       "SourceRef": {
-                        "Entity": "Sheet1"
+                        "Entity": "RepartitionSansAbris_MEL"
                       }
                     },
-                    "Property": "recettes_fiscales"
+                    "Property": "sans_abris_2026"
                   }
                 },
                 "Function": 0
@@ -89,14 +80,73 @@
         "isDefaultSort": true
       }
     },
-    "visualContainerObjects": {
-      "title": [
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "labels": [
         {
           "properties": {
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Répartition des sans-abris par commune en 2026'"
                 }
               }
             },
@@ -107,24 +157,17 @@
                 }
               }
             },
-            "alignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "20D"
-                }
-              }
-            },
             "bold": {
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
                 }
               }
             }
@@ -179,6 +222,19 @@
           }
         }
       ],
+      "general": [
+        {
+          "properties": {
+            "keepLayerOrder": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
       "border": [
         {
           "properties": {
@@ -194,7 +250,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 3,
+                      "ColorId": 9,
                       "Percent": 0.4
                     }
                   }
@@ -221,6 +277,13 @@
       "visualHeader": [
         {
           "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
             "background": {
               "solid": {
                 "color": {
@@ -259,5 +322,58 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "ca709067272a60cb3bd6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "RepartitionSansAbris_MEL"
+              }
+            },
+            "Property": "sans_abris_2026"
+          }
+        },
+        "type": "Advanced",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "r",
+              "Entity": "RepartitionSansAbris_MEL",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 3,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "r"
+                        }
+                      },
+                      "Property": "sans_abris_2026"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "700L"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
   }
 }

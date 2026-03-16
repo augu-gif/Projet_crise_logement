@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "21b8fbf9b91a10a97099",
+  "name": "b9adbc2461468b62ed39",
   "position": {
-    "x": 0,
-    "y": 0,
-    "z": 2000,
-    "height": 720.39917298414889,
-    "width": 285.67553411440383,
-    "tabOrder": 2000
+    "x": 884.12625775327365,
+    "y": 14.678980013783598,
+    "z": 6001,
+    "height": 125.33590627153687,
+    "width": 396.33246037215713,
+    "tabOrder": 6001
   },
   "visual": {
     "visualType": "slicer",
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1"
+                      "Entity": "per_inv_log"
                     }
                   },
-                  "Property": "LIB_COM_POSTAL"
+                  "Property": "per_inv_log"
                 }
               },
-              "queryRef": "Sheet1.LIB_COM_POSTAL",
-              "nativeQueryRef": "LIB_COM_POSTAL",
+              "queryRef": "per_inv_log.per_inv_log",
+              "nativeQueryRef": "per_inv_log",
               "active": true
             }
           ]
@@ -38,50 +38,10 @@
       "data": [
         {
           "properties": {
-            "mode": {
+            "numericStart": {
               "expr": {
                 "Literal": {
-                  "Value": "'Basic'"
-                }
-              }
-            },
-            "isInvertedSelectionMode": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "selection": [
-        {
-          "properties": {
-            "selectAllCheckboxEnabled": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "singleSelect": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "header": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
+                  "Value": "0D"
                 }
               }
             }
@@ -90,7 +50,44 @@
       ],
       "general": [
         {
-          "properties": {}
+          "properties": {
+            "filter": {
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "p",
+                    "Entity": "per_inv_log",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "Comparison": {
+                        "ComparisonKind": 0,
+                        "Left": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "p"
+                              }
+                            },
+                            "Property": "per_inv_log"
+                          }
+                        },
+                        "Right": {
+                          "Literal": {
+                            "Value": "0D"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -98,17 +95,17 @@
       "title": [
         {
           "properties": {
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Villes de la MEL'"
-                }
-              }
-            },
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "heading": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Heading4'"
                 }
               }
             },
@@ -119,6 +116,20 @@
                 }
               }
             },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            },
             "bold": {
               "expr": {
                 "Literal": {
@@ -126,6 +137,22 @@
                 }
               }
             }
+          }
+        }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "verticalSpacing": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ],
@@ -176,7 +203,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 5,
+                      "ColorId": 3,
                       "Percent": 0.4
                     }
                   }
@@ -239,11 +266,6 @@
           }
         }
       ]
-    },
-    "syncGroup": {
-      "groupName": "LIBCOM",
-      "fieldChanges": true,
-      "filterChanges": true
     },
     "drillFilterOtherVisuals": true
   }

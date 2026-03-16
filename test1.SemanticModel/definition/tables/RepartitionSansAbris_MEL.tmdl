@@ -1,0 +1,223 @@
+table RepartitionSansAbris_MEL
+	lineageTag: 54efa069-9e99-4c19-aa0a-4f821831d391
+
+	measure 'Scorecard Value' =
+			
+			VAR maxSDF = MAX('RepartitionSansAbris_MEL'[sans_abris_2026])
+			RETURN
+			CALCULATE(
+			    SUM('RepartitionSansAbris_MEL'[sans_abris_2026]),
+			    'RepartitionSansAbris_MEL'[sans_abris_2026] < maxSDF
+			)
+		formatString: 0
+		lineageTag: f3a1fd9d-3512-491c-acd5-44c94c7f5a87
+
+	column INSEE
+		dataType: int64
+		formatString: 0
+		lineageTag: aa2e24dc-1579-4680-aa48-73b117c99a20
+		summarizeBy: sum
+		sourceColumn: INSEE
+
+		annotation SummarizationSetBy = Automatic
+
+	column LIBVILLE
+		dataType: string
+		lineageTag: 482981bc-941a-44af-9dd6-a59bb4c18b49
+		summarizeBy: none
+		sourceColumn: LIBVILLE
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODE_POSTAL
+		dataType: int64
+		formatString: 0
+		lineageTag: bde7b8d2-50af-48fc-974e-1042fcd082e5
+		summarizeBy: sum
+		sourceColumn: CODE_POSTAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column N_INSEE
+		dataType: int64
+		formatString: 0
+		lineageTag: 6ba1a4d1-1d44-4920-8d70-cb4f30f7fc89
+		summarizeBy: sum
+		sourceColumn: N_INSEE
+
+		annotation SummarizationSetBy = Automatic
+
+	column Population
+		dataType: int64
+		formatString: 0
+		lineageTag: c1da6743-02c2-4606-82e4-c0d79f6f2d8f
+		summarizeBy: sum
+		sourceColumn: Population
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2020
+		dataType: int64
+		formatString: 0
+		lineageTag: bc0070ac-d7b2-42de-aa2a-2ee3ae98666a
+		summarizeBy: sum
+		sourceColumn: sans_abris_2020
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2021
+		dataType: int64
+		formatString: 0
+		lineageTag: 6f812dd4-8c2d-4fb0-aba8-13f98ffeea60
+		summarizeBy: sum
+		sourceColumn: sans_abris_2021
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2022
+		dataType: int64
+		formatString: 0
+		lineageTag: 82c673c8-3450-4dfd-a25c-625ac8e418e6
+		summarizeBy: sum
+		sourceColumn: sans_abris_2022
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2023
+		dataType: int64
+		formatString: 0
+		lineageTag: 45fdcc9c-1f36-41e2-96d3-84d8919dfecd
+		summarizeBy: sum
+		sourceColumn: sans_abris_2023
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2024
+		dataType: int64
+		formatString: 0
+		lineageTag: a004c16c-e803-4b2a-8e0a-df61c225d28d
+		summarizeBy: sum
+		sourceColumn: sans_abris_2024
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2025
+		dataType: int64
+		formatString: 0
+		lineageTag: be640ddf-9585-4a9b-b1b3-ffdfd036c3e1
+		summarizeBy: sum
+		sourceColumn: sans_abris_2025
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2026
+		dataType: int64
+		formatString: 0
+		lineageTag: f6c87e18-5b74-47d4-bc4d-d3abe3456e99
+		summarizeBy: sum
+		sourceColumn: sans_abris_2026
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2027
+		dataType: int64
+		formatString: 0
+		lineageTag: ec9b230d-2524-4a17-9279-06295342a7f3
+		summarizeBy: sum
+		sourceColumn: sans_abris_2027
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2028
+		dataType: int64
+		formatString: 0
+		lineageTag: b2d99378-6920-4ab1-b3d8-0a88806f8add
+		summarizeBy: sum
+		sourceColumn: sans_abris_2028
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2029
+		dataType: int64
+		formatString: 0
+		lineageTag: 93f26db1-fb02-4572-b723-2862f8b90b6c
+		summarizeBy: sum
+		sourceColumn: sans_abris_2029
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2030
+		dataType: int64
+		formatString: 0
+		lineageTag: db8f5fa4-5245-47d6-addf-1f78e82baafb
+		summarizeBy: sum
+		sourceColumn: sans_abris_2030
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2031
+		dataType: int64
+		formatString: 0
+		lineageTag: 244cf041-5754-4d67-80b1-50e9d01c8d9e
+		summarizeBy: sum
+		sourceColumn: sans_abris_2031
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2032
+		dataType: int64
+		formatString: 0
+		lineageTag: 61a53419-56aa-4aeb-a465-577c6bb902c5
+		summarizeBy: sum
+		sourceColumn: sans_abris_2032
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2033
+		dataType: int64
+		formatString: 0
+		lineageTag: fde2ed11-ac06-4072-a5dd-e6c62a3073bb
+		summarizeBy: sum
+		sourceColumn: sans_abris_2033
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2034
+		dataType: int64
+		formatString: 0
+		lineageTag: a02977f7-09da-4168-b0ce-c620f45e2fbc
+		summarizeBy: sum
+		sourceColumn: sans_abris_2034
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2035
+		dataType: int64
+		formatString: 0
+		lineageTag: 21001f9a-5dce-4cb9-a8d7-57538374ca66
+		summarizeBy: sum
+		sourceColumn: sans_abris_2035
+
+		annotation SummarizationSetBy = Automatic
+
+	column sans_abris_2036
+		dataType: int64
+		formatString: 0
+		lineageTag: de1711c6-465c-4987-b331-42fd774c7974
+		summarizeBy: sum
+		sourceColumn: sans_abris_2036
+
+		annotation SummarizationSetBy = Automatic
+
+	partition RepartitionSansAbris_MEL = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Formation\crise_immo\Projet_crise_logement\dataset_bi\RepartitionSansAbris_MEL.csv"),[Delimiter=",", Columns=22, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"En-têtes promus" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"INSEE", Int64.Type}, {"LIBVILLE", type text}, {"CODE_POSTAL", Int64.Type}, {"N_INSEE", Int64.Type}, {"Population", Int64.Type}, {"sans_abris_2020", Int64.Type}, {"sans_abris_2021", Int64.Type}, {"sans_abris_2022", Int64.Type}, {"sans_abris_2023", Int64.Type}, {"sans_abris_2024", Int64.Type}, {"sans_abris_2025", Int64.Type}, {"sans_abris_2026", Int64.Type}, {"sans_abris_2027", Int64.Type}, {"sans_abris_2028", Int64.Type}, {"sans_abris_2029", Int64.Type}, {"sans_abris_2030", Int64.Type}, {"sans_abris_2031", Int64.Type}, {"sans_abris_2032", Int64.Type}, {"sans_abris_2033", Int64.Type}, {"sans_abris_2034", Int64.Type}, {"sans_abris_2035", Int64.Type}, {"sans_abris_2036", Int64.Type}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_ResultType = Table
+

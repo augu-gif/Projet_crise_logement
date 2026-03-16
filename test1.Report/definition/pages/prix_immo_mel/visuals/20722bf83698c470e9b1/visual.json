@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "21b8fbf9b91a10a97099",
+  "name": "20722bf83698c470e9b1",
   "position": {
     "x": 0,
-    "y": 0,
-    "z": 2000,
-    "height": 720.39917298414889,
-    "width": 285.67553411440383,
-    "tabOrder": 2000
+    "y": 268,
+    "z": 7001,
+    "height": 452,
+    "width": 286,
+    "tabOrder": 7001
   },
   "visual": {
     "visualType": "slicer",
@@ -35,6 +35,31 @@
       }
     },
     "objects": {
+      "general": [
+        {
+          "properties": {}
+        }
+      ],
+      "selection": [
+        {
+          "properties": {
+            "singleSelect": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "selectAllCheckboxEnabled": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
       "data": [
         {
           "properties": {
@@ -55,26 +80,6 @@
           }
         }
       ],
-      "selection": [
-        {
-          "properties": {
-            "selectAllCheckboxEnabled": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "singleSelect": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
       "header": [
         {
           "properties": {
@@ -86,11 +91,6 @@
               }
             }
           }
-        }
-      ],
-      "general": [
-        {
-          "properties": {}
         }
       ]
     },

@@ -1,9 +1,10 @@
 {
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/pbip/pbipProperties/1.0.0/schema.json",
   "version": "1.0",
   "artifacts": [
     {
       "report": {
-        "path": "Projet_crise_logement.Report"
+        "path": "test1.Report"
       }
     }
   ],

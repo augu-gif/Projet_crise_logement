@@ -4,10 +4,10 @@
   "position": {
     "x": 325.19586492074433,
     "y": 13.549827705031014,
-    "z": 1000,
+    "z": 0,
     "height": 128.72336319779461,
     "width": 292.45044796691934,
-    "tabOrder": 1000
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "slicer",
@@ -20,10 +20,10 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Tx fiscal"
+                      "Entity": "Tx_fiscal_nouv"
                     }
                   },
-                  "Property": "Tx fiscal"
+                  "Property": "tx_fiscal"
                 }
               },
               "queryRef": "Tx fiscal.Tx fiscal",
@@ -42,7 +42,7 @@
             "numericStart": {
               "expr": {
                 "Literal": {
-                  "Value": "0.5D"
+                  "Value": "0D"
                 }
               }
             },
@@ -72,7 +72,7 @@
                 "From": [
                   {
                     "Name": "t",
-                    "Entity": "Tx fiscal",
+                    "Entity": "Tx_fiscal_nouv",
                     "Type": 0
                   }
                 ],
@@ -88,12 +88,12 @@
                                 "Source": "t"
                               }
                             },
-                            "Property": "Tx fiscal"
+                            "Property": "tx_fiscal"
                           }
                         },
                         "Right": {
                           "Literal": {
-                            "Value": "0.5D"
+                            "Value": "0D"
                           }
                         }
                       }
@@ -276,5 +276,23 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "db56661d51464318d430",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Tx_fiscal_nouv"
+              }
+            },
+            "Property": "tx_fiscal"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

@@ -1,96 +1,104 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "21b8fbf9b91a10a97099",
+  "name": "b0784bbc2287314794a0",
   "position": {
-    "x": 0,
-    "y": 0,
-    "z": 2000,
-    "height": 720.39917298414889,
-    "width": 285.67553411440383,
-    "tabOrder": 2000
+    "x": 783,
+    "y": 86,
+    "z": 3000,
+    "height": 172,
+    "width": 497,
+    "tabOrder": 3000
   },
   "visual": {
-    "visualType": "slicer",
+    "visualType": "pieChart",
     "query": {
       "queryState": {
-        "Values": {
+        "Category": {
           "projections": [
             {
               "field": {
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1"
+                      "Entity": "DVF_MEL"
                     }
                   },
-                  "Property": "LIB_COM_POSTAL"
+                  "Property": "Type local"
                 }
               },
-              "queryRef": "Sheet1.LIB_COM_POSTAL",
-              "nativeQueryRef": "LIB_COM_POSTAL",
+              "queryRef": "DVF_MEL.Type local",
+              "nativeQueryRef": "Type local1",
               "active": true
             }
           ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DVF_MEL"
+                        }
+                      },
+                      "Property": "Type local"
+                    }
+                  },
+                  "Function": 5
+                }
+              },
+              "queryRef": "CountNonNull(DVF_MEL.Type local)",
+              "nativeQueryRef": "Nombre de Type local"
+            }
+          ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "DVF_MEL"
+                      }
+                    },
+                    "Property": "Type local"
+                  }
+                },
+                "Function": 5
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
       }
     },
     "objects": {
-      "data": [
+      "legend": [
         {
           "properties": {
-            "mode": {
+            "position": {
               "expr": {
                 "Literal": {
-                  "Value": "'Basic'"
+                  "Value": "'TopRight'"
                 }
               }
             },
-            "isInvertedSelectionMode": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "selection": [
-        {
-          "properties": {
-            "selectAllCheckboxEnabled": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "singleSelect": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "header": [
-        {
-          "properties": {
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }
           }
-        }
-      ],
-      "general": [
-        {
-          "properties": {}
         }
       ]
     },
@@ -98,20 +106,6 @@
       "title": [
         {
           "properties": {
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Villes de la MEL'"
-                }
-              }
-            },
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
             "titleWrap": {
               "expr": {
                 "Literal": {
@@ -123,6 +117,13 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
@@ -239,11 +240,6 @@
           }
         }
       ]
-    },
-    "syncGroup": {
-      "groupName": "LIBCOM",
-      "fieldChanges": true,
-      "filterChanges": true
     },
     "drillFilterOtherVisuals": true
   }

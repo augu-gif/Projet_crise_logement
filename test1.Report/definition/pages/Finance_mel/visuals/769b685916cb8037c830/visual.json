@@ -1,34 +1,20 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "7c61dfcbaa41d5378923",
+  "name": "769b685916cb8037c830",
   "position": {
-    "x": 325.19586492074433,
-    "y": 154.69386629910406,
-    "z": 1000,
-    "height": 565.70530668504477,
-    "width": 541.99310820124049,
-    "tabOrder": 1000
+    "x": 964,
+    "y": 15,
+    "z": 2000,
+    "height": 695,
+    "width": 307,
+    "tabOrder": 2000
   },
   "visual": {
-    "visualType": "tableEx",
+    "visualType": "cardVisual",
     "query": {
       "queryState": {
-        "Values": {
+        "Data": {
           "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Sheet1"
-                    }
-                  },
-                  "Property": "LIBVILLE"
-                }
-              },
-              "queryRef": "Sheet1.LIBVILLE",
-              "nativeQueryRef": "LIBVILLE"
-            },
             {
               "field": {
                 "Aggregation": {
@@ -45,22 +31,90 @@
                   "Function": 0
                 }
               },
-              "queryRef": "Sum(Sheet1.recettes_fiscales)",
-              "nativeQueryRef": "Somme de recettes_fiscales"
+              "queryRef": "CountNonNull(Sheet1.recettes_fiscales)",
+              "nativeQueryRef": "Revenus fiscaux",
+              "displayName": "Revenus fiscaux",
+              "format": "0.00"
             },
             {
               "field": {
-                "Measure": {
+                "Aggregation": {
                   "Expression": {
-                    "SourceRef": {
-                      "Entity": "Sheet1"
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sheet1"
+                        }
+                      },
+                      "Property": "recettes_non_fiscales"
                     }
                   },
-                  "Property": "nouv_val_fiscal"
+                  "Function": 0
                 }
               },
-              "queryRef": "Sheet1.nouv_val_fiscal",
-              "nativeQueryRef": "nouv_val_fiscal"
+              "queryRef": "CountNonNull(Sheet1.recettes_non_fiscales)",
+              "nativeQueryRef": "Revenus non fiscaux",
+              "displayName": "Revenus non fiscaux"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sheet1"
+                        }
+                      },
+                      "Property": "reversements_MEL"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "CountNonNull(Sheet1.reversements_MEL)",
+              "nativeQueryRef": "Montant reversé MEL",
+              "displayName": "Montant reversé MEL"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sheet1"
+                        }
+                      },
+                      "Property": "prelevements_MEL"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "CountNonNull(Sheet1.prelevements_MEL)",
+              "nativeQueryRef": "Montant prélevé MEL",
+              "displayName": "Montant prélevé MEL"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sheet1"
+                        }
+                      },
+                      "Property": "recettes_MEL"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "CountNonNull(Sheet1.recettes_MEL)",
+              "nativeQueryRef": "Revenus MEL",
+              "displayName": "Revenus MEL"
             }
           ]
         }
@@ -89,10 +143,71 @@
         "isDefaultSort": true
       }
     },
+    "objects": {
+      "referenceLabelLayout": [
+        {
+          "properties": {
+            "position": {
+              "expr": {
+                "Literal": {
+                  "Value": "'below'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "label": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "layout": [
+        {
+          "properties": {
+            "orientation": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            },
+            "rowCount": {
+              "expr": {
+                "Literal": {
+                  "Value": "5L"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
     "visualContainerObjects": {
       "title": [
         {
           "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Puissance fiscale communale'"
+                }
+              }
+            },
             "show": {
               "expr": {
                 "Literal": {
@@ -128,22 +243,6 @@
                 }
               }
             }
-          }
-        }
-      ],
-      "spacing": [
-        {
-          "properties": {
-            "verticalSpacing": {
-              "expr": {
-                "Literal": {
-                  "Value": "2D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
           }
         }
       ],
@@ -254,6 +353,22 @@
                 }
               }
             }
+          }
+        }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "verticalSpacing": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ]

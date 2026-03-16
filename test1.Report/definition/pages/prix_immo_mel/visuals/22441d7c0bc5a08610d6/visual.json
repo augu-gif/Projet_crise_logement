@@ -1,33 +1,39 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "7c61dfcbaa41d5378923",
+  "name": "22441d7c0bc5a08610d6",
   "position": {
-    "x": 325.19586492074433,
-    "y": 154.69386629910406,
-    "z": 1000,
-    "height": 565.70530668504477,
-    "width": 541.99310820124049,
-    "tabOrder": 1000
+    "x": 0,
+    "y": 86,
+    "z": 6000,
+    "height": 172,
+    "width": 776,
+    "tabOrder": 6000
   },
   "visual": {
-    "visualType": "tableEx",
+    "visualType": "cardVisual",
     "query": {
       "queryState": {
-        "Values": {
+        "Data": {
           "projections": [
             {
               "field": {
-                "Column": {
+                "Aggregation": {
                   "Expression": {
-                    "SourceRef": {
-                      "Entity": "Sheet1"
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DVF_MEL"
+                        }
+                      },
+                      "Property": "prix_m2"
                     }
                   },
-                  "Property": "LIBVILLE"
+                  "Function": 1
                 }
               },
-              "queryRef": "Sheet1.LIBVILLE",
-              "nativeQueryRef": "LIBVILLE"
+              "queryRef": "Sum(DVF_MEL.prix_m2)",
+              "nativeQueryRef": "Moyenne prix m2",
+              "displayName": "Moyenne prix m2"
             },
             {
               "field": {
@@ -36,31 +42,38 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Sheet1"
+                          "Entity": "DVF_MEL"
                         }
                       },
-                      "Property": "recettes_fiscales"
+                      "Property": "Surface reelle bati"
                     }
                   },
-                  "Function": 0
+                  "Function": 1
                 }
               },
-              "queryRef": "Sum(Sheet1.recettes_fiscales)",
-              "nativeQueryRef": "Somme de recettes_fiscales"
+              "queryRef": "Sum(DVF_MEL.Surface reelle bati)",
+              "nativeQueryRef": "Moyenne surface bâtie",
+              "displayName": "Moyenne surface bâtie"
             },
             {
               "field": {
-                "Measure": {
+                "Aggregation": {
                   "Expression": {
-                    "SourceRef": {
-                      "Entity": "Sheet1"
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DVF_MEL"
+                        }
+                      },
+                      "Property": "Valeur fonciere"
                     }
                   },
-                  "Property": "nouv_val_fiscal"
+                  "Function": 1
                 }
               },
-              "queryRef": "Sheet1.nouv_val_fiscal",
-              "nativeQueryRef": "nouv_val_fiscal"
+              "queryRef": "Sum(DVF_MEL.Valeur fonciere)",
+              "nativeQueryRef": "Moyenne valeur foncière ",
+              "displayName": "Moyenne valeur foncière "
             }
           ]
         }
@@ -74,13 +87,13 @@
                   "Column": {
                     "Expression": {
                       "SourceRef": {
-                        "Entity": "Sheet1"
+                        "Entity": "DVF_MEL"
                       }
                     },
-                    "Property": "recettes_fiscales"
+                    "Property": "prix_m2"
                   }
                 },
-                "Function": 0
+                "Function": 1
               }
             },
             "direction": "Descending"
@@ -89,8 +102,91 @@
         "isDefaultSort": true
       }
     },
-    "visualContainerObjects": {
-      "title": [
+    "objects": {
+      "layout": [
+        {
+          "properties": {
+            "style": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Table'"
+                }
+              }
+            },
+            "orientation": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            },
+            "columnCount": {
+              "expr": {
+                "Literal": {
+                  "Value": "3L"
+                }
+              }
+            },
+            "autoGrid": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "rectangleRoundedCurve": {
+              "expr": {
+                "Literal": {
+                  "Value": "20L"
+                }
+              }
+            },
+            "rectangleRoundedCurveCustomStyle": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "rectangleRoundedCurveLeftTop": {
+              "expr": {
+                "Literal": {
+                  "Value": "20L"
+                }
+              }
+            },
+            "rectangleRoundedCurveRightTop": {
+              "expr": {
+                "Literal": {
+                  "Value": "20L"
+                }
+              }
+            },
+            "rectangleRoundedCurveLeftBottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "20L"
+                }
+              }
+            },
+            "rectangleRoundedCurveRightBottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "20L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "value": [
         {
           "properties": {
             "show": {
@@ -99,25 +195,65 @@
                   "Value": "true"
                 }
               }
-            },
-            "titleWrap": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "alignment": {
+            }
+          }
+        },
+        {
+          "properties": {
+            "horizontalAlignment": {
               "expr": {
                 "Literal": {
                   "Value": "'center'"
                 }
               }
-            },
-            "fontSize": {
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "image": [
+        {
+          "properties": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "20D"
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "cardCalloutArea": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             },
@@ -128,22 +264,6 @@
                 }
               }
             }
-          }
-        }
-      ],
-      "spacing": [
-        {
-          "properties": {
-            "verticalSpacing": {
-              "expr": {
-                "Literal": {
-                  "Value": "2D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
           }
         }
       ],
@@ -194,7 +314,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 3,
+                      "ColorId": 6,
                       "Percent": 0.4
                     }
                   }

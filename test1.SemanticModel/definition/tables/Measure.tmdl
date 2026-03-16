@@ -1,0 +1,30 @@
+table Measure
+	lineageTag: 6a3fa6fe-2f48-4905-823e-b628bf605d75
+
+	measure nouv_solde_fiscal = SUM(Sheet1[recettes_non_fiscales])-sum(Sheet1[base_FPB])
+		formatString: 0
+		lineageTag: c80a31c1-13fd-4f59-8b36-6d97d9b9bbd1
+
+	measure nb_logement = (Sheet1[nouv_val_fiscal] * per_inv_log[Valeur per_inv_log]/100) / (average(DVF_MEL[prix_m2]) * average(DVF_MEL[Surface reelle bati]))
+		lineageTag: f520bd0b-993f-40e8-bfca-21f7160904cc
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure cout_invest = (Sheet1[nouv_val_fiscal] * (per_inv_log[Valeur per_inv_log]/100))
+		formatString: 0
+		lineageTag: d09a1a97-1b98-4f4d-876b-75bbfa1a7de4
+
+	column impact_taux_impot
+		formatString: 0
+		lineageTag: 057020d1-4935-4a1d-ba4e-e6d4e8c3fe83
+		summarizeBy: sum
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Measure = calculated
+		mode: import
+		source = 1
+
+	annotation PBI_Id = 792f51485127485f8e4fbe86f806254a
+

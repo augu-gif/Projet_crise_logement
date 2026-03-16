@@ -1,0 +1,28 @@
+table per_inv_log
+	lineageTag: 2b29fbd9-1d70-429b-828a-e39502a7ae5d
+
+	measure 'Valeur per_inv_log' = SELECTEDVALUE('per_inv_log'[per_inv_log])
+		lineageTag: 2cfea32d-2668-4a74-a12e-7e474b748de9
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column per_inv_log
+		lineageTag: 13eef817-fff6-466e-8ebe-994e5be17ddf
+		summarizeBy: none
+		sourceColumn: [Value]
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 0
+				}
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition per_inv_log = calculated
+		mode: import
+		source = GENERATESERIES(0, 50, 0.5)
+
+	annotation PBI_Id = a8a9d383836a4cf99296fb63f385401a
+

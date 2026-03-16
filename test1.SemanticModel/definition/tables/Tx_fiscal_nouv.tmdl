@@ -1,0 +1,28 @@
+table Tx_fiscal_nouv
+	lineageTag: 6892b885-3381-4b4e-9e91-bc73ed6364be
+
+	measure 'Valeur Tx fiscal' = SELECTEDVALUE('Tx_fiscal_nouv'[tx_fiscal], 1)
+		lineageTag: 283a62cd-f409-498a-80f0-d85f2733983c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column tx_fiscal
+		lineageTag: df303b2d-e832-47a0-a57a-291bf78395bf
+		summarizeBy: none
+		sourceColumn: [Value]
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 0
+				}
+
+		annotation SummarizationSetBy = User
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Tx_fiscal_nouv = calculated
+		mode: import
+		source = GENERATESERIES(0, 10, 0.1)
+
+	annotation PBI_Id = 2bce2eb9875a4699b702362bca85ea51
+
