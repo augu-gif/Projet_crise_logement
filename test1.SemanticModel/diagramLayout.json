@@ -16,15 +16,15 @@
           "nodeIndex": "Sheet1",
           "nodeLineageTag": "58a58f03-7107-4cc7-afc2-a39987f5c516",
           "size": {
-            "height": 300,
+            "height": 536,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 3
         },
         {
           "location": {
-            "x": 568,
-            "y": 276
+            "x": 539,
+            "y": 46
           },
           "nodeIndex": "DVF_MEL",
           "nodeLineageTag": "bfbff290-0767-4053-8356-9f6ac7be602f",
@@ -32,7 +32,7 @@
             "height": 370,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 1
         },
         {
           "location": {
@@ -45,11 +45,24 @@
             "height": 300,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 286.40000915527344,
+            "y": 0
+          },
+          "nodeIndex": "Measure",
+          "nodeLineageTag": "6a3fa6fe-2f48-4905-823e-b628bf605d75",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 2
         }
       ],
       "name": "Toutes les tables",
-      "zoomValue": 100,
+      "zoomValue": 97.376093294460645,
       "pinKeyFieldsToTop": false,
       "showExtraHeaderInfo": false,
       "hideKeyFieldsWhenCollapsed": false,

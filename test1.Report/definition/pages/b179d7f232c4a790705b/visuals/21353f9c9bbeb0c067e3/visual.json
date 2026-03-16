@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "cef380ca139c1db89395",
+  "name": "21353f9c9bbeb0c067e3",
   "position": {
-    "x": 0,
-    "y": 15,
-    "z": 3000,
-    "height": 695,
-    "width": 308,
-    "tabOrder": 3000
+    "x": 325.19586492074433,
+    "y": 13.549827705031014,
+    "z": 1000,
+    "height": 128.72336319779461,
+    "width": 292.45044796691934,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "slicer",
@@ -20,15 +20,16 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1"
+                      "Entity": "Tx fiscal"
                     }
                   },
-                  "Property": "LIBCOM"
+                  "Property": "Tx fiscal"
                 }
               },
-              "queryRef": "Sheet1.LIBCOM",
-              "nativeQueryRef": "LIBCOM",
-              "active": true
+              "queryRef": "Tx fiscal.Tx fiscal",
+              "nativeQueryRef": "Tx fiscal",
+              "active": true,
+              "format": "0.00"
             }
           ]
         }
@@ -38,10 +39,17 @@
       "data": [
         {
           "properties": {
+            "numericStart": {
+              "expr": {
+                "Literal": {
+                  "Value": "0.5D"
+                }
+              }
+            },
             "mode": {
               "expr": {
                 "Literal": {
-                  "Value": "'Basic'"
+                  "Value": "'Single'"
                 }
               }
             }
@@ -50,24 +58,48 @@
       ],
       "general": [
         {
-          "properties": {}
-        }
-      ],
-      "selection": [
-        {
           "properties": {
-            "selectAllCheckboxEnabled": {
+            "orientation": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "0D"
                 }
               }
             },
-            "singleSelect": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
+            "filter": {
+              "filter": {
+                "Version": 2,
+                "From": [
+                  {
+                    "Name": "t",
+                    "Entity": "Tx fiscal",
+                    "Type": 0
+                  }
+                ],
+                "Where": [
+                  {
+                    "Condition": {
+                      "Comparison": {
+                        "ComparisonKind": 0,
+                        "Left": {
+                          "Column": {
+                            "Expression": {
+                              "SourceRef": {
+                                "Source": "t"
+                              }
+                            },
+                            "Property": "Tx fiscal"
+                          }
+                        },
+                        "Right": {
+                          "Literal": {
+                            "Value": "0.5D"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
               }
             }
           }
@@ -82,13 +114,6 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
-                }
-              }
-            },
-            "heading": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Heading4'"
                 }
               }
             },
@@ -117,13 +142,6 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Villes de la MEL'"
                 }
               }
             }

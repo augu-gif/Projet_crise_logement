@@ -33,7 +33,8 @@
               },
               "queryRef": "CountNonNull(Sheet1.recettes_fiscales)",
               "nativeQueryRef": "Revenus fiscaux",
-              "displayName": "Revenus fiscaux"
+              "displayName": "Revenus fiscaux",
+              "format": "0.00"
             },
             {
               "field": {

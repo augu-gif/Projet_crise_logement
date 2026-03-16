@@ -20,13 +20,13 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "DVF_MEL"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "LIB_COM_POSTAL"
                 }
               },
-              "queryRef": "DVF_MEL.LIB_COM_POSTAL",
+              "queryRef": "Sheet1.LIB_COM_POSTAL",
               "nativeQueryRef": "LIB_COM_POSTAL",
               "active": true
             }
@@ -67,13 +67,6 @@
               "expr": {
                 "Literal": {
                   "Value": "'Basic'"
-                }
-              }
-            },
-            "isInvertedSelectionMode": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
                 }
               }
             }

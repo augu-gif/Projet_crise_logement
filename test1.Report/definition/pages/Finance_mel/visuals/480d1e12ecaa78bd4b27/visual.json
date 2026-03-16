@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "170f4318604123e0ecc6",
+  "name": "480d1e12ecaa78bd4b27",
   "position": {
     "x": 0,
-    "y": 147.46987951807228,
-    "z": 4000,
-    "height": 571.91049913941481,
-    "width": 244.13080895008605,
-    "tabOrder": 4000
+    "y": 0,
+    "z": 2001,
+    "height": 720,
+    "width": 312,
+    "tabOrder": 2001
   },
   "visual": {
     "visualType": "slicer",
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "RepartitionSansAbris_MEL"
+                      "Entity": "Sheet1"
                     }
                   },
-                  "Property": "LIBVILLE"
+                  "Property": "LIB_COM_POSTAL"
                 }
               },
-              "queryRef": "RepartitionSansAbris_MEL.LIBVILLE",
-              "nativeQueryRef": "LIBVILLE",
+              "queryRef": "Sheet1.LIB_COM_POSTAL",
+              "nativeQueryRef": "LIB_COM_POSTAL",
               "active": true
             }
           ]
@@ -43,64 +43,6 @@
                 "Literal": {
                   "Value": "'Basic'"
                 }
-              }
-            },
-            "isInvertedSelectionMode": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "general": [
-        {
-          "properties": {
-            "filter": {
-              "filter": {
-                "Version": 2,
-                "From": [
-                  {
-                    "Name": "r",
-                    "Entity": "RepartitionSansAbris_MEL",
-                    "Type": 0
-                  }
-                ],
-                "Where": [
-                  {
-                    "Condition": {
-                      "Not": {
-                        "Expression": {
-                          "In": {
-                            "Expressions": [
-                              {
-                                "Column": {
-                                  "Expression": {
-                                    "SourceRef": {
-                                      "Source": "r"
-                                    }
-                                  },
-                                  "Property": "LIBVILLE"
-                                }
-                              }
-                            ],
-                            "Values": [
-                              [
-                                {
-                                  "Literal": {
-                                    "Value": "' Bouvines'"
-                                  }
-                                }
-                              ]
-                            ]
-                          }
-                        }
-                      }
-                    }
-                  }
-                ]
               }
             }
           }
@@ -138,16 +80,28 @@
             }
           }
         }
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
       ]
     },
     "visualContainerObjects": {
       "title": [
         {
           "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Villes de la MEL'"
+                }
+              }
+            },
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -155,13 +109,6 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
-                }
-              }
-            },
-            "alignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
                 }
               }
             },
@@ -222,7 +169,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 9,
+                      "ColorId": 5,
                       "Percent": 0.4
                     }
                   }
@@ -249,13 +196,6 @@
       "visualHeader": [
         {
           "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
             "background": {
               "solid": {
                 "color": {
@@ -291,20 +231,12 @@
             }
           }
         }
-      ],
-      "lockAspect": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
       ]
+    },
+    "syncGroup": {
+      "groupName": "LIBCOM",
+      "fieldChanges": true,
+      "filterChanges": true
     },
     "drillFilterOtherVisuals": true
   }

@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "170f4318604123e0ecc6",
+  "name": "7c61dfcbaa41d5378923",
   "position": {
-    "x": 0,
-    "y": 147.46987951807228,
-    "z": 4000,
-    "height": 571.91049913941481,
-    "width": 244.13080895008605,
-    "tabOrder": 4000
+    "x": 325.19586492074433,
+    "y": 154.69386629910406,
+    "z": 2000,
+    "height": 565.70530668504477,
+    "width": 541.99310820124049,
+    "tabOrder": 2000
   },
   "visual": {
-    "visualType": "slicer",
+    "visualType": "tableEx",
     "query": {
       "queryState": {
         "Values": {
@@ -20,125 +20,74 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "RepartitionSansAbris_MEL"
+                      "Entity": "Sheet1"
                     }
                   },
                   "Property": "LIBVILLE"
                 }
               },
-              "queryRef": "RepartitionSansAbris_MEL.LIBVILLE",
-              "nativeQueryRef": "LIBVILLE",
-              "active": true
+              "queryRef": "Sheet1.LIBVILLE",
+              "nativeQueryRef": "LIBVILLE"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Sheet1"
+                        }
+                      },
+                      "Property": "recettes_fiscales"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(Sheet1.recettes_fiscales)",
+              "nativeQueryRef": "Somme de recettes_fiscales"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Sheet1"
+                    }
+                  },
+                  "Property": "nouv_val_fiscal"
+                }
+              },
+              "queryRef": "Sheet1.nouv_val_fiscal",
+              "nativeQueryRef": "nouv_val_fiscal"
             }
           ]
         }
-      }
-    },
-    "objects": {
-      "data": [
-        {
-          "properties": {
-            "mode": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Basic'"
-                }
-              }
-            },
-            "isInvertedSelectionMode": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "general": [
-        {
-          "properties": {
-            "filter": {
-              "filter": {
-                "Version": 2,
-                "From": [
-                  {
-                    "Name": "r",
-                    "Entity": "RepartitionSansAbris_MEL",
-                    "Type": 0
-                  }
-                ],
-                "Where": [
-                  {
-                    "Condition": {
-                      "Not": {
-                        "Expression": {
-                          "In": {
-                            "Expressions": [
-                              {
-                                "Column": {
-                                  "Expression": {
-                                    "SourceRef": {
-                                      "Source": "r"
-                                    }
-                                  },
-                                  "Property": "LIBVILLE"
-                                }
-                              }
-                            ],
-                            "Values": [
-                              [
-                                {
-                                  "Literal": {
-                                    "Value": "' Bouvines'"
-                                  }
-                                }
-                              ]
-                            ]
-                          }
-                        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Sheet1"
                       }
-                    }
+                    },
+                    "Property": "recettes_fiscales"
                   }
-                ]
-              }
-            }
-          }
-        }
-      ],
-      "selection": [
-        {
-          "properties": {
-            "selectAllCheckboxEnabled": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
+                },
+                "Function": 0
               }
             },
-            "singleSelect": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
+            "direction": "Descending"
           }
-        }
-      ],
-      "header": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ]
+        ],
+        "isDefaultSort": true
+      }
     },
     "visualContainerObjects": {
       "title": [
@@ -165,6 +114,13 @@
                 }
               }
             },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            },
             "bold": {
               "expr": {
                 "Literal": {
@@ -172,6 +128,22 @@
                 }
               }
             }
+          }
+        }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "verticalSpacing": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ],
@@ -222,7 +194,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 9,
+                      "ColorId": 3,
                       "Percent": 0.4
                     }
                   }
@@ -249,13 +221,6 @@
       "visualHeader": [
         {
           "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
             "background": {
               "solid": {
                 "color": {
@@ -286,19 +251,6 @@
                       "Value": "'#FFFFFF'"
                     }
                   }
-                }
-              }
-            }
-          }
-        }
-      ],
-      "lockAspect": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
                 }
               }
             }
