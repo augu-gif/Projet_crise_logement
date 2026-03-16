@@ -1,85 +1,110 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "21b8fbf9b91a10a97099",
+  "name": "c4c4697c0bcd1797b158",
   "position": {
-    "x": 0,
-<<<<<<<< HEAD:test1.Report/definition/pages/b179d7f232c4a790705b/visuals/21b8fbf9b91a10a97099/visual.json
-    "y": 0,
-    "z": 2001,
-    "height": 720.39917298414889,
-    "width": 285.67553411440383,
-    "tabOrder": 2001
-========
-    "y": 15,
-    "z": 3000,
-    "height": 695,
-    "width": 308,
+    "x": 10.16237077877326,
+    "y": 116.3026878015162,
+    "z": 5000,
+    "height": 591.67580978635419,
+    "width": 913.48421778084082,
     "tabOrder": 3000
->>>>>>>> 680464fb86f42c893244e51a91dbdd1b71f712d9:Projet_crise_logement.Report/definition/pages/Finance_mel/visuals/cef380ca139c1db89395/visual.json
   },
   "visual": {
-    "visualType": "slicer",
+    "visualType": "clusteredBarChart",
     "query": {
       "queryState": {
-        "Values": {
+        "Category": {
           "projections": [
             {
               "field": {
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Sheet1"
+                      "Entity": "HomelessnessRate"
                     }
                   },
-                  "Property": "LIB_COM_POSTAL"
+                  "Property": "Entity"
                 }
               },
-              "queryRef": "Sheet1.LIB_COM_POSTAL",
-              "nativeQueryRef": "LIB_COM_POSTAL",
+              "queryRef": "HomelessnessRate.Entity",
+              "nativeQueryRef": "Entity",
               "active": true
             }
           ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "HomelessnessRate"
+                        }
+                      },
+                      "Property": "Either"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(HomelessnessRate.Either)",
+              "nativeQueryRef": "Sum of Either"
+            }
+          ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "HomelessnessRate"
+                      }
+                    },
+                    "Property": "Either"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
       }
     },
     "objects": {
-      "data": [
+      "categoryAxis": [
         {
           "properties": {
-            "mode": {
+            "showAxisTitle": {
               "expr": {
                 "Literal": {
-                  "Value": "'Basic'"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "selection": [
-        {
-          "properties": {
-            "selectAllCheckboxEnabled": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
-            "singleSelect": {
+            "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "12D"
                 }
               }
             }
           }
         }
       ],
-      "header": [
+      "valueAxis": [
         {
           "properties": {
-            "show": {
+            "showAxisTitle": {
               "expr": {
                 "Literal": {
                   "Value": "false"
@@ -89,9 +114,22 @@
           }
         }
       ],
-      "general": [
+      "dataPoint": [
         {
-          "properties": {}
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     },
@@ -102,14 +140,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Villes de la MEL'"
-                }
-              }
-            },
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
+                  "Value": "'Nombre de sans-abris par pays en 2023'"
                 }
               }
             },
@@ -126,7 +157,30 @@
                   "Value": "true"
                 }
               }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
             }
+          }
+        }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "verticalSpacing": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ],
@@ -162,6 +216,53 @@
           }
         }
       ],
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {
+            "keepLayerOrder": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
       "border": [
         {
           "properties": {
@@ -177,7 +278,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 5,
+                      "ColorId": 9,
                       "Percent": 0.4
                     }
                   }
@@ -204,6 +305,13 @@
       "visualHeader": [
         {
           "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
             "background": {
               "solid": {
                 "color": {
@@ -240,11 +348,6 @@
           }
         }
       ]
-    },
-    "syncGroup": {
-      "groupName": "LIBCOM",
-      "fieldChanges": true,
-      "filterChanges": true
     },
     "drillFilterOtherVisuals": true
   }

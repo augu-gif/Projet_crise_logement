@@ -1,82 +1,74 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "21b8fbf9b91a10a97099",
+  "name": "00597f0c2cd306329b6a",
   "position": {
-    "x": 0,
-<<<<<<<< HEAD:test1.Report/definition/pages/b179d7f232c4a790705b/visuals/21b8fbf9b91a10a97099/visual.json
-    "y": 0,
-    "z": 2001,
-    "height": 720.39917298414889,
-    "width": 285.67553411440383,
-    "tabOrder": 2001
-========
-    "y": 15,
-    "z": 3000,
-    "height": 695,
-    "width": 308,
-    "tabOrder": 3000
->>>>>>>> 680464fb86f42c893244e51a91dbdd1b71f712d9:Projet_crise_logement.Report/definition/pages/Finance_mel/visuals/cef380ca139c1db89395/visual.json
+    "x": 48.553549276361132,
+    "y": 160.33962784286697,
+    "z": 1000,
+    "height": 36.1328738800827,
+    "width": 47.424396967608544
   },
   "visual": {
-    "visualType": "slicer",
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Sheet1"
-                    }
-                  },
-                  "Property": "LIB_COM_POSTAL"
-                }
-              },
-              "queryRef": "Sheet1.LIB_COM_POSTAL",
-              "nativeQueryRef": "LIB_COM_POSTAL",
-              "active": true
-            }
-          ]
-        }
-      }
-    },
+    "visualType": "shape",
     "objects": {
-      "data": [
+      "shape": [
         {
           "properties": {
-            "mode": {
+            "tileShape": {
               "expr": {
                 "Literal": {
-                  "Value": "'Basic'"
+                  "Value": "'triangleIsoc'"
                 }
               }
             }
           }
         }
       ],
-      "selection": [
+      "rotation": [
         {
           "properties": {
-            "selectAllCheckboxEnabled": {
+            "shapeAngle": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "fill": [
+        {
+          "properties": {
+            "fillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FF0000'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        },
+        {
+          "properties": {
+            "show": {
               "expr": {
                 "Literal": {
                   "Value": "true"
                 }
               }
-            },
-            "singleSelect": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
             }
           }
         }
       ],
-      "header": [
+      "outline": [
         {
           "properties": {
             "show": {
@@ -87,11 +79,6 @@
               }
             }
           }
-        }
-      ],
-      "general": [
-        {
-          "properties": {}
         }
       ]
     },
@@ -99,20 +86,6 @@
       "title": [
         {
           "properties": {
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Villes de la MEL'"
-                }
-              }
-            },
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
             "titleWrap": {
               "expr": {
                 "Literal": {
@@ -130,13 +103,29 @@
           }
         }
       ],
+      "spacing": [
+        {
+          "properties": {
+            "verticalSpacing": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
       "background": [
         {
           "properties": {
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -162,13 +151,60 @@
           }
         }
       ],
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {
+            "keepLayerOrder": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
       "border": [
         {
           "properties": {
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -177,7 +213,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 5,
+                      "ColorId": 9,
                       "Percent": 0.4
                     }
                   }
@@ -204,6 +240,13 @@
       "visualHeader": [
         {
           "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
             "background": {
               "solid": {
                 "color": {
@@ -241,11 +284,8 @@
         }
       ]
     },
-    "syncGroup": {
-      "groupName": "LIBCOM",
-      "fieldChanges": true,
-      "filterChanges": true
-    },
     "drillFilterOtherVisuals": true
-  }
+  },
+  "parentGroupName": "2fad23d1b4035d104b40",
+  "howCreated": "InsertVisualButton"
 }
