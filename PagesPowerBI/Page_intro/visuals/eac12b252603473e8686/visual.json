@@ -5,8 +5,8 @@
     "x": 0,
     "y": 0,
     "z": 0,
-    "height": 720.09815950920245,
-    "width": 1280,
+    "height": 719.35332107266584,
+    "width": 1280.0547453060176,
     "tabOrder": 0
   },
   "visual": {
@@ -20,7 +20,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'istockphoto-1810018106-612x612.jpg'"
+                      "Value": "'arriere_plan_page_intro.jpg'"
                     }
                   }
                 },
@@ -29,7 +29,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "istockphoto-1810018106-612x6127206696449252206.jpg"
+                      "ItemName": "arriere_plan_page_intro17833154984647515.jpg"
                     }
                   }
                 },

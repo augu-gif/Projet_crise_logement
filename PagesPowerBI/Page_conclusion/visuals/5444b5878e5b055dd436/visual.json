@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "df0bc55d0ca5e8338768",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "5444b5878e5b055dd436",
   "position": {
-    "x": 1094.6748466257668,
-    "y": 643.14110429447851,
-    "z": 7000,
-    "height": 75.386503067484668,
-    "width": 117.00613496932516,
-    "tabOrder": 7000
+    "x": 231.19314436387609,
+    "y": 188.16084377059988,
+    "z": 2000,
+    "height": 91.970995385629536,
+    "width": 121.50296638101517,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "image",
@@ -20,7 +20,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'logo-MEL.jpg'"
+                      "Value": "'—Pngtree—vector house icon vector_4013530.png'"
                     }
                   }
                 },
@@ -29,7 +29,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "logo-MEL4793577676648533.jpg"
+                      "ItemName": "_Pngtree_vector_house_icon_vec7605104205871787.png"
                     }
                   }
                 },

@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "df0bc55d0ca5e8338768",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "dd55320231c9006ed000",
   "position": {
-    "x": 1094.6748466257668,
-    "y": 643.14110429447851,
-    "z": 7000,
-    "height": 75.386503067484668,
-    "width": 117.00613496932516,
-    "tabOrder": 7000
+    "x": 648.638036809816,
+    "y": 179.82822085889572,
+    "z": 4000,
+    "height": 109.15337423312883,
+    "width": 131.14110429447854,
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "image",
@@ -20,7 +20,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'logo-MEL.jpg'"
+                      "Value": "'—Pngtree—euro icon_3700417.png'"
                     }
                   }
                 },
@@ -29,7 +29,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "logo-MEL4793577676648533.jpg"
+                      "ItemName": "_Pngtree_euro_icon_37004170609937941141282.png"
                     }
                   }
                 },

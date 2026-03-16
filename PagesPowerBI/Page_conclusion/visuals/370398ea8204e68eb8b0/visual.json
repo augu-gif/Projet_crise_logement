@@ -1,12 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "df0bc55d0ca5e8338768",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "370398ea8204e68eb8b0",
   "position": {
-    "x": 1094.6748466257668,
-    "y": 643.14110429447851,
+    "x": 1082.1104294478528,
+    "y": 193.17791411042944,
     "z": 7000,
-    "height": 75.386503067484668,
-    "width": 117.00613496932516,
+    "height": 82.453987730061343,
+    "width": 113.079754601227,
     "tabOrder": 7000
   },
   "visual": {
@@ -20,7 +20,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'logo-MEL.jpg'"
+                      "Value": "'transparent-people-icon-png-vector-260nw-1952977219.png'"
                     }
                   }
                 },
@@ -29,7 +29,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "logo-MEL4793577676648533.jpg"
+                      "ItemName": "transparent-people-icon-png-ve8223562021952864.png"
                     }
                   }
                 },
