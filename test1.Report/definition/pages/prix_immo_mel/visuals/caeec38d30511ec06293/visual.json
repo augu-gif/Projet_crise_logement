@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "caeec38d30511ec06293",
   "position": {
     "x": 783,
     "y": 268,
-    "z": 1000,
+    "z": 0,
     "height": 452,
     "width": 497,
-    "tabOrder": 1000
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "ribbonChart",

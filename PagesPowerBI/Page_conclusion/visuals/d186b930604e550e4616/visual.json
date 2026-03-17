@@ -3,11 +3,11 @@
   "name": "d186b930604e550e4616",
   "position": {
     "x": 475.87730061349691,
-    "y": 311.75460122699388,
-    "z": 9000,
-    "height": 266.99386503067484,
+    "y": 304.68711656441718,
+    "z": 10000,
+    "height": 274.06134969325154,
     "width": 345.52147239263803,
-    "tabOrder": 9000
+    "tabOrder": 10
   },
   "visual": {
     "visualType": "textbox",
@@ -34,11 +34,48 @@
                   {
                     "value": "___________________________________",
                     "textStyle": {
+                      "fontSize": "11pt",
                       "color": "#d9b300"
                     }
                   }
                 ],
                 "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Sur 5 ans nous pouvons mobiliser près de  5 milliard d'euros ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Ce qui représente la rénovation d'environ 5000 logements et la construction de 300 logements sociaux",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -81,8 +118,8 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 4,
-                      "Percent": 0
+                      "ColorId": 3,
+                      "Percent": 0.2
                     }
                   }
                 }
@@ -158,39 +195,6 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
-                }
-              }
-            },
-            "background": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#3a3a3a'"
-                    }
-                  }
-                }
-              }
-            },
-            "border": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#3a3a3a'"
-                    }
-                  }
-                }
-              }
-            },
-            "foreground": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#FFFFFF'"
-                    }
-                  }
                 }
               }
             }

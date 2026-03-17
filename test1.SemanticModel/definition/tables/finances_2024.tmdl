@@ -1,13 +1,13 @@
-table Finance_mel_2024
+table finances_2024
 	lineageTag: 58a58f03-7107-4cc7-afc2-a39987f5c516
 
 	measure nouv_val_fiscal = ```
 			
 			SUMX(
-			    Finance_mel_2024,
-			    Finance_mel_2024[recettes_fiscales]-
-			    (Finance_mel_2024[base_FPB] * Finance_mel_2024[tx_FPB]) +
-			    (Finance_mel_2024[base_FPB] * (Finance_mel_2024[tx_FPB] +'Tx_fiscal_nouv'[Valeur Tx fiscal]))
+			    finances_2024,
+			    finances_2024[recettes_fiscales]-
+			    (finances_2024[base_FPB] * finances_2024[tx_FPB]) +
+			    (finances_2024[base_FPB] * (finances_2024[tx_FPB] +'Tx_fiscal_nouv'[Valeur Tx fiscal]))
 			)
 			
 			```
@@ -18,8 +18,8 @@ table Finance_mel_2024
 	measure Gain_fiscal = ```
 			
 			SUMX(
-			    Finance_mel_2024,
-			    Finance_mel_2024[nouv_val_fiscal] - Finance_mel_2024[recettes_fiscales] 
+			    finances_2024,
+			    finances_2024[nouv_val_fiscal] - finances_2024[recettes_fiscales] 
 			)
 			
 			```
@@ -31,8 +31,8 @@ table Finance_mel_2024
 	measure qte_logement_rea = ```
 			
 			SUMX(
-			    Finance_mel_2024,
-			    Finance_mel_2024[nouv_val_fiscal] - Finance_mel_2024[recettes_fiscales] 
+			    finances_2024,
+			    finances_2024[nouv_val_fiscal] - finances_2024[recettes_fiscales] 
 			)
 			```
 		formatString: 0
@@ -257,18 +257,18 @@ table Finance_mel_2024
 
 		annotation SummarizationSetBy = Automatic
 
-	partition Finance_mel_2024 = m
+	partition finances_2024 = m
 		mode: import
 		source =
 				let
-				    Source = Excel.Workbook(File.Contents("C:\Formation\crise_immo\Projet_crise_logement\dataset_bi\finances_publiques_mel.xlsx"), null, true),
-				    Sheet1_Sheet = Source{[Item="Sheet1",Kind="Sheet"]}[Data],
-				    #"En-têtes promus" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+				    Source = Excel.Workbook(File.Contents("C:/Users/augus/OneDrive/Documents/GitHub/Projet_crise_logement/dataset_bi/finances_publiques_mel.xlsx"), null, true),
+				    fiancnes_2024_Sheet = Source{[Item="finances_2024",Kind="Sheet"]}[Data],
+				    #"En-têtes promus" = Table.PromoteHeaders(fiancnes_2024_Sheet, [PromoteAllScalars=true]),
 				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"INSEE_x", Int64.Type}, {"LIBVILLE", type text}, {"CODE_POSTAL", Int64.Type}, {"LIB_COM_POSTAL", type text}, {"N_INSEE", Int64.Type}, {"COM", Int64.Type}, {"INSEE_y", Int64.Type}, {"SD", type number}, {"SC", type number}, {"solde", type number}, {"recettes_fiscales", type number}, {"recettes_non_fiscales", Int64.Type}, {"dotations", type number}, {"exceptionnels", Int64.Type}, {"recettes_totales", type number}, {"ville_dep_pays", type text}, {"LIBCOM", type text}, {"recettes_MEL", type number}, {"reversements_MEL", Int64.Type}, {"prelevements_MEL", Int64.Type}, {"solde_MEL", Int64.Type}})
 				in
 				    #"Type modifié"
 
-	changedProperty = Name
+	annotation PBI_ResultType = Exception
 
-	annotation PBI_ResultType = Table
+	annotation PBI_NavigationStepName = Navigation
 

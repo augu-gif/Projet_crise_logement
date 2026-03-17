@@ -22,7 +22,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Finance_mel_2024"
+                          "Entity": "finances_2024"
                         }
                       },
                       "Property": "SC"
@@ -42,7 +42,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Finance_mel_2024"
+                          "Entity": "finances_2024"
                         }
                       },
                       "Property": "SD"
@@ -62,7 +62,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Finance_mel_2024"
+                          "Entity": "finances_2024"
                         }
                       },
                       "Property": "solde"
@@ -87,7 +87,7 @@
                   "Column": {
                     "Expression": {
                       "SourceRef": {
-                        "Entity": "Finance_mel_2024"
+                        "Entity": "finances_2024"
                       }
                     },
                     "Property": "SC"

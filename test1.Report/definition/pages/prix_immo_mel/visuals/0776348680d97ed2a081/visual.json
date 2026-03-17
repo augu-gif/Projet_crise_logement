@@ -1,112 +1,33 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "21353f9c9bbeb0c067e3",
+  "name": "0776348680d97ed2a081",
   "position": {
     "x": 0,
-    "y": 210.89727453717478,
-    "z": 0,
-    "height": 112.83004187738851,
-    "width": 292.09272523398704,
-    "tabOrder": 0
+    "y": 0,
+    "z": 5000,
+    "height": 86,
+    "width": 1280,
+    "tabOrder": 5000
   },
   "visual": {
-    "visualType": "slicer",
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Tx_fiscal_nouv"
-                    }
-                  },
-                  "Property": "tx_fiscal"
-                }
-              },
-              "queryRef": "Tx fiscal.Tx fiscal",
-              "nativeQueryRef": "- Variation du taux fiscal",
-              "active": true,
-              "displayName": "- Variation du taux fiscal",
-              "format": "0.00"
-            }
-          ]
-        }
-      }
-    },
+    "visualType": "textbox",
     "objects": {
-      "data": [
-        {
-          "properties": {
-            "numericStart": {
-              "expr": {
-                "Literal": {
-
-                  "Value": "0D"
-
-                }
-              }
-            },
-            "mode": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Single'"
-                }
-              }
-            }
-          }
-        }
-      ],
       "general": [
         {
           "properties": {
-            "orientation": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
-                }
-              }
-            },
-            "filter": {
-              "filter": {
-                "Version": 2,
-                "From": [
+            "paragraphs": [
+              {
+                "textRuns": [
                   {
-                    "Name": "t",
-                    "Entity": "Tx_fiscal_nouv",
-                    "Type": 0
-                  }
-                ],
-                "Where": [
-                  {
-                    "Condition": {
-                      "Comparison": {
-                        "ComparisonKind": 0,
-                        "Left": {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Source": "t"
-                              }
-                            },
-                            "Property": "tx_fiscal"
-                          }
-                        },
-                        "Right": {
-                          "Literal": {
-
-                            "Value": "0D"
-
-                          }
-                        }
-                      }
+                    "value": "Évolution du prix de l'immobilier dans la MEL",
+                    "textStyle": {
+                      "fontSize": "28pt"
                     }
                   }
-                ]
+                ],
+                "horizontalTextAlignment": "center"
               }
-            }
+            ]
           }
         }
       ]
@@ -115,31 +36,10 @@
       "title": [
         {
           "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
             "titleWrap": {
               "expr": {
                 "Literal": {
                   "Value": "true"
-                }
-              }
-            },
-            "alignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "20D"
                 }
               }
             },
@@ -216,7 +116,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 3,
+                      "ColorId": 6,
                       "Percent": 0.4
                     }
                   }

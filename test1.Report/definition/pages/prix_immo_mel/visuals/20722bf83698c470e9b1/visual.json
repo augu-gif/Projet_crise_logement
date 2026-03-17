@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "20722bf83698c470e9b1",
   "position": {
     "x": 0,
     "y": 268,
-    "z": 7001,
+    "z": 4000,
     "height": 452,
     "width": 286,
-    "tabOrder": 7001
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "slicer",
@@ -20,7 +20,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Finance_mel_2024"
+                      "Entity": "finances_2024"
                     }
                   },
                   "Property": "LIB_COM_POSTAL"

@@ -20,7 +20,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Finance_mel_2024"
+                      "Entity": "finances_2024"
                     }
                   },
                   "Property": "LIB_COM_POSTAL"
@@ -41,7 +41,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Finance_mel_2024"
+                          "Entity": "finances_2024"
                         }
                       },
                       "Property": "tx_FPB"
@@ -111,7 +111,10 @@
             "zoom": {
               "expr": {
                 "Literal": {
+
                   "Value": "9.06D"
+
+
                 }
               }
             },
@@ -125,7 +128,9 @@
             "centerLongitude": {
               "expr": {
                 "Literal": {
+
                   "Value": "3.034220000000005D"
+
                 }
               }
             },
@@ -389,7 +394,7 @@
                                     "Column": {
                                       "Expression": {
                                         "SourceRef": {
-                                          "Entity": "Finance_mel_2024"
+                                          "Entity": "finances_2024"
                                         }
                                       },
                                       "Property": "tx_FPB"
@@ -423,7 +428,7 @@
                                         "Column": {
                                           "Expression": {
                                             "SourceRef": {
-                                              "Entity": "Finance_mel_2024"
+                                              "Entity": "finances_2024"
                                             }
                                           },
                                           "Property": "tx_FPB"
@@ -448,7 +453,7 @@
                                         "Column": {
                                           "Expression": {
                                             "SourceRef": {
-                                              "Entity": "Finance_mel_2024"
+                                              "Entity": "finances_2024"
                                             }
                                           },
                                           "Property": "tx_FPB"
@@ -482,7 +487,7 @@
                                     "Column": {
                                       "Expression": {
                                         "SourceRef": {
-                                          "Entity": "Finance_mel_2024"
+                                          "Entity": "finances_2024"
                                         }
                                       },
                                       "Property": "tx_FPB"

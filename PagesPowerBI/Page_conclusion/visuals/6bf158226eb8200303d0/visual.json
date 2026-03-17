@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "dd55320231c9006ed000",
+  "name": "6bf158226eb8200303d0",
   "position": {
-    "x": 640.42188529993416,
-    "y": 179.72313777191826,
-    "z": 5000,
-    "height": 108.84640738299275,
-    "width": 131.62821357943309,
-    "tabOrder": 5
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "height": 559.11656441717787,
+    "width": 1280,
+    "tabOrder": 12
   },
   "visual": {
     "visualType": "image",
@@ -20,7 +20,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'—Pngtree—euro icon_3700417.png'"
+                      "Value": "'Les Bords de Deûle © Light Motiv_2023_Lucas Dumortier-27-BD.jpg'"
                     }
                   }
                 },
@@ -29,7 +29,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "_Pngtree_euro_icon_37004175832633516542401.png"
+                      "ItemName": "Les_Bords_de_De_le___Light_Mot6829985709269323.jpg"
                     }
                   }
                 },
@@ -39,6 +39,28 @@
                       "Value": "'Normal'"
                     }
                   }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             }

@@ -4,10 +4,10 @@
   "position": {
     "x": 294,
     "y": 270,
-    "z": 5000,
+    "z": 2000,
     "height": 450,
     "width": 482,
-    "tabOrder": 5000
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "azureMap",
@@ -69,21 +69,27 @@
             "zoom": {
               "expr": {
                 "Literal": {
+
                   "Value": "9.06D"
+
                 }
               }
             },
             "centerLatitude": {
               "expr": {
                 "Literal": {
+
                   "Value": "50.64747607344657D"
+
                 }
               }
             },
             "centerLongitude": {
               "expr": {
                 "Literal": {
+
                   "Value": "3.0342199999999764D"
+
                 }
               }
             },
@@ -238,7 +244,9 @@
                                     "Column": {
                                       "Expression": {
                                         "SourceRef": {
+
                                           "Entity": "DVF_MEL"
+
                                         }
                                       },
                                       "Property": "prix_m2"
@@ -272,7 +280,9 @@
                                         "Column": {
                                           "Expression": {
                                             "SourceRef": {
+
                                               "Entity": "DVF_MEL"
+
                                             }
                                           },
                                           "Property": "prix_m2"
@@ -297,7 +307,9 @@
                                         "Column": {
                                           "Expression": {
                                             "SourceRef": {
+
                                               "Entity": "DVF_MEL"
+
                                             }
                                           },
                                           "Property": "prix_m2"
@@ -331,7 +343,9 @@
                                     "Column": {
                                       "Expression": {
                                         "SourceRef": {
+
                                           "Entity": "DVF_MEL"
+
                                         }
                                       },
                                       "Property": "prix_m2"

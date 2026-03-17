@@ -1,11 +1,11 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "f810dac92071de0cd553",
   "position": {
     "x": 0,
     "y": 0,
     "z": 3000,
-    "height": 91.748251748251747,
+    "height": 97.877389584706663,
     "width": 1280,
     "tabOrder": 3000
   },
@@ -54,7 +54,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -65,36 +65,13 @@
                 }
               }
             },
-            "alignment": {
+            "bold": {
               "expr": {
                 "Literal": {
-                  "Value": "'center'"
-                }
-              }
-            },
-            "underline": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }
-          }
-        }
-      ],
-      "spacing": [
-        {
-          "properties": {
-            "verticalSpacing": {
-              "expr": {
-                "Literal": {
-                  "Value": "2D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
           }
         }
       ],
@@ -112,8 +89,9 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "Literal": {
-                      "Value": "'#3a3a3a'"
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
                     }
                   }
                 }
@@ -139,17 +117,29 @@
                 }
               }
             },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 5,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            },
             "radius": {
               "expr": {
                 "Literal": {
-                  "Value": "10D"
+                  "Value": "25D"
                 }
               }
             },
             "width": {
               "expr": {
                 "Literal": {
-                  "Value": "1D"
+                  "Value": "6D"
                 }
               }
             }

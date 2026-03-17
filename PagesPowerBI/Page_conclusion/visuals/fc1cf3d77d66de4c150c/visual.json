@@ -3,11 +3,11 @@
   "name": "fc1cf3d77d66de4c150c",
   "position": {
     "x": 76.957055214723923,
-    "y": 311.75460122699388,
-    "z": 8000,
-    "height": 266.99386503067484,
+    "y": 304.68711656441718,
+    "z": 9000,
+    "height": 274.06134969325154,
     "width": 287.41104294478527,
-    "tabOrder": 8000
+    "tabOrder": 9
   },
   "visual": {
     "visualType": "textbox",
@@ -32,13 +32,68 @@
               {
                 "textRuns": [
                   {
-                    "value": "_________________________________",
+                    "value": "___________________________________",
                     "textStyle": {
+                      "fontSize": "11pt",
                       "color": "#d9b300"
                     }
                   }
                 ],
                 "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Il y'a de nombreux logements  vacants dans la MEL ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Coût de rénovation inférieur à celui du neuf  ",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "•Grand nombre de personnes sans abris",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -81,8 +136,8 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 4,
-                      "Percent": 0
+                      "ColorId": 3,
+                      "Percent": 0.2
                     }
                   }
                 }
@@ -158,39 +213,6 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
-                }
-              }
-            },
-            "background": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#3a3a3a'"
-                    }
-                  }
-                }
-              }
-            },
-            "border": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#3a3a3a'"
-                    }
-                  }
-                }
-              }
-            },
-            "foreground": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#FFFFFF'"
-                    }
-                  }
                 }
               }
             }

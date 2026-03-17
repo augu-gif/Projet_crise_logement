@@ -4,10 +4,10 @@
   "position": {
     "x": 959.60736196319021,
     "y": 131.14110429447854,
-    "z": 5000,
+    "z": 6000,
     "height": 164.90797546012269,
     "width": 235.58282208588957,
-    "tabOrder": 5000
+    "tabOrder": 6
   },
   "visual": {
     "visualType": "textbox",
@@ -19,7 +19,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "Logements constructibles",
+                    "value": "Logements mobilisables",
                     "textStyle": {
                       "fontWeight": "bold",
                       "fontSize": "12pt",
@@ -32,13 +32,31 @@
               {
                 "textRuns": [
                   {
-                    "value": "_______________________________",
+                    "value": "___________________________________________",
                     "textStyle": {
                       "color": "#ffffff"
                     }
                   }
                 ],
                 "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " 5000",
+                    "textStyle": {
+                      "fontSize": "36pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
               }
             ]
           }
@@ -81,8 +99,8 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 4,
-                      "Percent": 0
+                      "ColorId": 3,
+                      "Percent": 0.2
                     }
                   }
                 }
@@ -158,39 +176,6 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
-                }
-              }
-            },
-            "background": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#3a3a3a'"
-                    }
-                  }
-                }
-              }
-            },
-            "border": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#3a3a3a'"
-                    }
-                  }
-                }
-              }
-            },
-            "foreground": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#FFFFFF'"
-                    }
-                  }
                 }
               }
             }

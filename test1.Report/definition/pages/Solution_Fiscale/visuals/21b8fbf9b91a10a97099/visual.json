@@ -20,7 +20,7 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "Finance_mel_2024"
+                      "Entity": "finances_2024"
                     }
                   },
                   "Property": "LIB_COM_POSTAL"
@@ -92,6 +92,13 @@
             }
           }
         }
+
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
+
       ]
     },
     "visualContainerObjects": {

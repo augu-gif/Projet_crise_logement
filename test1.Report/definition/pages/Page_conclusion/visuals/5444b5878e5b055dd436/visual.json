@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "5444b5878e5b055dd436",
   "position": {
-    "x": 231.19314436387609,
-    "y": 188.16084377059988,
-    "z": 2000,
+    "x": 230.34937376400794,
+    "y": 167.06657877389586,
+    "z": 3000,
     "height": 91.970995385629536,
     "width": 121.50296638101517,
-    "tabOrder": 2000
+    "tabOrder": 3
   },
   "visual": {
     "visualType": "image",
@@ -29,7 +29,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "_Pngtree_vector_house_icon_vec7605104205871787.png"
+                      "ItemName": "_Pngtree_vector_house_icon_vec857253572245497.png"
                     }
                   }
                 },

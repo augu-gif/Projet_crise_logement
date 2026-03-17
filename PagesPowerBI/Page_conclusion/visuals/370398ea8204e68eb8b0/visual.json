@@ -4,10 +4,10 @@
   "position": {
     "x": 1082.1104294478528,
     "y": 193.17791411042944,
-    "z": 7000,
+    "z": 8000,
     "height": 82.453987730061343,
     "width": 113.079754601227,
-    "tabOrder": 7000
+    "tabOrder": 8
   },
   "visual": {
     "visualType": "image",
@@ -29,7 +29,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "transparent-people-icon-png-ve8223562021952864.png"
+                      "ItemName": "transparent-people-icon-png-ve8723631524573247.png"
                     }
                   }
                 },

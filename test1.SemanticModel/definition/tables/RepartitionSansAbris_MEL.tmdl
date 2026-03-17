@@ -213,11 +213,13 @@ table RepartitionSansAbris_MEL
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("C:\Formation\crise_immo\Projet_crise_logement\dataset_bi\RepartitionSansAbris_MEL.csv"),[Delimiter=",", Columns=22, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    Source = Csv.Document(File.Contents("C:\Users\augus\OneDrive\Documents\GitHub\Projet_crise_logement\dataset_bi\RepartitionSansAbris_MEL.csv"),[Delimiter=",", Columns=22, Encoding=65001, QuoteStyle=QuoteStyle.None]),
 				    #"En-têtes promus" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"INSEE", Int64.Type}, {"LIBVILLE", type text}, {"CODE_POSTAL", Int64.Type}, {"N_INSEE", Int64.Type}, {"Population", Int64.Type}, {"sans_abris_2020", Int64.Type}, {"sans_abris_2021", Int64.Type}, {"sans_abris_2022", Int64.Type}, {"sans_abris_2023", Int64.Type}, {"sans_abris_2024", Int64.Type}, {"sans_abris_2025", Int64.Type}, {"sans_abris_2026", Int64.Type}, {"sans_abris_2027", Int64.Type}, {"sans_abris_2028", Int64.Type}, {"sans_abris_2029", Int64.Type}, {"sans_abris_2030", Int64.Type}, {"sans_abris_2031", Int64.Type}, {"sans_abris_2032", Int64.Type}, {"sans_abris_2033", Int64.Type}, {"sans_abris_2034", Int64.Type}, {"sans_abris_2035", Int64.Type}, {"sans_abris_2036", Int64.Type}})
 				in
 				    #"Type modifié"
 
-	annotation PBI_ResultType = Table
+	annotation PBI_ResultType = Exception
+
+	annotation PBI_NavigationStepName = Navigation
 

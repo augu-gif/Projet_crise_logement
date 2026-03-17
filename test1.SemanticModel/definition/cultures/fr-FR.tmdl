@@ -8,7 +8,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024"
+			          "ConceptualEntity": "finances_2024"
 			        }
 			      },
 			      "State": "Generated",
@@ -36,7 +36,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.INSEE_x": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "INSEE_x"
 			        }
 			      },
@@ -65,7 +65,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.libville": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "LIBVILLE"
 			        }
 			      },
@@ -81,7 +81,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.code_postal": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "CODE_POSTAL"
 			        }
 			      },
@@ -124,7 +124,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.lib_com_postal": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "LIB_COM_POSTAL"
 			        }
 			      },
@@ -147,7 +147,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.n_insee": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "N_INSEE"
 			        }
 			      },
@@ -170,7 +170,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.com": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "COM"
 			        }
 			      },
@@ -186,7 +186,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.INSEE_y": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "INSEE_y"
 			        }
 			      },
@@ -215,7 +215,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.sd": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "SD"
 			        }
 			      },
@@ -231,7 +231,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.sc": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "SC"
 			        }
 			      },
@@ -247,7 +247,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.solde": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "solde"
 			        }
 			      },
@@ -263,7 +263,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.recettes_fiscale": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "recettes_fiscales"
 			        }
 			      },
@@ -293,7 +293,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.recettes_non_fiscale": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "recettes_non_fiscales"
 			        }
 			      },
@@ -323,7 +323,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.dotation": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "dotations"
 			        }
 			      },
@@ -339,7 +339,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.exceptionnel": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "exceptionnels"
 			        }
 			      },
@@ -355,7 +355,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.recettes_totale": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "recettes_totales"
 			        }
 			      },
@@ -385,7 +385,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.ville_dep_pay": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "ville_dep_pays"
 			        }
 			      },
@@ -508,7 +508,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.libcom": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "LIBCOM"
 			        }
 			      },
@@ -524,7 +524,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.recettes_MEL": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "recettes_MEL"
 			        }
 			      },
@@ -554,7 +554,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.reversements_MEL": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "reversements_MEL"
 			        }
 			      },
@@ -584,7 +584,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.prelevements_MEL": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "prelevements_MEL"
 			        }
 			      },
@@ -614,7 +614,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.solde_MEL": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "solde_MEL"
 			        }
 			      },
@@ -637,7 +637,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.produit_FPB": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "produit_FPB"
 			        }
 			      },
@@ -660,7 +660,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.tx_FPB": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "tx_FPB"
 			        }
 			      },
@@ -689,7 +689,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.base_FPB": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "base_FPB"
 			        }
 			      },
@@ -718,7 +718,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.nouv_val_fiscal": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "nouv_val_fiscal"
 			        }
 			      },
@@ -741,7 +741,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.gain_fiscal": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "Gain_fiscal"
 			        }
 			      },
@@ -770,7 +770,7 @@ cultureInfo fr-FR
 			    "finance_mel_2024.qte_logement_rea": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Finance_mel_2024",
+			          "ConceptualEntity": "finances_2024",
 			          "ConceptualProperty": "qte_logement_rea"
 			        }
 			      },
@@ -6452,7 +6452,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_finances_mel_5an": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -11235,7 +11235,9 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
+
 			    "per_inv_log_has_mesure_nb_logement_2027": {
+
 			      "Binding": {
 			        "ConceptualEntity": "per_inv_log"
 			      },
@@ -11334,7 +11336,9 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
+
 			    "dvf_mel_has_mesure_nb_logement_2027": {
+
 			      "Binding": {
 			        "ConceptualEntity": "DVF_MEL"
 			      },
@@ -12495,7 +12499,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_qte_logement_rea": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -12561,7 +12565,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_gain_fiscal": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -12627,7 +12631,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_nouv_val_fiscal": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -12660,7 +12664,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_base_FPB": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -12693,7 +12697,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_tx_FPB": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -12726,7 +12730,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_produit_FPB": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -12759,7 +12763,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_solde_MEL": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -12792,7 +12796,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_prelevements_MEL": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -12825,7 +12829,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_reversements_MEL": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -12858,7 +12862,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_recettes_MEL": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -12891,7 +12895,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_libcom": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -12924,7 +12928,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_ville_dep_pay": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -12957,7 +12961,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_recettes_totale": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13017,7 +13021,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_exceptionnel": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13050,7 +13054,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_dotation": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13083,7 +13087,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_recettes_non_fiscale": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13116,7 +13120,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_recettes_fiscale": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13149,7 +13153,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_solde": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13182,7 +13186,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_sc": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13215,7 +13219,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_sd": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13248,7 +13252,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_INSEE_y": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13281,7 +13285,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_com": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13314,7 +13318,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_n_insee": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13347,7 +13351,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_lib_com_postal": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13380,7 +13384,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_code_postal": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13413,7 +13417,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_libville": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13446,7 +13450,7 @@ cultureInfo fr-FR
 			    },
 			    "finance_mel_2024_has_INSEE_x": {
 			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
+			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
