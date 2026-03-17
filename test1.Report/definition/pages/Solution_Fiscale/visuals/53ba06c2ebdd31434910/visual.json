@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "f04d5e63811457bb34db",
+  "name": "53ba06c2ebdd31434910",
   "position": {
-    "x": 306.09714997435714,
-    "y": 532.16890126260773,
-    "z": 6000,
-    "height": 188.05968691235012,
-    "width": 479.15207463306228,
-    "tabOrder": 6000
+    "x": 800.25398686106439,
+    "y": 89.0282560382934,
+    "z": 8000,
+    "height": 235.07460864043765,
+    "width": 480.15239211663862,
+    "tabOrder": 8000
   },
   "visual": {
-    "visualType": "barChart",
+    "visualType": "funnel",
     "query": {
       "queryState": {
         "Y": {
@@ -23,10 +23,10 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "cout_invest_2027"
+                  "Property": "logment_vacant2027"
                 }
               },
-              "queryRef": "mesures.cout_invest_2027",
+              "queryRef": "mesures.logment_vacant2027",
               "nativeQueryRef": "2027",
               "displayName": "2027"
             },
@@ -38,10 +38,10 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "cout_invest_2028"
+                  "Property": "logment_vacant2028"
                 }
               },
-              "queryRef": "mesures.cout_invest_2028",
+              "queryRef": "mesures.logment_vacant2028",
               "nativeQueryRef": "2028",
               "displayName": "2028"
             },
@@ -53,10 +53,10 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "cout_invest_2029"
+                  "Property": "logment_vacant2029"
                 }
               },
-              "queryRef": "mesures.cout_invest_2029",
+              "queryRef": "mesures.logment_vacant2029",
               "nativeQueryRef": "2029",
               "displayName": "2029"
             },
@@ -68,10 +68,10 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "cout_invest_2030"
+                  "Property": "logment_vacant2030"
                 }
               },
-              "queryRef": "mesures.cout_invest_2030",
+              "queryRef": "mesures.logment_vacant2030",
               "nativeQueryRef": "2030",
               "displayName": "2030"
             },
@@ -83,10 +83,10 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "cout_invest_2031"
+                  "Property": "logment_vacant2031"
                 }
               },
-              "queryRef": "mesures.cout_invest_2031",
+              "queryRef": "mesures.logment_vacant2031",
               "nativeQueryRef": "2031",
               "displayName": "2031"
             }
@@ -103,7 +103,7 @@
                     "Entity": "mesures"
                   }
                 },
-                "Property": "cout_invest_2027"
+                "Property": "logment_vacant2027"
               }
             },
             "direction": "Descending"
@@ -113,161 +113,97 @@
       }
     },
     "objects": {
-      "layout": [
-        {
-          "properties": {
-            "seriesOrderSorted": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "stackedGapSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "3D"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "legend": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "position": {
-              "expr": {
-                "Literal": {
-                  "Value": "'BottomRight'"
-                }
-              }
-            },
-            "showTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "bold": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "showGradientLegend": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "zoom": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "ribbonBands": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "borderShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "borderColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 4,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      ],
       "categoryAxis": [
         {
-          "properties": {
-            "innerPadding": {
-              "expr": {
-                "Literal": {
-                  "Value": "20L"
-                }
-              }
-            }
-          }
+          "properties": {}
         }
       ],
       "dataPoint": [
         {
           "properties": {
-            "borderShow": {
+            "showAllDataPoints": {
               "expr": {
                 "Literal": {
                   "Value": "true"
                 }
               }
-            },
-            "borderSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "2D"
-                }
-              }
-            },
-            "borderColorMatchFill": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "borderColor": {
+            }
+          }
+        },
+        {
+          "properties": {
+            "fill": {
               "solid": {
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 0,
+                      "ColorId": 3,
                       "Percent": 0
                     }
                   }
                 }
               }
             }
+          },
+          "selector": {
+            "metadata": "mesures.logment_vacant2028"
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "mesures.logment_vacant2029"
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "mesures.logment_vacant2030"
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "mesures.logment_vacant2031"
           }
         }
       ],
@@ -277,14 +213,14 @@
             "labelDisplayUnits": {
               "expr": {
                 "Literal": {
-                  "Value": "1000000D"
+                  "Value": "1D"
                 }
               }
             },
             "labelPrecision": {
               "expr": {
                 "Literal": {
-                  "Value": "2L"
+                  "Value": "0L"
                 }
               }
             },
@@ -302,51 +238,10 @@
                 }
               }
             },
-            "optimizeLabelDisplay": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "labelContainerMaxWidth": {
-              "expr": {
-                "Literal": {
-                  "Value": "100D"
-                }
-              }
-            },
-            "labelOverflow": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
             "fontSize": {
               "expr": {
                 "Literal": {
                   "Value": "10D"
-                }
-              }
-            },
-            "enableTitleDataLabel": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "totals": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
                 }
               }
             }
@@ -361,7 +256,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Montant investi '"
+                  "Value": "'Potentiel de Réhabilitation du Parc Logement'"
                 }
               }
             },
@@ -485,7 +380,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 3,
+                      "ColorId": 4,
                       "Percent": 0.4
                     }
                   }

@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "f04d5e63811457bb34db",
+  "name": "c617cf8ed0e804660672",
   "position": {
-    "x": 306.09714997435714,
+    "x": 800.25398686106439,
     "y": 532.16890126260773,
-    "z": 6000,
+    "z": 9000,
     "height": 188.05968691235012,
-    "width": 479.15207463306228,
-    "tabOrder": 6000
+    "width": 480.15239211663862,
+    "tabOrder": 9000
   },
   "visual": {
-    "visualType": "barChart",
+    "visualType": "funnel",
     "query": {
       "queryState": {
         "Y": {
@@ -23,12 +23,11 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "cout_invest_2027"
+                  "Property": "nb_sdf_2027"
                 }
               },
-              "queryRef": "mesures.cout_invest_2027",
-              "nativeQueryRef": "2027",
-              "displayName": "2027"
+              "queryRef": "mesures.nb_sdf_2027",
+              "nativeQueryRef": "nb_sdf_2027"
             },
             {
               "field": {
@@ -38,12 +37,11 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "cout_invest_2028"
+                  "Property": "nb_sdf_2028"
                 }
               },
-              "queryRef": "mesures.cout_invest_2028",
-              "nativeQueryRef": "2028",
-              "displayName": "2028"
+              "queryRef": "mesures.nb_sdf_2028",
+              "nativeQueryRef": "nb_sdf_2028"
             },
             {
               "field": {
@@ -53,12 +51,11 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "cout_invest_2029"
+                  "Property": "nb_sdf_2029"
                 }
               },
-              "queryRef": "mesures.cout_invest_2029",
-              "nativeQueryRef": "2029",
-              "displayName": "2029"
+              "queryRef": "mesures.nb_sdf_2029",
+              "nativeQueryRef": "nb_sdf_2029"
             },
             {
               "field": {
@@ -68,12 +65,11 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "cout_invest_2030"
+                  "Property": "nb_sdf_2030"
                 }
               },
-              "queryRef": "mesures.cout_invest_2030",
-              "nativeQueryRef": "2030",
-              "displayName": "2030"
+              "queryRef": "mesures.nb_sdf_2030",
+              "nativeQueryRef": "nb_sdf_2030"
             },
             {
               "field": {
@@ -83,12 +79,11 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "cout_invest_2031"
+                  "Property": "nb_sdf_2031"
                 }
               },
-              "queryRef": "mesures.cout_invest_2031",
-              "nativeQueryRef": "2031",
-              "displayName": "2031"
+              "queryRef": "mesures.nb_sdf_2031",
+              "nativeQueryRef": "nb_sdf_2031"
             }
           ]
         }
@@ -103,7 +98,7 @@
                     "Entity": "mesures"
                   }
                 },
-                "Property": "cout_invest_2027"
+                "Property": "nb_sdf_2027"
               }
             },
             "direction": "Descending"
@@ -113,162 +108,14 @@
       }
     },
     "objects": {
-      "layout": [
-        {
-          "properties": {
-            "seriesOrderSorted": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "stackedGapSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "3D"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "legend": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "position": {
-              "expr": {
-                "Literal": {
-                  "Value": "'BottomRight'"
-                }
-              }
-            },
-            "showTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "bold": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "showGradientLegend": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "zoom": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "ribbonBands": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "borderShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "borderColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 4,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      ],
       "categoryAxis": [
         {
-          "properties": {
-            "innerPadding": {
-              "expr": {
-                "Literal": {
-                  "Value": "20L"
-                }
-              }
-            }
-          }
+          "properties": {}
         }
       ],
       "dataPoint": [
         {
-          "properties": {
-            "borderShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "borderSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "2D"
-                }
-              }
-            },
-            "borderColorMatchFill": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "borderColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            }
-          }
+          "properties": {}
         }
       ],
       "labels": [
@@ -277,14 +124,14 @@
             "labelDisplayUnits": {
               "expr": {
                 "Literal": {
-                  "Value": "1000000D"
+                  "Value": "1D"
                 }
               }
             },
             "labelPrecision": {
               "expr": {
                 "Literal": {
-                  "Value": "2L"
+                  "Value": "0L"
                 }
               }
             },
@@ -302,51 +149,10 @@
                 }
               }
             },
-            "optimizeLabelDisplay": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "labelContainerMaxWidth": {
-              "expr": {
-                "Literal": {
-                  "Value": "100D"
-                }
-              }
-            },
-            "labelOverflow": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
             "fontSize": {
               "expr": {
                 "Literal": {
                   "Value": "10D"
-                }
-              }
-            },
-            "enableTitleDataLabel": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "totals": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
                 }
               }
             }
@@ -361,7 +167,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Montant investi '"
+                  "Value": "' Sortir de la Rue : Objectif Relogement'"
                 }
               }
             },
@@ -484,9 +290,8 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 3,
-                      "Percent": 0.4
+                    "Literal": {
+                      "Value": "'#F79A7E'"
                     }
                   }
                 }
