@@ -2363,6 +2363,16 @@ cultureInfo fr-FR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "2027": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -4137,6 +4147,16 @@ cultureInfo fr-FR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "2028": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -4159,6 +4179,16 @@ cultureInfo fr-FR
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2029": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -4183,6 +4213,16 @@ cultureInfo fr-FR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "2030": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -4205,6 +4245,16 @@ cultureInfo fr-FR
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2031": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -6140,6 +6190,194 @@ cultureInfo fr-FR
 			          }
 			        }
 			      ]
+			    },
+			    "mesure.log_vacant_2027": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "Log_vacant_2027"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "log vacant 2027": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Log_vacant_2027": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.logment_vacant_2027": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "logment_vacant2027"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "logment vacant 2027": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "logment_vacant2027": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2027": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.logment_vacant_2028": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "logment_vacant2028"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "logment vacant 2028": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "logment_vacant2028": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2028": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.logment_vacant_2029": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "logment_vacant2029"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "logment vacant 2029": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "logment_vacant2029": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2029": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.logment_vacant_2030": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "logment_vacant2030"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "logment vacant 2030": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "logment_vacant2030": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2030": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.logment_vacant_2031": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "logment_vacant2031"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "logment vacant 2031": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "logment_vacant2031": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2031": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
@@ -6516,6 +6754,864 @@ cultureInfo fr-FR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "finances_2024_have_finances_mel_5ans"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_logment_vacant_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.logment_vacant_2031": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_logment_vacant_2031"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_logment_vacant_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.logment_vacant_2031": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_logment_vacant_2031"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_logment_vacant_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.logment_vacant_2031": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_logment_vacant_2031"
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl_has_mesure_logment_vacant_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        },
+			        "mesure.logment_vacant_2031": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_vacants_MEL_exploitabls_have_logment_vacant_2031"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_logment_vacant_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.logment_vacant_2031": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_logment_vacant_2031"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_logment_vacant_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.logment_vacant_2030": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_logment_vacant_2030"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_logment_vacant_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.logment_vacant_2030": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_logment_vacant_2030"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_logment_vacant_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.logment_vacant_2030": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_logment_vacant_2030"
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl_has_mesure_logment_vacant_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        },
+			        "mesure.logment_vacant_2030": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_vacants_MEL_exploitabls_have_logment_vacant_2030"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_logment_vacant_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.logment_vacant_2030": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_logment_vacant_2030"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_logment_vacant_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.logment_vacant_2029": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_logment_vacant_2029"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_logment_vacant_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.logment_vacant_2029": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_logment_vacant_2029"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_logment_vacant_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.logment_vacant_2029": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_logment_vacant_2029"
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl_has_mesure_logment_vacant_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        },
+			        "mesure.logment_vacant_2029": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_vacants_MEL_exploitabls_have_logment_vacant_2029"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_logment_vacant_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.logment_vacant_2029": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_logment_vacant_2029"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_logment_vacant_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.logment_vacant_2028": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_logment_vacant_2028"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_logment_vacant_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.logment_vacant_2028": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_logment_vacant_2028"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_logment_vacant_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.logment_vacant_2028": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_logment_vacant_2028"
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl_has_mesure_logment_vacant_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        },
+			        "mesure.logment_vacant_2028": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_vacants_MEL_exploitabls_have_logment_vacant_2028"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_logment_vacant_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.logment_vacant_2028": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_logment_vacant_2028"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_logment_vacant_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.logment_vacant_2027": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_logment_vacant_2027"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_logment_vacant_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.logment_vacant_2027": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_logment_vacant_2027"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_logment_vacant_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.logment_vacant_2027": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_logment_vacant_2027"
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl_has_mesure_logment_vacant_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        },
+			        "mesure.logment_vacant_2027": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_vacants_MEL_exploitabls_have_logment_vacant_2027"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_logment_vacant_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.logment_vacant_2027": {
+			          "Target": {
+			            "Entity": "mesure.logment_vacant_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.logment_vacant_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_logment_vacant_2027"
+			        }
+			      ]
+			    },
+			    "mesure_has_log_vacant_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "mesures"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mesure": {
+			          "Target": {
+			            "Entity": "mesure"
+			          }
+			        },
+			        "mesure.log_vacant_2027": {
+			          "Target": {
+			            "Entity": "mesure.log_vacant_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mesure"
+			            },
+			            "Object": {
+			              "Role": "mesure.log_vacant_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measures_have_log_vacant_2027"
 			        }
 			      ]
 			    },

@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "cd66bc433a5c508bdc69",
   "position": {
-    "x": 801.0448316697682,
-    "y": 406.06597868380987,
+    "x": 800.25398686106439,
+    "y": 333.105722030918,
     "z": 2000,
-    "height": 314.59719167653526,
-    "width": 479.51818643207577,
+    "height": 188.05968691235012,
+    "width": 480.15239211663862,
     "tabOrder": 2000
   },
   "visual": {
@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "mesures.nb_logement_2027",
-              "nativeQueryRef": "nb_logement"
+              "nativeQueryRef": "2027",
+              "displayName": "2027"
             },
             {
               "field": {
@@ -41,7 +42,8 @@
                 }
               },
               "queryRef": "mesures.nb_logement_2028",
-              "nativeQueryRef": "nb_logement_2028"
+              "nativeQueryRef": "2028",
+              "displayName": "2028"
             },
             {
               "field": {
@@ -55,7 +57,8 @@
                 }
               },
               "queryRef": "mesures.nb_logement_2029",
-              "nativeQueryRef": "nb_logement_2029"
+              "nativeQueryRef": "2029",
+              "displayName": "2029"
             },
             {
               "field": {
@@ -69,7 +72,8 @@
                 }
               },
               "queryRef": "mesures.nb_logement_2030",
-              "nativeQueryRef": "nb_logement_2030"
+              "nativeQueryRef": "2030",
+              "displayName": "2030"
             },
             {
               "field": {
@@ -83,7 +87,8 @@
                 }
               },
               "queryRef": "mesures.nb_logement_2031",
-              "nativeQueryRef": "nb_logement_2031"
+              "nativeQueryRef": "2031",
+              "displayName": "2031"
             }
           ]
         }
@@ -343,7 +348,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Logement suplementaire'"
+                  "Value": "'Parc de Logements Réhabilités'"
                 }
               }
             },
@@ -467,7 +472,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 3,
+                      "ColorId": 4,
                       "Percent": 0.4
                     }
                   }

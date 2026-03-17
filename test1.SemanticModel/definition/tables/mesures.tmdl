@@ -58,6 +58,54 @@ table mesures
 	measure Log_vacant_2027
 		lineageTag: 14fa3671-915a-4486-a211-180d88bd77c4
 
+	measure logment_vacant2027 = sum(LogementsVacants_MEL_Exploitabl[pp_vacant_plus_2ans_24]) - [nb_logement_2027]
+		formatString: 0
+		lineageTag: 38045907-5519-4e2d-a5bc-ffebf1a51818
+
+	measure logment_vacant2028 = [logment_vacant2027] - [nb_logement_2028]
+		lineageTag: 8a769c54-9fc0-4384-b70d-502bebfca90f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure logment_vacant2029 = [logment_vacant2028] - [nb_logement_2029]
+		lineageTag: 7f463820-e7f6-4663-a056-0b1f701fd88c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure logment_vacant2030 = [logment_vacant2029] - [nb_logement_2030]
+		lineageTag: 39db8c25-4992-4fbb-aaf9-fce24dea8de4
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure logment_vacant2031 = [logment_vacant2030] - [nb_logement_2031]
+		lineageTag: 84653480-8187-4e45-8eb0-1a9de783bd3e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure nb_sdf_2027 = [Scorecard Value] - [nb_logement_2027]
+		lineageTag: 346e1577-c608-4200-9214-4f992acb9adc
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure nb_sdf_2028 = [nb_sdf_2027] - [nb_logement_2028]
+		lineageTag: 11389d94-e80e-4ffb-bd78-f285fccad792
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure nb_sdf_2029 = [nb_sdf_2028] - [nb_logement_2029]
+		lineageTag: cfdcc3a1-6bd1-428c-b316-fcded9a75c4d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure nb_sdf_2031 = [nb_sdf_2030] - [nb_logement_2031]
+		formatString: 0
+		lineageTag: 898b3495-db87-4f52-bdd9-480e7409d6af
+
+	measure nb_sdf_2030 = [nb_sdf_2029] - [nb_logement_2030]
+		lineageTag: 69d234c3-291c-4013-bf92-fbdce575a5d3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column impact_taux_impot
 		formatString: 0
 		lineageTag: c9a19479-54f2-4f1a-9ff3-6cf2ff04887d

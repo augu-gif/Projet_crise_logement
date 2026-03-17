@@ -2,15 +2,15 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "a6409be0b94c06d201a4",
   "position": {
-    "x": 305.80104807890342,
-    "y": 88.5768553056134,
+    "x": 306.09714997435714,
+    "y": 89.0282560382934,
     "z": 5000,
-    "height": 314.2369390603904,
-    "width": 479.7912995720726,
+    "height": 235.07460864043765,
+    "width": 479.15207463306228,
     "tabOrder": 5000
   },
   "visual": {
-    "visualType": "barChart",
+    "visualType": "funnel",
     "query": {
       "queryState": {
         "Y": {
@@ -123,78 +123,10 @@
       }
     },
     "objects": {
-      "layout": [
+      "dataPoint": [
         {
           "properties": {
-            "seriesOrderSorted": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "stackedGapSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "3D"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "legend": [
-        {
-          "properties": {
-            "showGradientLegend": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "position": {
-              "expr": {
-                "Literal": {
-                  "Value": "'BottomRight'"
-                }
-              }
-            },
-            "bold": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "showTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "titleText": {
-              "expr": {
-                "Literal": {
-                  "Value": "''"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "zoom": [
-        {
-          "properties": {
-            "show": {
+            "showAllDataPoints": {
               "expr": {
                 "Literal": {
                   "Value": "true"
@@ -202,90 +134,99 @@
               }
             }
           }
-        }
-      ],
-      "ribbonBands": [
+        },
+        {
+          "properties": {},
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 1
+                }
+              }
+            ]
+          }
+        },
         {
           "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
-            },
-            "borderShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "borderColor": {
+            }
+          },
+          "selector": {
+            "metadata": "finances_mel_5ans.base_fiscal_2028"
+          }
+        },
+        {
+          "properties": {
+            "fill": {
               "solid": {
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
                       "ColorId": 4,
-                      "Percent": 0
+                      "Percent": -0.25
                     }
                   }
                 }
               }
             }
+          },
+          "selector": {
+            "metadata": "finances_mel_5ans.base_fiscal_2029"
           }
-        }
-      ],
-      "dataPoint": [
+        },
         {
           "properties": {
-            "borderShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "borderColorMatchFill": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "borderColor": {
+            "fill": {
               "solid": {
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
+                      "ColorId": 6,
+                      "Percent": -0.25
                     }
                   }
                 }
               }
-            },
-            "borderSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "2D"
+            }
+          },
+          "selector": {
+            "metadata": "finances_mel_5ans.base_fiscal_2031"
+          }
+        },
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": 0.2
+                    }
+                  }
                 }
               }
             }
+          },
+          "selector": {
+            "metadata": "finances_mel_5ans.base_fiscal_2030"
           }
         }
       ],
       "categoryAxis": [
         {
-          "properties": {
-            "innerPadding": {
-              "expr": {
-                "Literal": {
-                  "Value": "20L"
-                }
-              }
-            }
-          }
+          "properties": {}
         }
       ],
       "labels": [
@@ -302,34 +243,6 @@
               "expr": {
                 "Literal": {
                   "Value": "'InsideEnd'"
-                }
-              }
-            },
-            "labelOverflow": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "optimizeLabelDisplay": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "labelContainerMaxWidth": {
-              "expr": {
-                "Literal": {
-                  "Value": "100D"
-                }
-              }
-            },
-            "enableTitleDataLabel": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
                 }
               }
             },
