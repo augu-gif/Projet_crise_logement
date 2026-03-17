@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "f57df259bd3e4a089c9b",
   "position": {
     "x": 84.024539877300612,
@@ -22,7 +22,6 @@
                     "value": "Objectifs du projet :",
                     "textStyle": {
                       "fontWeight": "bold",
-                      "fontFamily": "Candara",
                       "textDecoration": "underline",
                       "color": "#ffffff"
                     }

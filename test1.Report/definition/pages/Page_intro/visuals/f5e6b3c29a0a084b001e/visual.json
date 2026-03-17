@@ -1,12 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "f5e6b3c29a0a084b001e",
   "position": {
-    "x": 490.01226993865032,
-    "y": 251.28834355828221,
+    "x": 490.23071852340149,
+    "y": 251.44363876071196,
     "z": 6000,
-    "height": 332.95705521472394,
-    "width": 299.97546012269936,
+    "height": 187.31707317073173,
+    "width": 299.53856295319713,
     "tabOrder": 6000
   },
   "visual": {
@@ -65,10 +65,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "La Métropole Européenne de Lille (MEL), avec sa forte densité et son attractivité économique, est particulièrement concernée par ces tensions, ce qui rend nécessaire une analyse pour identifier des leviers fiscaux  afin de réduire le nombre de sans-abris.",
-                    "textStyle": {
-                      "color": "#ffffff"
-                    }
+                    "value": ""
                   }
                 ]
               },
