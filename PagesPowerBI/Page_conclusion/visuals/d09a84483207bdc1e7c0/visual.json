@@ -4,10 +4,10 @@
   "position": {
     "x": 73.030674846625772,
     "y": 587.38650306748468,
-    "z": 6000,
+    "z": 7000,
     "height": 120.14723926380368,
     "width": 1149.6441717791411,
-    "tabOrder": 6000
+    "tabOrder": 7
   },
   "visual": {
     "visualType": "textbox",
@@ -70,8 +70,8 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 4,
-                      "Percent": 0
+                      "ColorId": 3,
+                      "Percent": 0.2
                     }
                   }
                 }
@@ -147,39 +147,6 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
-                }
-              }
-            },
-            "background": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#3a3a3a'"
-                    }
-                  }
-                }
-              }
-            },
-            "border": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#3a3a3a'"
-                    }
-                  }
-                }
-              }
-            },
-            "foreground": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#FFFFFF'"
-                    }
-                  }
                 }
               }
             }

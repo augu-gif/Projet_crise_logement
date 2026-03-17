@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "769b685916cb8037c830",
   "position": {
     "x": 964,
@@ -22,7 +22,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Finance_mel_2024"
+                          "Entity": "finances_2024"
                         }
                       },
                       "Property": "recettes_fiscales"
@@ -43,7 +43,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Finance_mel_2024"
+                          "Entity": "finances_2024"
                         }
                       },
                       "Property": "recettes_non_fiscales"
@@ -63,7 +63,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Finance_mel_2024"
+                          "Entity": "finances_2024"
                         }
                       },
                       "Property": "reversements_MEL"
@@ -83,7 +83,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Finance_mel_2024"
+                          "Entity": "finances_2024"
                         }
                       },
                       "Property": "prelevements_MEL"
@@ -103,7 +103,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Finance_mel_2024"
+                          "Entity": "finances_2024"
                         }
                       },
                       "Property": "recettes_MEL"
@@ -128,7 +128,7 @@
                   "Column": {
                     "Expression": {
                       "SourceRef": {
-                        "Entity": "Finance_mel_2024"
+                        "Entity": "finances_2024"
                       }
                     },
                     "Property": "recettes_fiscales"

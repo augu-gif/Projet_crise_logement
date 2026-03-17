@@ -23,7 +23,7 @@ table Constat_SDF_France
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("C:\Formation\crise_immo\Projet_crise_logement\dataset_bi\Constat_SDF_France.csv"),[Delimiter=",", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    Source = Csv.Document(File.Contents("C:\Users\augus\OneDrive\Documents\GitHub\Projet_crise_logement\dataset_bi\Constat_SDF_France.csv"),[Delimiter=",", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),
 				    #"Type modifié" = Table.TransformColumnTypes(Source,{{"Column1", Int64.Type}, {"Column2", Int64.Type}})
 				in
 				    #"Type modifié"

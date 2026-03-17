@@ -4,10 +4,10 @@
   "position": {
     "x": 102.08588957055214,
     "y": 131.14110429447854,
-    "z": 1000,
+    "z": 2000,
     "height": 164.90797546012269,
     "width": 236.3680981595092,
-    "tabOrder": 1000
+    "tabOrder": 2
   },
   "visual": {
     "visualType": "textbox",
@@ -44,13 +44,6 @@
                 "textRuns": [
                   {
                     "value": ""
-                  }
-                ]
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": "\t"
                   }
                 ]
               },

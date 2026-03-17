@@ -5,11 +5,17 @@ relationship 5032b89d-5f21-435b-b4eb-ae75afce22bb
 
 relationship AutoDetected_89b9c3ba-f819-4e1a-9bf9-6e3014459c0c
 	fromColumn: DVF_MEL.LIB_COM_POSTAL
-	toColumn: Finance_mel_2024.LIB_COM_POSTAL
+	toColumn: finances_2024.LIB_COM_POSTAL
 
 relationship AutoDetected_9956bf0c-199f-41f4-bab2-e0219d69bf30
 	crossFilteringBehavior: bothDirections
 	fromCardinality: one
 	fromColumn: finances_mel_5ans.2026_LIB_COM_POSTAL
-	toColumn: Finance_mel_2024.LIB_COM_POSTAL
+	toColumn: finances_2024.LIB_COM_POSTAL
+
+relationship 8c37aa80-3431-ecae-fc3b-c9b99a12af94
+	crossFilteringBehavior: bothDirections
+	toCardinality: many
+	fromColumn: logements_sociaux_MEL_clean.'Libéllé Commune'
+	toColumn: LogementsVacants_MEL_Exploitabl.LIBGEO_25
 

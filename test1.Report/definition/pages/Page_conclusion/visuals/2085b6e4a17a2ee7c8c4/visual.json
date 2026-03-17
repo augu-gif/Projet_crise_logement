@@ -4,10 +4,10 @@
   "position": {
     "x": 959.60736196319021,
     "y": 131.14110429447854,
-    "z": 5000,
+    "z": 6000,
     "height": 164.90797546012269,
     "width": 235.58282208588957,
-    "tabOrder": 5000
+    "tabOrder": 6
   },
   "visual": {
     "visualType": "textbox",
@@ -19,7 +19,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "Logements constructibles",
+                    "value": "Logements mobilisables",
                     "textStyle": {
                       "fontWeight": "bold",
                       "fontSize": "12pt",
@@ -39,6 +39,24 @@
                   }
                 ],
                 "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " 5000",
+                    "textStyle": {
+                      "fontSize": "36pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
               }
             ]
           }

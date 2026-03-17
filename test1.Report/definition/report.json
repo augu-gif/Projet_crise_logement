@@ -70,18 +70,23 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "_Pngtree_euro_icon_37004170609937941141282.png",
-          "path": "_Pngtree_euro_icon_37004170609937941141282.png",
+          "name": "_Pngtree_euro_icon_37004175832633516542401.png",
+          "path": "_Pngtree_euro_icon_37004175832633516542401.png",
           "type": "Image"
         },
         {
-          "name": "_Pngtree_vector_house_icon_vec7605104205871787.png",
-          "path": "_Pngtree_vector_house_icon_vec7605104205871787.png",
+          "name": "_Pngtree_vector_house_icon_vec857253572245497.png",
+          "path": "_Pngtree_vector_house_icon_vec857253572245497.png",
           "type": "Image"
         },
         {
           "name": "arriere_plan_page_intro17833154984647515.jpg",
           "path": "arriere_plan_page_intro17833154984647515.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "Les_Bords_de_De_le___Light_Mot9391390832818166.jpg",
+          "path": "Les_Bords_de_De_le___Light_Mot9391390832818166.jpg",
           "type": "Image"
         },
         {
@@ -95,8 +100,8 @@
           "type": "Image"
         },
         {
-          "name": "transparent-people-icon-png-ve8223562021952864.png",
-          "path": "transparent-people-icon-png-ve8223562021952864.png",
+          "name": "transparent-people-icon-png-ve4938222588905097.png",
+          "path": "transparent-people-icon-png-ve4938222588905097.png",
           "type": "Image"
         }
       ]

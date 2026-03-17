@@ -91,12 +91,14 @@ table DVF_MEL
 		mode: import
 		source =
 				let
-				    Source = Excel.Workbook(File.Contents("C:\Formation\crise_immo\Projet_crise_logement\dataset_bi\DVF_MEL.xlsx"), null, true),
+				    Source = Excel.Workbook(File.Contents("C:\Users\augus\OneDrive\Documents\GitHub\Projet_crise_logement\dataset_bi\DVF_MEL.xlsx"), null, true),
 				    DVF_MEL_Sheet = Source{[Item="DVF_MEL",Kind="Sheet"]}[Data],
 				    #"En-têtes promus" = Table.PromoteHeaders(DVF_MEL_Sheet, [PromoteAllScalars=true]),
 				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"Date mutation", type date}, {"Commune", type text}, {"Code postal", Int64.Type}, {"Nature mutation", type text}, {"Type local", type text}, {"Valeur fonciere", type number}, {"Surface reelle bati", Int64.Type}, {"prix_m2", type number}, {"LIB_COM_POSTAL", type text}})
 				in
 				    #"Type modifié"
 
-	annotation PBI_ResultType = Table
+	annotation PBI_ResultType = Exception
+
+	annotation PBI_NavigationStepName = Navigation
 

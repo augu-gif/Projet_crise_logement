@@ -4,10 +4,10 @@
   "position": {
     "x": 294,
     "y": 270,
-    "z": 5000,
+    "z": 2000,
     "height": 450,
     "width": 482,
-    "tabOrder": 5000
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "azureMap",
@@ -69,21 +69,21 @@
             "zoom": {
               "expr": {
                 "Literal": {
-                  "Value": "11.69D"
+                  "Value": "0D"
                 }
               }
             },
             "centerLatitude": {
               "expr": {
                 "Literal": {
-                  "Value": "50.70609100767399D"
+                  "Value": "0D"
                 }
               }
             },
             "centerLongitude": {
               "expr": {
                 "Literal": {
-                  "Value": "3.10015999999996D"
+                  "Value": "0D"
                 }
               }
             },
@@ -224,7 +224,7 @@
                                     "Column": {
                                       "Expression": {
                                         "SourceRef": {
-                                          "Entity": "Finance_mel_2024"
+                                          "Entity": "finances_2024"
                                         }
                                       },
                                       "Property": "solde"
@@ -258,7 +258,7 @@
                                         "Column": {
                                           "Expression": {
                                             "SourceRef": {
-                                              "Entity": "Finance_mel_2024"
+                                              "Entity": "finances_2024"
                                             }
                                           },
                                           "Property": "solde"
@@ -283,7 +283,7 @@
                                         "Column": {
                                           "Expression": {
                                             "SourceRef": {
-                                              "Entity": "Finance_mel_2024"
+                                              "Entity": "finances_2024"
                                             }
                                           },
                                           "Property": "solde"
@@ -317,7 +317,7 @@
                                     "Column": {
                                       "Expression": {
                                         "SourceRef": {
-                                          "Entity": "Finance_mel_2024"
+                                          "Entity": "finances_2024"
                                         }
                                       },
                                       "Property": "solde"

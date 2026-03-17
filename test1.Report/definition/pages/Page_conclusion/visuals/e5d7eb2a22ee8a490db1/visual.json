@@ -3,11 +3,11 @@
   "name": "e5d7eb2a22ee8a490db1",
   "position": {
     "x": 932.12269938650309,
-    "y": 311.75460122699388,
-    "z": 10000,
-    "height": 266.99386503067484,
+    "y": 304.68711656441718,
+    "z": 11000,
+    "height": 274.06134969325154,
     "width": 290.55214723926383,
-    "tabOrder": 10000
+    "tabOrder": 11
   },
   "visual": {
     "visualType": "textbox",
@@ -32,13 +32,95 @@
               {
                 "textRuns": [
                   {
-                    "value": "______________________________",
+                    "value": "_______________________________",
                     "textStyle": {
                       "color": "#d9b300"
                     }
                   }
                 ],
                 "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Aides à la rénovation",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Taxe sur les logements vacants",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Prime à la remise sur le marché rapide",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#ffffff"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
               }
             ]
           }

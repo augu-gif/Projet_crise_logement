@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "f7dfd990007b1e22ae8a",
   "position": {
     "x": 324.98939016514441,
@@ -22,7 +22,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Finance_mel_2024"
+                          "Entity": "finances_2024"
                         }
                       },
                       "Property": "SC"
@@ -42,7 +42,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Finance_mel_2024"
+                          "Entity": "finances_2024"
                         }
                       },
                       "Property": "SD"
@@ -62,7 +62,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Finance_mel_2024"
+                          "Entity": "finances_2024"
                         }
                       },
                       "Property": "solde"
@@ -87,7 +87,7 @@
                   "Column": {
                     "Expression": {
                       "SourceRef": {
-                        "Entity": "Finance_mel_2024"
+                        "Entity": "finances_2024"
                       }
                     },
                     "Property": "SC"
