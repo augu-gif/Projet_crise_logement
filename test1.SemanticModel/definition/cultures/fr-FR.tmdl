@@ -11235,9 +11235,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-
 			    "per_inv_log_has_mesure_nb_logement_2027": {
-
 			      "Binding": {
 			        "ConceptualEntity": "per_inv_log"
 			      },
@@ -11336,9 +11334,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-
 			    "dvf_mel_has_mesure_nb_logement_2027": {
-
 			      "Binding": {
 			        "ConceptualEntity": "DVF_MEL"
 			      },

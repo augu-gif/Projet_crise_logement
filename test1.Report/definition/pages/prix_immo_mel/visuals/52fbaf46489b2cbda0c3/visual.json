@@ -69,27 +69,21 @@
             "zoom": {
               "expr": {
                 "Literal": {
-
-                  "Value": "9.06D"
-
+                  "Value": "0D"
                 }
               }
             },
             "centerLatitude": {
               "expr": {
                 "Literal": {
-
-                  "Value": "50.64747607344657D"
-
+                  "Value": "0D"
                 }
               }
             },
             "centerLongitude": {
               "expr": {
                 "Literal": {
-
-                  "Value": "3.0342199999999764D"
-
+                  "Value": "0D"
                 }
               }
             },
@@ -244,9 +238,7 @@
                                     "Column": {
                                       "Expression": {
                                         "SourceRef": {
-
                                           "Entity": "DVF_MEL"
-
                                         }
                                       },
                                       "Property": "prix_m2"
@@ -280,9 +272,7 @@
                                         "Column": {
                                           "Expression": {
                                             "SourceRef": {
-
                                               "Entity": "DVF_MEL"
-
                                             }
                                           },
                                           "Property": "prix_m2"
@@ -307,9 +297,7 @@
                                         "Column": {
                                           "Expression": {
                                             "SourceRef": {
-
                                               "Entity": "DVF_MEL"
-
                                             }
                                           },
                                           "Property": "prix_m2"
@@ -343,9 +331,7 @@
                                     "Column": {
                                       "Expression": {
                                         "SourceRef": {
-
                                           "Entity": "DVF_MEL"
-
                                         }
                                       },
                                       "Property": "prix_m2"

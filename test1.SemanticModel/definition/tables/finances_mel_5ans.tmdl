@@ -596,7 +596,7 @@ table finances_mel_5ans
 		mode: import
 		source =
 				let
-				    Source = Excel.Workbook(File.Contents("C:\Users\augus\OneDrive\Documents\GitHub\Projet_crise_logement\dataset_bi\finances_mel_5ans.xlsx"), null, true),
+				    Source = Excel.Workbook(File.Contents("C:\Formation\crise_immo\Projet_crise_logement\dataset_bi\finances_mel_5ans.xlsx"), null, true),
 				    finances_mel_5ans_Sheet = Source{[Item="finances_mel_5ans",Kind="Sheet"]}[Data],
 				    #"En-têtes promus" = Table.PromoteHeaders(finances_mel_5ans_Sheet, [PromoteAllScalars=true])
 				in

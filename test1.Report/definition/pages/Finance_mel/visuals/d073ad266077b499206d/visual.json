@@ -52,25 +52,6 @@
               },
               "queryRef": "Min(Finance_mel_2024.tx_FPB)",
               "nativeQueryRef": "Premier tx_FPB"
-            },
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Finance_mel_2024"
-                        }
-                      },
-                      "Property": "solde"
-                    }
-                  },
-                  "Function": 0
-                }
-              },
-              "queryRef": "Sum(Sheet1.solde)",
-              "nativeQueryRef": "Somme de solde"
             }
           ]
         }
@@ -111,26 +92,21 @@
             "zoom": {
               "expr": {
                 "Literal": {
-
-                  "Value": "9.06D"
-
-
+                  "Value": "0D"
                 }
               }
             },
             "centerLatitude": {
               "expr": {
                 "Literal": {
-                  "Value": "50.64747607344654D"
+                  "Value": "0D"
                 }
               }
             },
             "centerLongitude": {
               "expr": {
                 "Literal": {
-
-                  "Value": "3.034220000000005D"
-
+                  "Value": "0D"
                 }
               }
             },

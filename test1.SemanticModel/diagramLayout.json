@@ -4,9 +4,7 @@
     {
       "ordinal": 0,
       "scrollPosition": {
-
         "x": 0,
-
         "y": 0
       },
       "nodes": [
@@ -60,26 +58,11 @@
             "height": 224,
             "width": 234
           },
-
           "zIndex": 2
         },
         {
           "location": {
-            "x": 726.40105516523863,
-            "y": 267.41327342821319
-          },
-          "nodeIndex": "Finance_mel_2024",
-          "nodeLineageTag": "58a58f03-7107-4cc7-afc2-a39987f5c516",
-          "size": {
-            "height": 536,
-            "width": 234
-          },
-          "zIndex": 5
-
-        },
-        {
-          "location": {
-            "x": 298.39985521358943,
+            "x": 209.06903956241894,
             "y": 0
           },
           "nodeIndex": "finances_mel_5ans",
@@ -93,7 +76,7 @@
         {
           "location": {
             "x": 0,
-            "y": 135.85810713901537
+            "y": 0
           },
           "nodeIndex": "mesures",
           "nodeLineageTag": "6a3fa6fe-2f48-4905-823e-b628bf605d75",
@@ -118,10 +101,8 @@
         },
         {
           "location": {
-
             "x": 1639.7186931159158,
             "y": 0
-
           },
           "nodeIndex": "LogementsVacants_MEL_Exploitabl",
           "nodeLineageTag": "c86be2a1-94a4-4e73-a128-296e9fc405c8",
@@ -159,15 +140,16 @@
         },
         {
           "location": {
-            "x": 771.66734894216688,
-            "y": 135.8581071390154
+            "x": 726.40105516523863,
+            "y": 267.41327342821319
           },
           "nodeIndex": "finances_2024",
+          "nodeLineageTag": "58a58f03-7107-4cc7-afc2-a39987f5c516",
           "size": {
             "height": 536,
             "width": 234
           },
-          "zIndex": 4
+          "zIndex": 5
         }
       ],
       "name": "Toutes les tables",

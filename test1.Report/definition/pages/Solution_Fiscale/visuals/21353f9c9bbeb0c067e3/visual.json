@@ -43,9 +43,7 @@
             "numericStart": {
               "expr": {
                 "Literal": {
-
                   "Value": "0D"
-
                 }
               }
             },
@@ -96,9 +94,7 @@
                         },
                         "Right": {
                           "Literal": {
-
                             "Value": "0D"
-
                           }
                         }
                       }
