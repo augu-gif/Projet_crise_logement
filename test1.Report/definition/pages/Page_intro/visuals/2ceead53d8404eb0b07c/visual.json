@@ -1,12 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "2ceead53d8404eb0b07c",
   "position": {
-    "x": 980.80981595092021,
-    "y": 251.28834355828221,
+    "x": 980.461437046803,
+    "y": 251.44363876071196,
     "z": 4000,
-    "height": 248.93251533742333,
-    "width": 214.38036809815952,
+    "height": 283.50692155570209,
+    "width": 214.31773236651287,
     "tabOrder": 4000
   },
   "visual": {
@@ -55,10 +55,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "Les logements sociaux sont-ils bien répartis dans la MEL  ?",
-                    "textStyle": {
-                      "color": "#ffffff"
-                    }
+                    "value": "Comment la fiscalité locale peut-elle être utilisée pour favoriser la construction ou la transformation de logements ?"
                   }
                 ]
               },
@@ -72,10 +69,14 @@
               {
                 "textRuns": [
                   {
-                    "value": "Quelles corrélations peut-on établir entre l’évolution des prix, le parc locatif et l’augmentation du nombre de SDF ?",
-                    "textStyle": {
-                      "color": "#ffffff"
-                    }
+                    "value": "Dans quelle mesure la vacance de logements contribue-t-elle à la crise du logement dans la MEL ?"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
                   }
                 ]
               }
