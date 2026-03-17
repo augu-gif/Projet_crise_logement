@@ -1,12 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "21353f9c9bbeb0c067e3",
   "position": {
-    "x": 305.68122667837321,
-    "y": 0,
+    "x": 0,
+    "y": 210.89727453717478,
     "z": 0,
-    "height": 128.43749020099716,
-    "width": 292.83747765827349,
+    "height": 112.83004187738851,
+    "width": 292.09272523398704,
     "tabOrder": 0
   },
   "visual": {
@@ -27,8 +27,9 @@
                 }
               },
               "queryRef": "Tx fiscal.Tx fiscal",
-              "nativeQueryRef": "Tx fiscal",
+              "nativeQueryRef": "- Variation du taux fiscal",
               "active": true,
+              "displayName": "- Variation du taux fiscal",
               "format": "0.00"
             }
           ]
@@ -42,7 +43,7 @@
             "numericStart": {
               "expr": {
                 "Literal": {
-                  "Value": "9.399999999999983D"
+                  "Value": "0D"
                 }
               }
             },
@@ -93,7 +94,7 @@
                         },
                         "Right": {
                           "Literal": {
-                            "Value": "9.399999999999983D"
+                            "Value": "0D"
                           }
                         }
                       }

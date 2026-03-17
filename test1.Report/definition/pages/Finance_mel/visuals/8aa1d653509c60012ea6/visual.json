@@ -1,123 +1,29 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "6918d84278102bcec0c5",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "8aa1d653509c60012ea6",
   "position": {
-    "x": 305.68122667837321,
-    "y": 272.28747922611393,
+    "x": 0,
+    "y": 0,
     "z": 4000,
-    "height": 134.85936471104702,
-    "width": 974.84055062556843,
+    "height": 79.086477951440543,
+    "width": 1280.1464564406508,
     "tabOrder": 4000
   },
   "visual": {
-    "visualType": "cardVisual",
-    "query": {
-      "queryState": {
-        "Data": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "mesures"
-                    }
-                  },
-                  "Property": "cout_invest_2027"
-                }
-              },
-              "queryRef": "mesures.cout_invest_2027",
-              "nativeQueryRef": "cout_invest_2027"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "mesures"
-                    }
-                  },
-                  "Property": "cout_invest_2028"
-                }
-              },
-              "queryRef": "mesures.cout_invest_2028",
-              "nativeQueryRef": "cout_invest_2028"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "mesures"
-                    }
-                  },
-                  "Property": "cout_invest_2029"
-                }
-              },
-              "queryRef": "mesures.cout_invest_2029",
-              "nativeQueryRef": "cout_invest_2029"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "mesures"
-                    }
-                  },
-                  "Property": "cout_invest_2030"
-                }
-              },
-              "queryRef": "mesures.cout_invest_2030",
-              "nativeQueryRef": "cout_invest_2030"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "mesures"
-                    }
-                  },
-                  "Property": "cout_invest_2031"
-                }
-              },
-              "queryRef": "mesures.cout_invest_2031",
-              "nativeQueryRef": "cout_invest_2031"
-            }
-          ]
-        }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Measure": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "mesures"
-                  }
-                },
-                "Property": "cout_invest_2027"
-              }
-            },
-            "direction": "Descending"
-          }
-        ],
-        "isDefaultSort": true
-      }
-    },
+    "visualType": "textbox",
     "objects": {
-      "layout": [
+      "general": [
         {
           "properties": {
-            "columnCount": {
-              "expr": {
-                "Literal": {
-                  "Value": "5L"
-                }
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
               }
-            }
+            ]
           }
         }
       ]
@@ -126,6 +32,13 @@
       "title": [
         {
           "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Cartographie et Indicateurs Fiscaux de la MEL'"
+                }
+              }
+            },
             "show": {
               "expr": {
                 "Literal": {
@@ -147,6 +60,18 @@
                 }
               }
             },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            },
             "alignment": {
               "expr": {
                 "Literal": {
@@ -157,7 +82,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "20D"
+                  "Value": "36D"
                 }
               }
             },
@@ -261,6 +186,13 @@
       "visualHeader": [
         {
           "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
             "background": {
               "solid": {
                 "color": {
@@ -291,6 +223,45 @@
                       "Value": "'#FFFFFF'"
                     }
                   }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "divider": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualTooltip": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

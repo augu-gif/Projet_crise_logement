@@ -1,12 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "b9adbc2461468b62ed39",
   "position": {
-    "x": 612.64682825875639,
-    "y": 0,
+    "x": 0,
+    "y": 88.5768553056134,
     "z": 3000,
-    "height": 125.8687403969772,
-    "width": 292.83747765827349,
+    "height": 112.83004187738851,
+    "width": 292.09272523398704,
     "tabOrder": 3000
   },
   "visual": {
@@ -27,8 +27,9 @@
                 }
               },
               "queryRef": "per_inv_log.per_inv_log",
-              "nativeQueryRef": "per_inv_log",
-              "active": true
+              "nativeQueryRef": "- Taux d’investissement",
+              "active": true,
+              "displayName": "- Taux d’investissement"
             }
           ]
         }
@@ -41,7 +42,7 @@
             "numericStart": {
               "expr": {
                 "Literal": {
-                  "Value": "1D"
+                  "Value": "11.5D"
                 }
               }
             }
@@ -78,7 +79,7 @@
                         },
                         "Right": {
                           "Literal": {
-                            "Value": "1D"
+                            "Value": "11.5D"
                           }
                         }
                       }
@@ -116,6 +117,18 @@
                 }
               }
             },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            },
             "alignment": {
               "expr": {
                 "Literal": {
@@ -126,7 +139,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "20D"
+                  "Value": "14D"
                 }
               }
             },
@@ -230,6 +243,13 @@
       "visualHeader": [
         {
           "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
             "background": {
               "solid": {
                 "color": {
@@ -260,6 +280,45 @@
                       "Value": "'#FFFFFF'"
                     }
                   }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "divider": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualTooltip": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

@@ -1,12 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "769b685916cb8037c830",
   "position": {
-    "x": 964,
-    "y": 15,
+    "x": 321.11111111111109,
+    "y": 86.666666666666671,
     "z": 2000,
-    "height": 695,
-    "width": 307,
+    "height": 633.33333333333337,
+    "width": 265.55555555555554,
     "tabOrder": 2000
   },
   "visual": {
@@ -204,7 +204,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Puissance fiscale communale'"
+                  "Value": "'Potentiel Fiscal Communal'"
                 }
               }
             },
@@ -215,10 +215,29 @@
                 }
               }
             },
+            "heading": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Heading4'"
+                }
+              }
+            },
             "titleWrap": {
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": -0.25
+                    }
+                  }
                 }
               }
             },
@@ -232,7 +251,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "20D"
+                  "Value": "14D"
                 }
               }
             },
@@ -320,6 +339,13 @@
       "visualHeader": [
         {
           "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
             "background": {
               "solid": {
                 "color": {
@@ -369,6 +395,45 @@
           },
           "selector": {
             "id": "default"
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "divider": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualTooltip": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
           }
         }
       ]

@@ -2245,13 +2245,6 @@ cultureInfo fr-FR
 			          }
 			        },
 			        {
-			          "measure": {
-			            "Type": "Noun",
-			            "State": "Deleted",
-			            "LastModified": "2026-03-16T11:46:40.664Z"
-			          }
-			        },
-			        {
 			          "degree": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -2312,6 +2305,13 @@ cultureInfo fr-FR
 			          }
 			        },
 			        {
+			          "measure": {
+			            "Type": "Noun",
+			            "State": "Deleted",
+			            "LastModified": "2026-03-16T11:46:40.664Z"
+			          }
+			        },
+			        {
 			          "mesure": {
 			            "State": "Deleted",
 			            "LastModified": "2026-03-16T11:46:34.766Z"
@@ -2342,7 +2342,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "mesure.nb_logement": {
+			    "mesure.nb_logement_2027": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "mesures",
@@ -2352,12 +2352,12 @@ cultureInfo fr-FR
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "nb logement": {
+			          "nb logement 2027": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "nb_logement": {
+			          "nb_logement_2027": {
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
@@ -2365,7 +2365,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "mesure.cout_invest": {
+			    "mesure.cout_invest_2027": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "mesures",
@@ -2375,12 +2375,12 @@ cultureInfo fr-FR
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "cout invest": {
+			          "cout invest 2027": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "cout_invest": {
+			          "cout_invest_2027": {
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
@@ -2435,6 +2435,16 @@ cultureInfo fr-FR
 			          "fiscal": {
 			            "State": "Generated",
 			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "- Variation du taux fiscal": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -2617,6 +2627,16 @@ cultureInfo fr-FR
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "- Taux d’investissement": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -3953,6 +3973,2170 @@ cultureInfo fr-FR
 			          }
 			        }
 			      ]
+			    },
+			    "mesure.cout_invest_2028": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "cout_invest_2028"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cout invest 2028": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cout_invest_2028": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.cout_invest_2029": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "cout_invest_2029"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cout invest 2029": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cout_invest_2029": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.cout_invest_2030": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "cout_invest_2030"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cout invest 2030": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cout_invest_2030": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.cout_invest_2031": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "cout_invest_2031"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cout invest 2031": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cout_invest_2031": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.nb_logement_2028": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "nb_logement_2028"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb logement 2028": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nb_logement_2028": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.nb_logement_2029": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "nb_logement_2029"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb logement 2029": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nb_logement_2029": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.nb_logement_2030": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "nb_logement_2030"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb logement 2030": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nb_logement_2030": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.nb_logement_2031": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "nb_logement_2031"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb logement 2031": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nb_logement_2031": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.recette_fiscal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "recette_fiscal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recette fiscal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "recette_fiscal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.recette_2027": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "recette_2027"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recette 2027": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "recette_2027": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2027": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.recette_2028": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "recette_2028"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recette 2028": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "recette_2028": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2028": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.base_fiscal_2028": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "base_fiscal_2028"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "base fiscal 2028": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "base_fiscal_2028": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fiscal 2028": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "2028": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.recette_2029": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "recette_2029"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recette 2029": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "recette_2029": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2029": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.recette_2030": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "recette_2030"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recette 2030": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "recette_2030": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2030": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.recette_2031": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "recette_2031"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recette 2031": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "recette_2031": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2031": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.recette_2032": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "recette_2032"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recette 2032": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "recette_2032": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.tx_base": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "tx_base"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tx base": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tx_base": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "base": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "tx headquarters": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "tx center": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "tx seat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "tx station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "headquarters": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "center": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "seat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "tx pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.base_fiscal_2029": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "base_fiscal_2029"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "base fiscal 2029": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "base_fiscal_2029": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fiscal 2029": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "2029": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.base_fiscal_2030": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "base_fiscal_2030"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "base fiscal 2030": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "base_fiscal_2030": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fiscal 2030": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "2030": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.base_fiscal_2031": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "base_fiscal_2031"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "base fiscal 2031": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "base_fiscal_2031": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fiscal 2031": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "2031": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.base_fiscal_2032": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "base_fiscal_2032"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "base fiscal 2032": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "base_fiscal_2032": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fiscal 2032": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "finances_mel_5an.tx_modif": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "finances_mel_5ans",
+			          "ConceptualProperty": "tx_modif"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tx modif": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tx_modif": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "logements vacants MEL exploitabl": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "logement vacant MEL exploitabl": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "LogementsVacants_MEL_Exploitabl": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl.codgeo_25": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LogementsVacants_MEL_Exploitabl",
+			          "ConceptualProperty": "CODGEO_25"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codgeo 25": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CODGEO_25": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl.libgeo_25": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LogementsVacants_MEL_Exploitabl",
+			          "ConceptualProperty": "LIBGEO_25"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "libgeo 25": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "LIBGEO_25": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl.pp_total_24": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LogementsVacants_MEL_Exploitabl",
+			          "ConceptualProperty": "pp_total_24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pp total 24": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pp_total_24": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "pp aggregate 24": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "pp overall 24": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl.pp_vacant_24": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LogementsVacants_MEL_Exploitabl",
+			          "ConceptualProperty": "pp_vacant_24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pp vacant 24": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pp_vacant_24": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl.pp_vacant_plus_2ans_24": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LogementsVacants_MEL_Exploitabl",
+			          "ConceptualProperty": "pp_vacant_plus_2ans_24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pp vacant plus 2ans 24": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pp vacant plus 2an 24": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "pp_vacant_plus_2ans_24": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl.pourcentage_de_logement_vacant_24": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LogementsVacants_MEL_Exploitabl",
+			          "ConceptualProperty": "pourcentage_de_logement_vacant_24"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pourcentage de logement vacant 24": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pourcentage_de_logement_vacant_24": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl.pourcentage_de_logement_vacant_24_de_plus_de_deux_ans": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LogementsVacants_MEL_Exploitabl",
+			          "ConceptualProperty": "pourcentage_de_logement_vacant_24_de_plus_de_deux_ans"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pourcentage de logement vacant 24 de plus de deux ans": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "logements sociaux MEL clean": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "logement sociaux MEL clean": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "logements_sociaux_MEL_clean": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.libéllé_commune": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Libéllé Commune"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "libéllé commune": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "libéllé community": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "libéllé cooperative": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "libéllé collective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.code_postal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Code Postal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "code postal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id postal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "key postal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.code_IRIS__code_de_la_zone": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Code IRIS - Code de la zone"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "code IRIS - code de la zone": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "code IRIS code de la zone": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.type_de_construction__libellé": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Type de construction - Libellé"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "type de construction - libellé": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "type de construction libellé": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "category de construction - libellé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "genre de construction - libellé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "manner de construction - libellé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "variety de construction - libellé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "category de construction libellé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "genre de construction libellé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "manner de construction libellé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "variety de construction libellé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "brand de construction - libellé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "class de construction - libellé": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.année_de_construction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Année de construction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "année de construction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "année de edifice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "année de creation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "année de erection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "année de building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "année de structure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "année de assembly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "année de production": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "année de formation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "année de composition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "année de manufacture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.année_de_première_mise_en_location": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Année de première mise en location"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "année de première mise en location": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.année_dentrée_dans_le_patrimoine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Année d’entrée dans le patrimoine"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "année d’entrée dans le patrimoine": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "année d’entrée dan le patrimoine": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.etiquette_DPE_energie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Etiquette DPE Energie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "etiquette DPE energie": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.etiquette_DPE_GES": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Etiquette DPE GES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "etiquette DPE GES": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "GES": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "DPE GES": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.situation_en_QPV__libellé": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Situation en QPV - Libellé"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "situation en QPV - libellé": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "situation en QPV libellé": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.code_QPV_2024": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Code QPV 2024"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "code QPV 2024": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "QPV 2024": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "id qpv 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "key qpv 2024": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.financement_initial__libellé": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Financement initial - Libellé"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "financement initial - libellé": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "financement initial libellé": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.convention_APL": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "Convention APL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "convention APL": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "APL": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.passoire_energetique": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "passoire_energetique"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "passoire energetique": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "passoire_energetique": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.logement_qpv": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "logement_qpv"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "logement qpv": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "logement_qpv": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean.age_logement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "logements_sociaux_MEL_clean",
+			          "ConceptualProperty": "age_logement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "age logement": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_logement": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "constat_SDF_france": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Constat_SDF_France"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "constat SDF france": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Constat_SDF_France": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "constat_SDF_france.column_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Constat_SDF_France",
+			          "ConceptualProperty": "Column1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "constat_SDF_france.column_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Constat_SDF_France",
+			          "ConceptualProperty": "Column2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "data.entity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data",
+			          "ConceptualProperty": "Entity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "entity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "thing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "creature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "object": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "article": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "being": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "individual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "body": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "data.code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data",
+			          "ConceptualProperty": "Code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "data.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "data.street": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data",
+			          "ConceptualProperty": "streets"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "street": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "road": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "highway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "thoroughfare": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boulevard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "path": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lane": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "motorway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "avenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pathway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "way": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "data.shelter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data",
+			          "ConceptualProperty": "shelters"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "shelter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "accommodation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "housing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "lodging": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "protection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "sanctuary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "asylum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "cover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "refuge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "haven": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "data.either": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data",
+			          "ConceptualProperty": "Either"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "either": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
@@ -4296,6 +6480,2679 @@ cultureInfo fr-FR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "finance_mel_2024_have_finances_mel_5ans"
+			        }
+			      ]
+			    },
+			    "data_has_either": {
+			      "Binding": {
+			        "ConceptualEntity": "Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.either": {
+			          "Target": {
+			            "Entity": "data.either"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.either"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_eithers"
+			        }
+			      ]
+			    },
+			    "data_has_shelter": {
+			      "Binding": {
+			        "ConceptualEntity": "Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.shelter": {
+			          "Target": {
+			            "Entity": "data.shelter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.shelter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_shelters"
+			        }
+			      ]
+			    },
+			    "data_has_street": {
+			      "Binding": {
+			        "ConceptualEntity": "Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.street": {
+			          "Target": {
+			            "Entity": "data.street"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.street"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_streets"
+			        }
+			      ]
+			    },
+			    "data_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.year": {
+			          "Target": {
+			            "Entity": "data.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_years"
+			        }
+			      ]
+			    },
+			    "data_has_code": {
+			      "Binding": {
+			        "ConceptualEntity": "Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.code": {
+			          "Target": {
+			            "Entity": "data.code"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_codes"
+			        }
+			      ]
+			    },
+			    "data_has_entity": {
+			      "Binding": {
+			        "ConceptualEntity": "Data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data": {
+			          "Target": {
+			            "Entity": "data"
+			          }
+			        },
+			        "data.entity": {
+			          "Target": {
+			            "Entity": "data.entity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data"
+			            },
+			            "Object": {
+			              "Role": "data.entity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_have_entities"
+			        }
+			      ]
+			    },
+			    "constat_SDF_france_has_column_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Constat_SDF_France"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "constat_SDF_france": {
+			          "Target": {
+			            "Entity": "constat_SDF_france"
+			          }
+			        },
+			        "constat_SDF_france.column_2": {
+			          "Target": {
+			            "Entity": "constat_SDF_france.column_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "constat_SDF_france"
+			            },
+			            "Object": {
+			              "Role": "constat_SDF_france.column_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "constat_SDF_france_have_column_2"
+			        }
+			      ]
+			    },
+			    "constat_SDF_france_has_column_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Constat_SDF_France"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "constat_SDF_france": {
+			          "Target": {
+			            "Entity": "constat_SDF_france"
+			          }
+			        },
+			        "constat_SDF_france.column_1": {
+			          "Target": {
+			            "Entity": "constat_SDF_france.column_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "constat_SDF_france"
+			            },
+			            "Object": {
+			              "Role": "constat_SDF_france.column_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "constat_SDF_france_have_column_1"
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl_has_pourcentage_de_logement_vacant_24_de_plus_de_deux_ans": {
+			      "Binding": {
+			        "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        },
+			        "logements_vacants_MEL_exploitabl.pourcentage_de_logement_vacant_24_de_plus_de_deux_ans": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl.pourcentage_de_logement_vacant_24_de_plus_de_deux_ans"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            },
+			            "Object": {
+			              "Role": "logements_vacants_MEL_exploitabl.pourcentage_de_logement_vacant_24_de_plus_de_deux_ans"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_vacants_MEL_exploitabls_have_pourcentage_de_logement_vacant_24_de_plus_de_deux_ans"
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl_has_pourcentage_de_logement_vacant_24": {
+			      "Binding": {
+			        "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        },
+			        "logements_vacants_MEL_exploitabl.pourcentage_de_logement_vacant_24": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl.pourcentage_de_logement_vacant_24"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            },
+			            "Object": {
+			              "Role": "logements_vacants_MEL_exploitabl.pourcentage_de_logement_vacant_24"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_vacants_MEL_exploitabls_have_pourcentage_de_logement_vacant_24"
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl_has_pp_vacant_plus_2ans_24": {
+			      "Binding": {
+			        "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        },
+			        "logements_vacants_MEL_exploitabl.pp_vacant_plus_2ans_24": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl.pp_vacant_plus_2ans_24"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            },
+			            "Object": {
+			              "Role": "logements_vacants_MEL_exploitabl.pp_vacant_plus_2ans_24"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_vacants_MEL_exploitabls_have_pp_vacant_plus_2ans_24"
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl_has_pp_vacant_24": {
+			      "Binding": {
+			        "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        },
+			        "logements_vacants_MEL_exploitabl.pp_vacant_24": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl.pp_vacant_24"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            },
+			            "Object": {
+			              "Role": "logements_vacants_MEL_exploitabl.pp_vacant_24"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_vacants_MEL_exploitabls_have_pp_vacant_24"
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl_has_pp_total_24": {
+			      "Binding": {
+			        "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        },
+			        "logements_vacants_MEL_exploitabl.pp_total_24": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl.pp_total_24"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            },
+			            "Object": {
+			              "Role": "logements_vacants_MEL_exploitabl.pp_total_24"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_vacants_MEL_exploitabls_have_pp_total_24"
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl_has_libgeo_25": {
+			      "Binding": {
+			        "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        },
+			        "logements_vacants_MEL_exploitabl.libgeo_25": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl.libgeo_25"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            },
+			            "Object": {
+			              "Role": "logements_vacants_MEL_exploitabl.libgeo_25"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_vacants_MEL_exploitabls_have_libgeo_25"
+			        }
+			      ]
+			    },
+			    "logements_vacants_MEL_exploitabl_has_codgeo_25": {
+			      "Binding": {
+			        "ConceptualEntity": "LogementsVacants_MEL_Exploitabl"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        },
+			        "logements_vacants_MEL_exploitabl.codgeo_25": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl.codgeo_25"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            },
+			            "Object": {
+			              "Role": "logements_vacants_MEL_exploitabl.codgeo_25"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_vacants_MEL_exploitabls_have_codgeo_25"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_tx_modif": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.tx_modif": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.tx_modif"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.tx_modif"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_tx_modif"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_mel_5an_tx_modif": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "finances_mel_5an.tx_modif": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.tx_modif"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.tx_modif"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_tx_modif"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_finances_mel_5an_base_fiscal_2032": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2032": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2032"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2032"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_base_fiscal_2032"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_base_fiscal_2032": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2032": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2032"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2032"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_base_fiscal_2032"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_mel_5an_base_fiscal_2032": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2032": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2032"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2032"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_base_fiscal_2032"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_finances_mel_5an_base_fiscal_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2031": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_base_fiscal_2031"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_base_fiscal_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2031": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_base_fiscal_2031"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_mel_5an_base_fiscal_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2031": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_base_fiscal_2031"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_finances_mel_5an_base_fiscal_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2030": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_base_fiscal_2030"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_base_fiscal_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2030": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_base_fiscal_2030"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_mel_5an_base_fiscal_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2030": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_base_fiscal_2030"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_finances_mel_5an_base_fiscal_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2029": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_base_fiscal_2029"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_base_fiscal_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2029": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_base_fiscal_2029"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_mel_5an_base_fiscal_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2029": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_base_fiscal_2029"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_tx_base": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.tx_base": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.tx_base"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.tx_base"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_tx_base"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_finances_mel_5an_recette_2032": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "finances_mel_5an.recette_2032": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2032"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2032"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_recette_2032"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_recette_2032": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.recette_2032": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2032"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2032"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_recette_2032"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_mel_5an_recette_2032": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "finances_mel_5an.recette_2032": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2032"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2032"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_recette_2032"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_finances_mel_5an_recette_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "finances_mel_5an.recette_2031": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_recette_2031"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_recette_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.recette_2031": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_recette_2031"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_mel_5an_recette_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "finances_mel_5an.recette_2031": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_recette_2031"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_finances_mel_5an_recette_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "finances_mel_5an.recette_2030": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_recette_2030"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_recette_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.recette_2030": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_recette_2030"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_mel_5an_recette_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "finances_mel_5an.recette_2030": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_recette_2030"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_finances_mel_5an_recette_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "finances_mel_5an.recette_2029": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_recette_2029"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_recette_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.recette_2029": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_recette_2029"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_mel_5an_recette_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "finances_mel_5an.recette_2029": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_recette_2029"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_finances_mel_5an_base_fiscal_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2028": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_base_fiscal_2028"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_base_fiscal_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2028": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_base_fiscal_2028"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_mel_5an_base_fiscal_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "finances_mel_5an.base_fiscal_2028": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.base_fiscal_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.base_fiscal_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_base_fiscal_2028"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_finances_mel_5an_recette_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "finances_mel_5an.recette_2028": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_recette_2028"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_recette_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.recette_2028": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_recette_2028"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_mel_5an_recette_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "finances_mel_5an.recette_2028": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_recette_2028"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_recette_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "finances_mel_5an.recette_2027": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_recette_2027"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_mel_5an_recette_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "finances_mel_5an.recette_2027": {
+			          "Target": {
+			            "Entity": "finances_mel_5an.recette_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "finances_mel_5an.recette_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_recette_2027"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_recette_fiscal": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.recette_fiscal": {
+			          "Target": {
+			            "Entity": "mesure.recette_fiscal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.recette_fiscal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_recette_fiscal"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_recette_fiscal": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.recette_fiscal": {
+			          "Target": {
+			            "Entity": "mesure.recette_fiscal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.recette_fiscal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_recette_fiscal"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_recette_fiscal": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.recette_fiscal": {
+			          "Target": {
+			            "Entity": "mesure.recette_fiscal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.recette_fiscal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_recette_fiscal"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_nb_logement_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.nb_logement_2031": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_nb_logement_2031"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_nb_logement_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.nb_logement_2031": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_nb_logement_2031"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_nb_logement_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.nb_logement_2031": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_nb_logement_2031"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_nb_logement_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.nb_logement_2031": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_nb_logement_2031"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_nb_logement_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.nb_logement_2030": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_nb_logement_2030"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_nb_logement_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.nb_logement_2030": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_nb_logement_2030"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_nb_logement_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.nb_logement_2030": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_nb_logement_2030"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_nb_logement_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.nb_logement_2030": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_nb_logement_2030"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_nb_logement_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.nb_logement_2029": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_nb_logement_2029"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_nb_logement_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.nb_logement_2029": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_nb_logement_2029"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_nb_logement_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.nb_logement_2029": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_nb_logement_2029"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_nb_logement_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.nb_logement_2029": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_nb_logement_2029"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_nb_logement_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.nb_logement_2028": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_nb_logement_2028"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_nb_logement_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.nb_logement_2028": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_nb_logement_2028"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_nb_logement_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.nb_logement_2028": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_nb_logement_2028"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_nb_logement_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.nb_logement_2028": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_nb_logement_2028"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_cout_invest_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.cout_invest_2031": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_cout_invest_2031"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_cout_invest_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.cout_invest_2031": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_cout_invest_2031"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_cout_invest_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.cout_invest_2031": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_cout_invest_2031"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_cout_invest_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.cout_invest_2030": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_cout_invest_2030"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_cout_invest_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.cout_invest_2030": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_cout_invest_2030"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_cout_invest_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.cout_invest_2030": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_cout_invest_2030"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_cout_invest_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.cout_invest_2029": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_cout_invest_2029"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_cout_invest_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.cout_invest_2029": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_cout_invest_2029"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_cout_invest_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.cout_invest_2029": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_cout_invest_2029"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_cout_invest_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.cout_invest_2028": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_cout_invest_2028"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_cout_invest_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.cout_invest_2028": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_cout_invest_2028"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_cout_invest_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.cout_invest_2028": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_cout_invest_2028"
 			        }
 			      ]
 			    },
@@ -6279,7 +11136,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "per_inv_log_has_mesure_cout_invest": {
+			    "per_inv_log_has_mesure_cout_invest_2027": {
 			      "Binding": {
 			        "ConceptualEntity": "per_inv_log"
 			      },
@@ -6290,9 +11147,9 @@ cultureInfo fr-FR
 			            "Entity": "per_inv_log"
 			          }
 			        },
-			        "mesure.cout_invest": {
+			        "mesure.cout_invest_2027": {
 			          "Target": {
-			            "Entity": "mesure.cout_invest"
+			            "Entity": "mesure.cout_invest_2027"
 			          }
 			        }
 			      },
@@ -6303,16 +11160,49 @@ cultureInfo fr-FR
 			              "Role": "per_inv_log"
 			            },
 			            "Object": {
-			              "Role": "mesure.cout_invest"
+			              "Role": "mesure.cout_invest_2027"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "per_inv_log_have_cout_invest"
+			          "ID": "per_inv_log_have_cout_invest_2027"
 			        }
 			      ]
 			    },
-			    "tx_fiscal_nouv_has_mesure_cout_invest": {
+			    "finances_mel_5an_has_mesure_cout_invest_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.cout_invest_2027": {
+			          "Target": {
+			            "Entity": "mesure.cout_invest_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.cout_invest_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_cout_invest_2027"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_cout_invest_2027": {
 			      "Binding": {
 			        "ConceptualEntity": "Tx_fiscal_nouv"
 			      },
@@ -6323,9 +11213,9 @@ cultureInfo fr-FR
 			            "Entity": "tx_fiscal_nouv"
 			          }
 			        },
-			        "mesure.cout_invest": {
+			        "mesure.cout_invest_2027": {
 			          "Target": {
-			            "Entity": "mesure.cout_invest"
+			            "Entity": "mesure.cout_invest_2027"
 			          }
 			        }
 			      },
@@ -6336,49 +11226,16 @@ cultureInfo fr-FR
 			              "Role": "tx_fiscal_nouv"
 			            },
 			            "Object": {
-			              "Role": "mesure.cout_invest"
+			              "Role": "mesure.cout_invest_2027"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "tx_fiscal_nouvs_have_cout_invest"
+			          "ID": "tx_fiscal_nouvs_have_cout_invest_2027"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_mesure_cout_invest": {
-			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "finance_mel_2024": {
-			          "Target": {
-			            "Entity": "finance_mel_2024"
-			          }
-			        },
-			        "mesure.cout_invest": {
-			          "Target": {
-			            "Entity": "mesure.cout_invest"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "finance_mel_2024"
-			            },
-			            "Object": {
-			              "Role": "mesure.cout_invest"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_cout_invest"
-			        }
-			      ]
-			    },
-			    "per_inv_log_has_mesure_nb_logement": {
+			    "per_inv_log_has_mesure_nb_logement_2027": {
 			      "Binding": {
 			        "ConceptualEntity": "per_inv_log"
 			      },
@@ -6389,9 +11246,9 @@ cultureInfo fr-FR
 			            "Entity": "per_inv_log"
 			          }
 			        },
-			        "mesure.nb_logement": {
+			        "mesure.nb_logement_2027": {
 			          "Target": {
-			            "Entity": "mesure.nb_logement"
+			            "Entity": "mesure.nb_logement_2027"
 			          }
 			        }
 			      },
@@ -6402,16 +11259,49 @@ cultureInfo fr-FR
 			              "Role": "per_inv_log"
 			            },
 			            "Object": {
-			              "Role": "mesure.nb_logement"
+			              "Role": "mesure.nb_logement_2027"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "per_inv_log_have_nb_logement"
+			          "ID": "per_inv_log_have_nb_logement_2027"
 			        }
 			      ]
 			    },
-			    "tx_fiscal_nouv_has_mesure_nb_logement": {
+			    "finances_mel_5an_has_mesure_nb_logement_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.nb_logement_2027": {
+			          "Target": {
+			            "Entity": "mesure.nb_logement_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_logement_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_nb_logement_2027"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_nb_logement_2027": {
 			      "Binding": {
 			        "ConceptualEntity": "Tx_fiscal_nouv"
 			      },
@@ -6422,9 +11312,9 @@ cultureInfo fr-FR
 			            "Entity": "tx_fiscal_nouv"
 			          }
 			        },
-			        "mesure.nb_logement": {
+			        "mesure.nb_logement_2027": {
 			          "Target": {
-			            "Entity": "mesure.nb_logement"
+			            "Entity": "mesure.nb_logement_2027"
 			          }
 			        }
 			      },
@@ -6435,49 +11325,16 @@ cultureInfo fr-FR
 			              "Role": "tx_fiscal_nouv"
 			            },
 			            "Object": {
-			              "Role": "mesure.nb_logement"
+			              "Role": "mesure.nb_logement_2027"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "tx_fiscal_nouvs_have_nb_logement"
+			          "ID": "tx_fiscal_nouvs_have_nb_logement_2027"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_mesure_nb_logement": {
-			      "Binding": {
-			        "ConceptualEntity": "Finance_mel_2024"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "finance_mel_2024": {
-			          "Target": {
-			            "Entity": "finance_mel_2024"
-			          }
-			        },
-			        "mesure.nb_logement": {
-			          "Target": {
-			            "Entity": "mesure.nb_logement"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "finance_mel_2024"
-			            },
-			            "Object": {
-			              "Role": "mesure.nb_logement"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_nb_logement"
-			        }
-			      ]
-			    },
-			    "dvf_mel_has_mesure_nb_logement": {
+			    "dvf_mel_has_mesure_nb_logement_2027": {
 			      "Binding": {
 			        "ConceptualEntity": "DVF_MEL"
 			      },
@@ -6488,9 +11345,9 @@ cultureInfo fr-FR
 			            "Entity": "dvf_mel"
 			          }
 			        },
-			        "mesure.nb_logement": {
+			        "mesure.nb_logement_2027": {
 			          "Target": {
-			            "Entity": "mesure.nb_logement"
+			            "Entity": "mesure.nb_logement_2027"
 			          }
 			        }
 			      },
@@ -6501,12 +11358,12 @@ cultureInfo fr-FR
 			              "Role": "dvf_mel"
 			            },
 			            "Object": {
-			              "Role": "mesure.nb_logement"
+			              "Role": "mesure.nb_logement_2027"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "dvf_mel_have_nb_logement"
+			          "ID": "dvf_mel_have_nb_logement_2027"
 			        }
 			      ]
 			    },

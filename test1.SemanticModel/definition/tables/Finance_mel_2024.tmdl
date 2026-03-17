@@ -238,12 +238,16 @@ table Finance_mel_2024
 		annotation SummarizationSetBy = Automatic
 
 	column tx_FPB
-		dataType: string
+		dataType: double
 		lineageTag: aefd9a24-1cf6-419d-87a8-4392742662fb
 		summarizeBy: none
 		sourceColumn: tx_FPB
 
+		changedProperty = DataType
+
 		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	column base_FPB
 		dataType: string

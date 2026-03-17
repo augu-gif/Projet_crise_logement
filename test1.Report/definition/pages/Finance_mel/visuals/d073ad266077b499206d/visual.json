@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "d073ad266077b499206d",
   "position": {
-    "x": 325,
-    "y": 15,
+    "x": 594.44444444444446,
+    "y": 86.666666666666671,
     "z": 0,
-    "height": 527,
-    "width": 629,
+    "height": 472.22222222222223,
+    "width": 674.44444444444446,
     "tabOrder": 0
   },
   "visual": {
@@ -34,6 +34,25 @@
         },
         "Tooltips": {
           "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Finance_mel_2024"
+                        }
+                      },
+                      "Property": "tx_FPB"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(Finance_mel_2024.tx_FPB)",
+              "nativeQueryRef": "Premier tx_FPB"
+            },
             {
               "field": {
                 "Aggregation": {
@@ -92,21 +111,21 @@
             "zoom": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "9.06D"
                 }
               }
             },
             "centerLatitude": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "50.64747607344654D"
                 }
               }
             },
             "centerLongitude": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "3.034220000000005D"
                 }
               }
             },
@@ -270,28 +289,28 @@
             "barHeight": {
               "expr": {
                 "Literal": {
-                  "Value": "5L"
+                  "Value": "0L"
                 }
               }
             },
             "scaleHeightOnZoom": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
             "thickness": {
               "expr": {
                 "Literal": {
-                  "Value": "2L"
+                  "Value": "0L"
                 }
               }
             },
             "scaleThicknessOnZoom": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -299,6 +318,20 @@
               "expr": {
                 "Literal": {
                   "Value": "35D"
+                }
+              }
+            },
+            "maxZoom": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            },
+            "minZoom": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
                 }
               }
             }
@@ -359,22 +392,22 @@
                                           "Entity": "Finance_mel_2024"
                                         }
                                       },
-                                      "Property": "solde"
+                                      "Property": "tx_FPB"
                                     }
                                   },
-                                  "Function": 0
+                                  "Function": 1
                                 }
                               },
                               "Right": {
                                 "Literal": {
-                                  "Value": "0D"
+                                  "Value": "0.55D"
                                 }
                               }
                             }
                           },
                           "Value": {
                             "Literal": {
-                              "Value": "'#792b14'"
+                              "Value": "'#084239'"
                             }
                           }
                         },
@@ -393,15 +426,15 @@
                                               "Entity": "Finance_mel_2024"
                                             }
                                           },
-                                          "Property": "solde"
+                                          "Property": "tx_FPB"
                                         }
                                       },
-                                      "Function": 0
+                                      "Function": 1
                                     }
                                   },
                                   "Right": {
                                     "Literal": {
-                                      "Value": "0D"
+                                      "Value": "0.55D"
                                     }
                                   }
                                 }
@@ -418,15 +451,15 @@
                                               "Entity": "Finance_mel_2024"
                                             }
                                           },
-                                          "Property": "solde"
+                                          "Property": "tx_FPB"
                                         }
                                       },
-                                      "Function": 0
+                                      "Function": 1
                                     }
                                   },
                                   "Right": {
                                     "Literal": {
-                                      "Value": "100000D"
+                                      "Value": "0.65D"
                                     }
                                   }
                                 }
@@ -435,7 +468,7 @@
                           },
                           "Value": {
                             "Literal": {
-                              "Value": "'#143c5f'"
+                              "Value": "'#FCB714'"
                             }
                           }
                         },
@@ -452,22 +485,22 @@
                                           "Entity": "Finance_mel_2024"
                                         }
                                       },
-                                      "Property": "solde"
+                                      "Property": "tx_FPB"
                                     }
                                   },
-                                  "Function": 0
+                                  "Function": 1
                                 }
                               },
                               "Right": {
                                 "Literal": {
-                                  "Value": "100000D"
+                                  "Value": "0.65D"
                                 }
                               }
                             }
                           },
                           "Value": {
                             "Literal": {
-                              "Value": "'#084239'"
+                              "Value": "'#792b14'"
                             }
                           }
                         }
@@ -563,14 +596,21 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'repartion du poids fiscal'"
+                  "Value": "'- La Signature Fiscale du Territoire MEL'"
                 }
               }
             },
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "heading": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Heading4'"
                 }
               }
             },
@@ -578,6 +618,32 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
                 }
               }
             },
@@ -665,6 +731,13 @@
       "visualHeader": [
         {
           "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
             "background": {
               "solid": {
                 "color": {
@@ -695,6 +768,61 @@
                       "Value": "'#FFFFFF'"
                     }
                   }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "divider": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "verticalSpacing": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "visualTooltip": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

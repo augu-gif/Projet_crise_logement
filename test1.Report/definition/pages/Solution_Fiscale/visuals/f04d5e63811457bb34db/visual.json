@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "cd66bc433a5c508bdc69",
+  "name": "f04d5e63811457bb34db",
   "position": {
-    "x": 801.0448316697682,
-    "y": 406.06597868380987,
-    "z": 2000,
-    "height": 314.59719167653526,
-    "width": 479.51818643207577,
-    "tabOrder": 2000
+    "x": 801.40964324126412,
+    "y": 88.5768553056134,
+    "z": 6000,
+    "height": 314.2369390603904,
+    "width": 478.73681319938675,
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "barChart",
@@ -23,11 +23,11 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "nb_logement_2027"
+                  "Property": "cout_invest_2027"
                 }
               },
-              "queryRef": "mesures.nb_logement_2027",
-              "nativeQueryRef": "nb_logement"
+              "queryRef": "mesures.cout_invest_2027",
+              "nativeQueryRef": "cout_invest_2027"
             },
             {
               "field": {
@@ -37,11 +37,11 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "nb_logement_2028"
+                  "Property": "cout_invest_2028"
                 }
               },
-              "queryRef": "mesures.nb_logement_2028",
-              "nativeQueryRef": "nb_logement_2028"
+              "queryRef": "mesures.cout_invest_2028",
+              "nativeQueryRef": "cout_invest_2028"
             },
             {
               "field": {
@@ -51,11 +51,11 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "nb_logement_2029"
+                  "Property": "cout_invest_2029"
                 }
               },
-              "queryRef": "mesures.nb_logement_2029",
-              "nativeQueryRef": "nb_logement_2029"
+              "queryRef": "mesures.cout_invest_2029",
+              "nativeQueryRef": "cout_invest_2029"
             },
             {
               "field": {
@@ -65,11 +65,11 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "nb_logement_2030"
+                  "Property": "cout_invest_2030"
                 }
               },
-              "queryRef": "mesures.nb_logement_2030",
-              "nativeQueryRef": "nb_logement_2030"
+              "queryRef": "mesures.cout_invest_2030",
+              "nativeQueryRef": "cout_invest_2030"
             },
             {
               "field": {
@@ -79,11 +79,11 @@
                       "Entity": "mesures"
                     }
                   },
-                  "Property": "nb_logement_2031"
+                  "Property": "cout_invest_2031"
                 }
               },
-              "queryRef": "mesures.nb_logement_2031",
-              "nativeQueryRef": "nb_logement_2031"
+              "queryRef": "mesures.cout_invest_2031",
+              "nativeQueryRef": "cout_invest_2031"
             }
           ]
         }
@@ -98,7 +98,7 @@
                     "Entity": "mesures"
                   }
                 },
-                "Property": "nb_logement_2027"
+                "Property": "cout_invest_2027"
               }
             },
             "direction": "Descending"
@@ -108,6 +108,26 @@
       }
     },
     "objects": {
+      "layout": [
+        {
+          "properties": {
+            "seriesOrderSorted": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "stackedGapSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "3D"
+                }
+              }
+            }
+          }
+        }
+      ],
       "legend": [
         {
           "properties": {
@@ -246,40 +266,20 @@
           }
         }
       ],
-      "layout": [
-        {
-          "properties": {
-            "seriesOrderSorted": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "stackedGapSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "3D"
-                }
-              }
-            }
-          }
-        }
-      ],
       "labels": [
         {
           "properties": {
             "labelDisplayUnits": {
               "expr": {
                 "Literal": {
-                  "Value": "1D"
+                  "Value": "1000000D"
                 }
               }
             },
             "labelPrecision": {
               "expr": {
                 "Literal": {
-                  "Value": "0L"
+                  "Value": "2L"
                 }
               }
             },
@@ -343,7 +343,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Logement suplementaire'"
+                  "Value": "'Montant investi '"
                 }
               }
             },

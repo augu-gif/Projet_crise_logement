@@ -48,7 +48,7 @@
             "showStylePicker": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -62,28 +62,28 @@
             "showNavigationControls": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
             "zoom": {
               "expr": {
                 "Literal": {
-                  "Value": "11.69D"
+                  "Value": "9.06D"
                 }
               }
             },
             "centerLatitude": {
               "expr": {
                 "Literal": {
-                  "Value": "50.70609100767399D"
+                  "Value": "50.64747607344657D"
                 }
               }
             },
             "centerLongitude": {
               "expr": {
                 "Literal": {
-                  "Value": "3.10015999999996D"
+                  "Value": "3.0342199999999764D"
                 }
               }
             },
@@ -104,14 +104,14 @@
             "autoZoomIncludesReferenceLayer": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
             "worldWrap": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -154,6 +154,20 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "autoZoom": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "geocodingCulture": {
+              "expr": {
+                "Literal": {
+                  "Value": "'fr-FR'"
                 }
               }
             }
@@ -224,25 +238,25 @@
                                     "Column": {
                                       "Expression": {
                                         "SourceRef": {
-                                          "Entity": "Finance_mel_2024"
+                                          "Entity": "DVF_MEL"
                                         }
                                       },
-                                      "Property": "solde"
+                                      "Property": "prix_m2"
                                     }
                                   },
-                                  "Function": 0
+                                  "Function": 1
                                 }
                               },
                               "Right": {
                                 "Literal": {
-                                  "Value": "0D"
+                                  "Value": "2800D"
                                 }
                               }
                             }
                           },
                           "Value": {
                             "Literal": {
-                              "Value": "'#792b14'"
+                              "Value": "'#084239'"
                             }
                           }
                         },
@@ -258,18 +272,18 @@
                                         "Column": {
                                           "Expression": {
                                             "SourceRef": {
-                                              "Entity": "Finance_mel_2024"
+                                              "Entity": "DVF_MEL"
                                             }
                                           },
-                                          "Property": "solde"
+                                          "Property": "prix_m2"
                                         }
                                       },
-                                      "Function": 0
+                                      "Function": 1
                                     }
                                   },
                                   "Right": {
                                     "Literal": {
-                                      "Value": "0D"
+                                      "Value": "2800D"
                                     }
                                   }
                                 }
@@ -283,18 +297,18 @@
                                         "Column": {
                                           "Expression": {
                                             "SourceRef": {
-                                              "Entity": "Finance_mel_2024"
+                                              "Entity": "DVF_MEL"
                                             }
                                           },
-                                          "Property": "solde"
+                                          "Property": "prix_m2"
                                         }
                                       },
-                                      "Function": 0
+                                      "Function": 1
                                     }
                                   },
                                   "Right": {
                                     "Literal": {
-                                      "Value": "100000D"
+                                      "Value": "3000D"
                                     }
                                   }
                                 }
@@ -303,7 +317,7 @@
                           },
                           "Value": {
                             "Literal": {
-                              "Value": "'#143c5f'"
+                              "Value": "'#fdd472'"
                             }
                           }
                         },
@@ -317,25 +331,25 @@
                                     "Column": {
                                       "Expression": {
                                         "SourceRef": {
-                                          "Entity": "Finance_mel_2024"
+                                          "Entity": "DVF_MEL"
                                         }
                                       },
-                                      "Property": "solde"
+                                      "Property": "prix_m2"
                                     }
                                   },
-                                  "Function": 0
+                                  "Function": 1
                                 }
                               },
                               "Right": {
                                 "Literal": {
-                                  "Value": "100000D"
+                                  "Value": "3000D"
                                 }
                               }
                             }
                           },
                           "Value": {
                             "Literal": {
-                              "Value": "'#084239'"
+                              "Value": "'#792b14'"
                             }
                           }
                         }

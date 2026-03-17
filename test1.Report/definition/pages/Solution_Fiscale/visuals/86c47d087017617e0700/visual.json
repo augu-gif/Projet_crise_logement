@@ -1,106 +1,32 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "f7dfd990007b1e22ae8a",
+  "name": "86c47d087017617e0700",
   "position": {
-    "x": 594.44444444444446,
-    "y": 566.66666666666663,
-    "z": 1000,
-    "height": 153.33333333333334,
-    "width": 685.55555555555554,
-    "tabOrder": 1000
+    "x": 0,
+    "y": 0,
+    "z": 7000,
+    "height": 79.086477951440543,
+    "width": 1280.1464564406508,
+    "tabOrder": 7000
   },
   "visual": {
-    "visualType": "cardVisual",
-    "query": {
-      "queryState": {
-        "Data": {
-          "projections": [
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Finance_mel_2024"
-                        }
-                      },
-                      "Property": "SC"
-                    }
-                  },
-                  "Function": 0
-                }
-              },
-              "queryRef": "Sum(Sheet1.SC)",
-              "nativeQueryRef": "Recettes",
-              "displayName": "Recettes"
-            },
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Finance_mel_2024"
-                        }
-                      },
-                      "Property": "SD"
-                    }
-                  },
-                  "Function": 0
-                }
-              },
-              "queryRef": "Sum(Sheet1.SD)",
-              "nativeQueryRef": "dépenses",
-              "displayName": "dépenses"
-            },
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Finance_mel_2024"
-                        }
-                      },
-                      "Property": "solde"
-                    }
-                  },
-                  "Function": 0
-                }
-              },
-              "queryRef": "Sum(Sheet1.solde)",
-              "nativeQueryRef": "solde",
-              "displayName": "solde"
-            }
-          ]
-        }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Aggregation": {
-                "Expression": {
-                  "Column": {
-                    "Expression": {
-                      "SourceRef": {
-                        "Entity": "Finance_mel_2024"
-                      }
-                    },
-                    "Property": "SC"
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": ""
                   }
-                },
-                "Function": 0
+                ]
               }
-            },
-            "direction": "Descending"
+            ]
           }
-        ],
-        "isDefaultSort": true
-      }
+        }
+      ]
     },
     "visualContainerObjects": {
       "title": [
@@ -109,7 +35,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Photographie du Fonctionnement 2024'"
+                  "Value": "'Investir, Taxer, Construire : la Projection 2027–2031'"
                 }
               }
             },
@@ -156,7 +82,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "14D"
+                  "Value": "36D"
                 }
               }
             },
@@ -167,6 +93,22 @@
                 }
               }
             }
+          }
+        }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "verticalSpacing": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ],
@@ -310,22 +252,6 @@
                 }
               }
             }
-          }
-        }
-      ],
-      "spacing": [
-        {
-          "properties": {
-            "verticalSpacing": {
-              "expr": {
-                "Literal": {
-                  "Value": "2D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
           }
         }
       ],
