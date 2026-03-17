@@ -50,8 +50,9 @@
               {
                 "textRuns": [
                   {
-                    "value": "• Sur 5 ans nous pouvons mobiliser près de  1 milliard d'euros ",
+                    "value": "• Sur 5 ans nous pouvons mobiliser près d'  1 milliards d'euros ",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontSize": "12pt",
                       "color": "#ffffff"
                     }
@@ -68,8 +69,9 @@
               {
                 "textRuns": [
                   {
-                    "value": "• Ce qui représente la rénovation d'environ 5000 logements et la construction de 500 logements sociaux",
+                    "value": "• Cela équivaut à la rénovation d'environ 5000 logements et à la construction de 1000 logements sociaux",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontSize": "12pt",
                       "color": "#ffffff"
                     }

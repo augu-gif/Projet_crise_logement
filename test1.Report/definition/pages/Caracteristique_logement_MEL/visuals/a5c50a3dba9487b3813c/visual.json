@@ -115,14 +115,14 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Type de logement '"
+                  "Value": "'Types de logements '"
                 }
               }
             },
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             },
@@ -137,6 +137,13 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
                 }
               }
             }

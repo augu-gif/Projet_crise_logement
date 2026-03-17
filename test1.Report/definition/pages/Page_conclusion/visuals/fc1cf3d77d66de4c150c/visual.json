@@ -52,6 +52,7 @@
                   {
                     "value": "• Il y'a de nombreux logements  vacants dans la MEL ",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontSize": "12pt",
                       "color": "#ffffff"
                     }
@@ -70,6 +71,7 @@
                   {
                     "value": "• Coût de rénovation inférieur à celui du neuf  ",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontSize": "12pt",
                       "color": "#ffffff"
                     }
@@ -88,6 +90,7 @@
                   {
                     "value": "•Grand nombre de personnes sans abris",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontSize": "12pt",
                       "color": "#ffffff"
                     }

@@ -52,6 +52,7 @@
                   {
                     "value": "• Aides à la rénovation",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontSize": "12pt",
                       "color": "#ffffff"
                     }
@@ -70,6 +71,7 @@
                   {
                     "value": "• Taxe sur les logements vacants",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontSize": "12pt",
                       "color": "#ffffff"
                     }
@@ -88,6 +90,7 @@
                   {
                     "value": "• Prime à la remise sur le marché rapide",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontSize": "12pt",
                       "color": "#ffffff"
                     }
