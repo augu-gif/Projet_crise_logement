@@ -55,6 +55,9 @@ table mesures
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure Log_vacant_2027
+		lineageTag: 14fa3671-915a-4486-a211-180d88bd77c4
+
 	column impact_taux_impot
 		formatString: 0
 		lineageTag: c9a19479-54f2-4f1a-9ff3-6cf2ff04887d

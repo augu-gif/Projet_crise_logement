@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "mesures.cout_invest_2027",
-              "nativeQueryRef": "cout_invest_2027"
+              "nativeQueryRef": "2027",
+              "displayName": "2027"
             },
             {
               "field": {
@@ -41,7 +42,8 @@
                 }
               },
               "queryRef": "mesures.cout_invest_2028",
-              "nativeQueryRef": "cout_invest_2028"
+              "nativeQueryRef": "2028",
+              "displayName": "2028"
             },
             {
               "field": {
@@ -55,7 +57,8 @@
                 }
               },
               "queryRef": "mesures.cout_invest_2029",
-              "nativeQueryRef": "cout_invest_2029"
+              "nativeQueryRef": "2029",
+              "displayName": "2029"
             },
             {
               "field": {
@@ -69,7 +72,8 @@
                 }
               },
               "queryRef": "mesures.cout_invest_2030",
-              "nativeQueryRef": "cout_invest_2030"
+              "nativeQueryRef": "2030",
+              "displayName": "2030"
             },
             {
               "field": {
@@ -83,7 +87,8 @@
                 }
               },
               "queryRef": "mesures.cout_invest_2031",
-              "nativeQueryRef": "cout_invest_2031"
+              "nativeQueryRef": "2031",
+              "displayName": "2031"
             }
           ]
         }

@@ -5,7 +5,7 @@ cultureInfo fr-FR
 			  "Version": "4.1.0",
 			  "Language": "en-US",
 			  "Entities": {
-			    "finance_mel_2024": {
+			    "finances_2024": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024"
@@ -14,26 +14,27 @@ cultureInfo fr-FR
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "finance mel 2024": {
+			          "finances 2024": {
 			            "State": "Generated"
 			          }
 			        },
 			        {
-			          "Finance_mel_2024": {
+			          "finance 2024": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "finances_2024": {
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
-			        },
-			        {
-			          "mel 2024": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.INSEE_x": {
+			    "finances_2024.INSEE_x": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -62,7 +63,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.libville": {
+			    "finances_2024.libville": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -78,7 +79,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.code_postal": {
+			    "finances_2024.code_postal": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -121,7 +122,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.lib_com_postal": {
+			    "finances_2024.lib_com_postal": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -144,7 +145,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.n_insee": {
+			    "finances_2024.n_insee": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -167,7 +168,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.com": {
+			    "finances_2024.com": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -183,7 +184,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.INSEE_y": {
+			    "finances_2024.INSEE_y": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -212,7 +213,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.sd": {
+			    "finances_2024.sd": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -228,7 +229,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.sc": {
+			    "finances_2024.sc": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -244,7 +245,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.solde": {
+			    "finances_2024.solde": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -260,7 +261,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.recettes_fiscale": {
+			    "finances_2024.recettes_fiscale": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -290,7 +291,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.recettes_non_fiscale": {
+			    "finances_2024.recettes_non_fiscale": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -320,7 +321,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.dotation": {
+			    "finances_2024.dotation": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -336,7 +337,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.exceptionnel": {
+			    "finances_2024.exceptionnel": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -352,7 +353,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.recettes_totale": {
+			    "finances_2024.recettes_totale": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -382,7 +383,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.ville_dep_pay": {
+			    "finances_2024.ville_dep_pay": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -505,7 +506,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.libcom": {
+			    "finances_2024.libcom": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -521,7 +522,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.recettes_MEL": {
+			    "finances_2024.recettes_MEL": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -551,7 +552,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.reversements_MEL": {
+			    "finances_2024.reversements_MEL": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -581,7 +582,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.prelevements_MEL": {
+			    "finances_2024.prelevements_MEL": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -611,7 +612,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.solde_MEL": {
+			    "finances_2024.solde_MEL": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -634,7 +635,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.produit_FPB": {
+			    "finances_2024.produit_FPB": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -657,7 +658,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.tx_FPB": {
+			    "finances_2024.tx_FPB": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -686,7 +687,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.base_FPB": {
+			    "finances_2024.base_FPB": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -715,7 +716,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.nouv_val_fiscal": {
+			    "finances_2024.nouv_val_fiscal": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -738,7 +739,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.gain_fiscal": {
+			    "finances_2024.gain_fiscal": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -767,7 +768,7 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024.qte_logement_rea": {
+			    "finances_2024.qte_logement_rea": {
 			      "Definition": {
 			        "Binding": {
 			          "ConceptualEntity": "finances_2024",
@@ -2385,6 +2386,16 @@ cultureInfo fr-FR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "2027": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -3994,6 +4005,16 @@ cultureInfo fr-FR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "2028": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -4016,6 +4037,16 @@ cultureInfo fr-FR
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2029": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -4040,6 +4071,16 @@ cultureInfo fr-FR
 			            "State": "Generated",
 			            "Weight": 0.99
 			          }
+			        },
+			        {
+			          "2030": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -4062,6 +4103,16 @@ cultureInfo fr-FR
 			            "Type": "Noun",
 			            "State": "Generated",
 			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2031": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -4913,9 +4964,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "logements sociaux MEL clean": {
@@ -4995,9 +5043,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "code postal": {
@@ -5034,9 +5079,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "code IRIS - code de la zone": {
@@ -5059,9 +5101,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "type de construction - libellé": {
@@ -5184,9 +5223,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "année de construction": {
@@ -5303,9 +5339,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "année de première mise en location": {
@@ -5322,9 +5355,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "année d’entrée dans le patrimoine": {
@@ -5348,9 +5378,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "etiquette DPE energie": {
@@ -5367,9 +5394,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "etiquette DPE GES": {
@@ -5398,9 +5422,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "situation en QPV - libellé": {
@@ -5423,9 +5444,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "code QPV 2024": {
@@ -5468,9 +5486,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "financement initial - libellé": {
@@ -5493,9 +5508,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "convention APL": {
@@ -5518,9 +5530,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "passoire energetique": {
@@ -5544,9 +5553,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "logement qpv": {
@@ -5570,9 +5576,6 @@ cultureInfo fr-FR
 			        }
 			      },
 			      "State": "Generated",
-			      "Visibility": {
-			        "Value": "Hidden"
-			      },
 			      "Terms": [
 			        {
 			          "age logement": {
@@ -6371,7 +6374,40 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finances_mel_5an_has_finance_mel_2024": {
+			    "logements_sociaux_MEL_clean_has_logements_vacants_MEL_exploitabl": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_vacants_MEL_exploitabl": {
+			          "Target": {
+			            "Entity": "logements_vacants_MEL_exploitabl"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_vacants_MEL_exploitabl"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_logements_vacants_MEL_exploitabls"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_finances_2024": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_mel_5ans"
 			      },
@@ -6382,9 +6418,9 @@ cultureInfo fr-FR
 			            "Entity": "finances_mel_5an"
 			          }
 			        },
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        }
 			      },
@@ -6395,16 +6431,16 @@ cultureInfo fr-FR
 			              "Role": "finances_mel_5an"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finances_mel_5ans_have_finance_mel_2024"
+			          "ID": "finances_mel_5ans_have_finances_2024"
 			        }
 			      ]
 			    },
-			    "dvf_mel_has_finance_mel_2024": {
+			    "dvf_mel_has_finances_2024": {
 			      "Binding": {
 			        "ConceptualEntity": "DVF_MEL"
 			      },
@@ -6415,9 +6451,9 @@ cultureInfo fr-FR
 			            "Entity": "dvf_mel"
 			          }
 			        },
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        }
 			      },
@@ -6428,17 +6464,17 @@ cultureInfo fr-FR
 			              "Role": "dvf_mel"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "dvf_mel_have_finance_mel_2024"
+			          "ID": "dvf_mel_have_finances_2024"
 			        },
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
 			              "Role": "dvf_mel"
@@ -6446,19 +6482,19 @@ cultureInfo fr-FR
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_dvf_mel"
+			          "ID": "finances_2024_have_dvf_mel"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_finances_mel_5an": {
+			    "finances_2024_has_finances_mel_5an": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
 			        "finances_mel_5an": {
@@ -6471,7 +6507,7 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
 			              "Role": "finances_mel_5an"
@@ -6479,7 +6515,7 @@ cultureInfo fr-FR
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_finances_mel_5ans"
+			          "ID": "finances_2024_have_finances_mel_5ans"
 			        }
 			      ]
 			    },
@@ -6744,6 +6780,501 @@ cultureInfo fr-FR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "constat_SDF_france_have_column_1"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_age_logement": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.age_logement": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.age_logement"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.age_logement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_age_logements"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_logement_qpv": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.logement_qpv": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.logement_qpv"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.logement_qpv"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_logement_qpvs"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_passoire_energetique": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.passoire_energetique": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.passoire_energetique"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.passoire_energetique"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_passoire_energetiques"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_convention_APL": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.convention_APL": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.convention_APL"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.convention_APL"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_convention_APL"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_financement_initial__libellé": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.financement_initial__libellé": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.financement_initial__libellé"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.financement_initial__libellé"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_financement_initial__libellé"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_code_QPV_2024": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.code_QPV_2024": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.code_QPV_2024"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.code_QPV_2024"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_code_QPV_2024"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_situation_en_QPV__libellé": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.situation_en_QPV__libellé": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.situation_en_QPV__libellé"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.situation_en_QPV__libellé"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_situation_en_QPV__libellé"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_etiquette_DPE_GES": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.etiquette_DPE_GES": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.etiquette_DPE_GES"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.etiquette_DPE_GES"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_etiquette_DPE_GES"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_etiquette_DPE_energie": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.etiquette_DPE_energie": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.etiquette_DPE_energie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.etiquette_DPE_energie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_etiquette_DPE_energies"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_année_dentrée_dans_le_patrimoine": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.année_dentrée_dans_le_patrimoine": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.année_dentrée_dans_le_patrimoine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.année_dentrée_dans_le_patrimoine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_année_dentrée_dans_le_patrimoines"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_année_de_première_mise_en_location": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.année_de_première_mise_en_location": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.année_de_première_mise_en_location"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.année_de_première_mise_en_location"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_année_de_première_mise_en_locations"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_année_de_construction": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.année_de_construction": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.année_de_construction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.année_de_construction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_année_de_constructions"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_type_de_construction__libellé": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.type_de_construction__libellé": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.type_de_construction__libellé"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.type_de_construction__libellé"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_type_de_construction__libellé"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_code_IRIS__code_de_la_zone": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.code_IRIS__code_de_la_zone": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.code_IRIS__code_de_la_zone"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.code_IRIS__code_de_la_zone"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_code_IRIS__code_de_la_zones"
+			        }
+			      ]
+			    },
+			    "logements_sociaux_MEL_clean_has_code_postal": {
+			      "Binding": {
+			        "ConceptualEntity": "logements_sociaux_MEL_clean"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "logements_sociaux_MEL_clean": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean"
+			          }
+			        },
+			        "logements_sociaux_MEL_clean.code_postal": {
+			          "Target": {
+			            "Entity": "logements_sociaux_MEL_clean.code_postal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "logements_sociaux_MEL_clean"
+			            },
+			            "Object": {
+			              "Role": "logements_sociaux_MEL_clean.code_postal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "logements_sociaux_MEL_clean_have_code_postal"
 			        }
 			      ]
 			    },
@@ -12460,7 +12991,40 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "tx_fiscal_nouv_has_finance_mel_2024_qte_logement_rea": {
+			    "finances_2024_has_qte_logement_rea": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_2024"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_2024": {
+			          "Target": {
+			            "Entity": "finances_2024"
+			          }
+			        },
+			        "finances_2024.qte_logement_rea": {
+			          "Target": {
+			            "Entity": "finances_2024.qte_logement_rea"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_2024"
+			            },
+			            "Object": {
+			              "Role": "finances_2024.qte_logement_rea"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_2024_have_qte_logement_rea"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_finances_2024_qte_logement_rea": {
 			      "Binding": {
 			        "ConceptualEntity": "Tx_fiscal_nouv"
 			      },
@@ -12471,9 +13035,9 @@ cultureInfo fr-FR
 			            "Entity": "tx_fiscal_nouv"
 			          }
 			        },
-			        "finance_mel_2024.qte_logement_rea": {
+			        "finances_2024.qte_logement_rea": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.qte_logement_rea"
+			            "Entity": "finances_2024.qte_logement_rea"
 			          }
 			        }
 			      },
@@ -12484,7 +13048,7 @@ cultureInfo fr-FR
 			              "Role": "tx_fiscal_nouv"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.qte_logement_rea"
+			              "Role": "finances_2024.qte_logement_rea"
 			            }
 			          },
 			          "State": "Generated",
@@ -12493,20 +13057,20 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_qte_logement_rea": {
+			    "finances_2024_has_gain_fiscal": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.qte_logement_rea": {
+			        "finances_2024.gain_fiscal": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.qte_logement_rea"
+			            "Entity": "finances_2024.gain_fiscal"
 			          }
 			        }
 			      },
@@ -12514,19 +13078,19 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.qte_logement_rea"
+			              "Role": "finances_2024.gain_fiscal"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_qte_logement_rea"
+			          "ID": "finances_2024_have_gain_fiscal"
 			        }
 			      ]
 			    },
-			    "tx_fiscal_nouv_has_finance_mel_2024_gain_fiscal": {
+			    "tx_fiscal_nouv_has_finances_2024_gain_fiscal": {
 			      "Binding": {
 			        "ConceptualEntity": "Tx_fiscal_nouv"
 			      },
@@ -12537,9 +13101,9 @@ cultureInfo fr-FR
 			            "Entity": "tx_fiscal_nouv"
 			          }
 			        },
-			        "finance_mel_2024.gain_fiscal": {
+			        "finances_2024.gain_fiscal": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.gain_fiscal"
+			            "Entity": "finances_2024.gain_fiscal"
 			          }
 			        }
 			      },
@@ -12550,7 +13114,7 @@ cultureInfo fr-FR
 			              "Role": "tx_fiscal_nouv"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.gain_fiscal"
+			              "Role": "finances_2024.gain_fiscal"
 			            }
 			          },
 			          "State": "Generated",
@@ -12559,20 +13123,20 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_gain_fiscal": {
+			    "finances_2024_has_nouv_val_fiscal": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.gain_fiscal": {
+			        "finances_2024.nouv_val_fiscal": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.gain_fiscal"
+			            "Entity": "finances_2024.nouv_val_fiscal"
 			          }
 			        }
 			      },
@@ -12580,19 +13144,19 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.gain_fiscal"
+			              "Role": "finances_2024.nouv_val_fiscal"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_gain_fiscal"
+			          "ID": "finances_2024_have_nouv_val_fiscal"
 			        }
 			      ]
 			    },
-			    "tx_fiscal_nouv_has_finance_mel_2024_nouv_val_fiscal": {
+			    "tx_fiscal_nouv_has_finances_2024_nouv_val_fiscal": {
 			      "Binding": {
 			        "ConceptualEntity": "Tx_fiscal_nouv"
 			      },
@@ -12603,9 +13167,9 @@ cultureInfo fr-FR
 			            "Entity": "tx_fiscal_nouv"
 			          }
 			        },
-			        "finance_mel_2024.nouv_val_fiscal": {
+			        "finances_2024.nouv_val_fiscal": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.nouv_val_fiscal"
+			            "Entity": "finances_2024.nouv_val_fiscal"
 			          }
 			        }
 			      },
@@ -12616,7 +13180,7 @@ cultureInfo fr-FR
 			              "Role": "tx_fiscal_nouv"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.nouv_val_fiscal"
+			              "Role": "finances_2024.nouv_val_fiscal"
 			            }
 			          },
 			          "State": "Generated",
@@ -12625,20 +13189,20 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_nouv_val_fiscal": {
+			    "finances_2024_has_base_FPB": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.nouv_val_fiscal": {
+			        "finances_2024.base_FPB": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.nouv_val_fiscal"
+			            "Entity": "finances_2024.base_FPB"
 			          }
 			        }
 			      },
@@ -12646,32 +13210,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.nouv_val_fiscal"
+			              "Role": "finances_2024.base_FPB"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_nouv_val_fiscal"
+			          "ID": "finances_2024_have_base_FPBs"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_base_FPB": {
+			    "finances_2024_has_tx_FPB": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.base_FPB": {
+			        "finances_2024.tx_FPB": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.base_FPB"
+			            "Entity": "finances_2024.tx_FPB"
 			          }
 			        }
 			      },
@@ -12679,32 +13243,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.base_FPB"
+			              "Role": "finances_2024.tx_FPB"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_base_FPBs"
+			          "ID": "finances_2024_have_tx_FPBs"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_tx_FPB": {
+			    "finances_2024_has_produit_FPB": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.tx_FPB": {
+			        "finances_2024.produit_FPB": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.tx_FPB"
+			            "Entity": "finances_2024.produit_FPB"
 			          }
 			        }
 			      },
@@ -12712,32 +13276,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.tx_FPB"
+			              "Role": "finances_2024.produit_FPB"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_tx_FPBs"
+			          "ID": "finances_2024_have_produit_FPBs"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_produit_FPB": {
+			    "finances_2024_has_solde_MEL": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.produit_FPB": {
+			        "finances_2024.solde_MEL": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.produit_FPB"
+			            "Entity": "finances_2024.solde_MEL"
 			          }
 			        }
 			      },
@@ -12745,32 +13309,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.produit_FPB"
+			              "Role": "finances_2024.solde_MEL"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_produit_FPBs"
+			          "ID": "finances_2024_have_solde_MEL"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_solde_MEL": {
+			    "finances_2024_has_prelevements_MEL": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.solde_MEL": {
+			        "finances_2024.prelevements_MEL": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.solde_MEL"
+			            "Entity": "finances_2024.prelevements_MEL"
 			          }
 			        }
 			      },
@@ -12778,32 +13342,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.solde_MEL"
+			              "Role": "finances_2024.prelevements_MEL"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_solde_MEL"
+			          "ID": "finances_2024_have_prelevements_MEL"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_prelevements_MEL": {
+			    "finances_2024_has_reversements_MEL": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.prelevements_MEL": {
+			        "finances_2024.reversements_MEL": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.prelevements_MEL"
+			            "Entity": "finances_2024.reversements_MEL"
 			          }
 			        }
 			      },
@@ -12811,32 +13375,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.prelevements_MEL"
+			              "Role": "finances_2024.reversements_MEL"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_prelevements_MEL"
+			          "ID": "finances_2024_have_reversements_MEL"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_reversements_MEL": {
+			    "finances_2024_has_recettes_MEL": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.reversements_MEL": {
+			        "finances_2024.recettes_MEL": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.reversements_MEL"
+			            "Entity": "finances_2024.recettes_MEL"
 			          }
 			        }
 			      },
@@ -12844,32 +13408,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.reversements_MEL"
+			              "Role": "finances_2024.recettes_MEL"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_reversements_MEL"
+			          "ID": "finances_2024_have_recettes_MEL"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_recettes_MEL": {
+			    "finances_2024_has_libcom": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.recettes_MEL": {
+			        "finances_2024.libcom": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.recettes_MEL"
+			            "Entity": "finances_2024.libcom"
 			          }
 			        }
 			      },
@@ -12877,32 +13441,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.recettes_MEL"
+			              "Role": "finances_2024.libcom"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_recettes_MEL"
+			          "ID": "finances_2024_have_libcoms"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_libcom": {
+			    "finances_2024_has_ville_dep_pay": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.libcom": {
+			        "finances_2024.ville_dep_pay": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.libcom"
+			            "Entity": "finances_2024.ville_dep_pay"
 			          }
 			        }
 			      },
@@ -12910,32 +13474,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.libcom"
+			              "Role": "finances_2024.ville_dep_pay"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_libcoms"
+			          "ID": "finances_2024_have_ville_dep_pays"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_ville_dep_pay": {
+			    "finances_2024_has_recettes_totale": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.ville_dep_pay": {
+			        "finances_2024.recettes_totale": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.ville_dep_pay"
+			            "Entity": "finances_2024.recettes_totale"
 			          }
 			        }
 			      },
@@ -12943,53 +13507,20 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.ville_dep_pay"
+			              "Role": "finances_2024.recettes_totale"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_ville_dep_pays"
-			        }
-			      ]
-			    },
-			    "finance_mel_2024_has_recettes_totale": {
-			      "Binding": {
-			        "ConceptualEntity": "finances_2024"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "finance_mel_2024": {
-			          "Target": {
-			            "Entity": "finance_mel_2024"
-			          }
-			        },
-			        "finance_mel_2024.recettes_totale": {
-			          "Target": {
-			            "Entity": "finance_mel_2024.recettes_totale"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "finance_mel_2024"
-			            },
-			            "Object": {
-			              "Role": "finance_mel_2024.recettes_totale"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_recettes_totales"
+			          "ID": "finances_2024_have_recettes_totales"
 			        },
 			        {
 			          "Adjective": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Adjectives": [
 			              {
@@ -13006,29 +13537,29 @@ cultureInfo fr-FR
 			              }
 			            ],
 			            "Measurement": {
-			              "Role": "finance_mel_2024.recettes_totale"
+			              "Role": "finances_2024.recettes_totale"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "recettes_totale_indicates_how_expensive_finance_mel_2024_are"
+			          "ID": "recettes_totale_indicates_how_expensive_finances_2024_are"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_exceptionnel": {
+			    "finances_2024_has_exceptionnel": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.exceptionnel": {
+			        "finances_2024.exceptionnel": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.exceptionnel"
+			            "Entity": "finances_2024.exceptionnel"
 			          }
 			        }
 			      },
@@ -13036,32 +13567,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.exceptionnel"
+			              "Role": "finances_2024.exceptionnel"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_exceptionnels"
+			          "ID": "finances_2024_have_exceptionnels"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_dotation": {
+			    "finances_2024_has_dotation": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.dotation": {
+			        "finances_2024.dotation": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.dotation"
+			            "Entity": "finances_2024.dotation"
 			          }
 			        }
 			      },
@@ -13069,32 +13600,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.dotation"
+			              "Role": "finances_2024.dotation"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_dotation"
+			          "ID": "finances_2024_have_dotation"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_recettes_non_fiscale": {
+			    "finances_2024_has_recettes_non_fiscale": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.recettes_non_fiscale": {
+			        "finances_2024.recettes_non_fiscale": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.recettes_non_fiscale"
+			            "Entity": "finances_2024.recettes_non_fiscale"
 			          }
 			        }
 			      },
@@ -13102,32 +13633,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.recettes_non_fiscale"
+			              "Role": "finances_2024.recettes_non_fiscale"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_recettes_non_fiscales"
+			          "ID": "finances_2024_have_recettes_non_fiscales"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_recettes_fiscale": {
+			    "finances_2024_has_recettes_fiscale": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.recettes_fiscale": {
+			        "finances_2024.recettes_fiscale": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.recettes_fiscale"
+			            "Entity": "finances_2024.recettes_fiscale"
 			          }
 			        }
 			      },
@@ -13135,32 +13666,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.recettes_fiscale"
+			              "Role": "finances_2024.recettes_fiscale"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_recettes_fiscales"
+			          "ID": "finances_2024_have_recettes_fiscales"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_solde": {
+			    "finances_2024_has_solde": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.solde": {
+			        "finances_2024.solde": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.solde"
+			            "Entity": "finances_2024.solde"
 			          }
 			        }
 			      },
@@ -13168,32 +13699,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.solde"
+			              "Role": "finances_2024.solde"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_soldes"
+			          "ID": "finances_2024_have_soldes"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_sc": {
+			    "finances_2024_has_sc": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.sc": {
+			        "finances_2024.sc": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.sc"
+			            "Entity": "finances_2024.sc"
 			          }
 			        }
 			      },
@@ -13201,32 +13732,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.sc"
+			              "Role": "finances_2024.sc"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_sc"
+			          "ID": "finances_2024_have_sc"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_sd": {
+			    "finances_2024_has_sd": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.sd": {
+			        "finances_2024.sd": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.sd"
+			            "Entity": "finances_2024.sd"
 			          }
 			        }
 			      },
@@ -13234,32 +13765,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.sd"
+			              "Role": "finances_2024.sd"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_sd"
+			          "ID": "finances_2024_have_sd"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_INSEE_y": {
+			    "finances_2024_has_INSEE_y": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.INSEE_y": {
+			        "finances_2024.INSEE_y": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.INSEE_y"
+			            "Entity": "finances_2024.INSEE_y"
 			          }
 			        }
 			      },
@@ -13267,32 +13798,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.INSEE_y"
+			              "Role": "finances_2024.INSEE_y"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_INSEE_y"
+			          "ID": "finances_2024_have_INSEE_y"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_com": {
+			    "finances_2024_has_com": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.com": {
+			        "finances_2024.com": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.com"
+			            "Entity": "finances_2024.com"
 			          }
 			        }
 			      },
@@ -13300,32 +13831,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.com"
+			              "Role": "finances_2024.com"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_com"
+			          "ID": "finances_2024_have_com"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_n_insee": {
+			    "finances_2024_has_n_insee": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.n_insee": {
+			        "finances_2024.n_insee": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.n_insee"
+			            "Entity": "finances_2024.n_insee"
 			          }
 			        }
 			      },
@@ -13333,32 +13864,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.n_insee"
+			              "Role": "finances_2024.n_insee"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_n_insees"
+			          "ID": "finances_2024_have_n_insees"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_lib_com_postal": {
+			    "finances_2024_has_lib_com_postal": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.lib_com_postal": {
+			        "finances_2024.lib_com_postal": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.lib_com_postal"
+			            "Entity": "finances_2024.lib_com_postal"
 			          }
 			        }
 			      },
@@ -13366,32 +13897,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.lib_com_postal"
+			              "Role": "finances_2024.lib_com_postal"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_lib_com_postal"
+			          "ID": "finances_2024_have_lib_com_postal"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_code_postal": {
+			    "finances_2024_has_code_postal": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.code_postal": {
+			        "finances_2024.code_postal": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.code_postal"
+			            "Entity": "finances_2024.code_postal"
 			          }
 			        }
 			      },
@@ -13399,32 +13930,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.code_postal"
+			              "Role": "finances_2024.code_postal"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_code_postal"
+			          "ID": "finances_2024_have_code_postal"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_libville": {
+			    "finances_2024_has_libville": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.libville": {
+			        "finances_2024.libville": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.libville"
+			            "Entity": "finances_2024.libville"
 			          }
 			        }
 			      },
@@ -13432,32 +13963,32 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.libville"
+			              "Role": "finances_2024.libville"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_libvilles"
+			          "ID": "finances_2024_have_libvilles"
 			        }
 			      ]
 			    },
-			    "finance_mel_2024_has_INSEE_x": {
+			    "finances_2024_has_INSEE_x": {
 			      "Binding": {
 			        "ConceptualEntity": "finances_2024"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "finance_mel_2024": {
+			        "finances_2024": {
 			          "Target": {
-			            "Entity": "finance_mel_2024"
+			            "Entity": "finances_2024"
 			          }
 			        },
-			        "finance_mel_2024.INSEE_x": {
+			        "finances_2024.INSEE_x": {
 			          "Target": {
-			            "Entity": "finance_mel_2024.INSEE_x"
+			            "Entity": "finances_2024.INSEE_x"
 			          }
 			        }
 			      },
@@ -13465,15 +13996,15 @@ cultureInfo fr-FR
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "finance_mel_2024"
+			              "Role": "finances_2024"
 			            },
 			            "Object": {
-			              "Role": "finance_mel_2024.INSEE_x"
+			              "Role": "finances_2024.INSEE_x"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "finance_mel_2024_have_INSEE_x"
+			          "ID": "finances_2024_have_INSEE_x"
 			        }
 			      ]
 			    },
