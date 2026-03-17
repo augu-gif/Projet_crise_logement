@@ -44,14 +44,14 @@
                           "Entity": "LogementsVacants_MEL_Exploitabl"
                         }
                       },
-                      "Property": "pp_vacant_24"
+                      "Property": "pp_vacant_plus_2ans_24"
                     }
                   },
                   "Function": 0
                 }
               },
-              "queryRef": "Sum(LogementsVacants_MEL_Exploitabl.pp_vacant_24)",
-              "nativeQueryRef": "Somme de pp_vacant_24"
+              "queryRef": "Sum(LogementsVacants_MEL_Exploitabl.pp_vacant_plus_2ans_24)",
+              "nativeQueryRef": "Somme de pp_vacant_plus_2ans_24"
             }
           ]
         }
@@ -68,7 +68,7 @@
                         "Entity": "LogementsVacants_MEL_Exploitabl"
                       }
                     },
-                    "Property": "pp_vacant_24"
+                    "Property": "pp_vacant_plus_2ans_24"
                   }
                 },
                 "Function": 0
@@ -321,7 +321,8 @@
               }
             }
           ]
-        }
+        },
+        "howCreated": "User"
       }
     ]
   }

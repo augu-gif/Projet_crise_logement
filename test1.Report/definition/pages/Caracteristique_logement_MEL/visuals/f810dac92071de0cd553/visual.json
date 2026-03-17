@@ -5,7 +5,7 @@
     "x": 0,
     "y": 0,
     "z": 3000,
-    "height": 91.748251748251747,
+    "height": 97.877389584706663,
     "width": 1280,
     "tabOrder": 3000
   },
@@ -16,6 +16,14 @@
         {
           "properties": {
             "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
               {
                 "textRuns": [
                   {
