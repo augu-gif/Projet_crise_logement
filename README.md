@@ -132,6 +132,9 @@ Le projet est structuré en plusieurs parties :
 Application Streamlit sur les insights liées au nombre de sans-abris dans la métropole lilloise et prédiction de leur nombre sur 10 ans :
 https://homelessmelanalysis-fnhvfq6nzfiude9nsnjc4z.streamlit.app/
 
+Application Streamlit correspondant à notre solution pour résoudre la crise du logement dans la MEL :
+https://solutionrelogementsansabris-3mapxcm2i8mdgptbgru6gh.streamlit.app/
+
 ---
 ## Objectif final
 
