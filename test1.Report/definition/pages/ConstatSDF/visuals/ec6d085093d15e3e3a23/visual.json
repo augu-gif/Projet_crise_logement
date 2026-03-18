@@ -1,12 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "ec6d085093d15e3e3a23",
   "position": {
-    "x": 253.36657810477553,
+    "x": 265.59077809798271,
     "y": 0,
     "z": 1000,
-    "height": 138.40288848014171,
-    "width": 1026.8601403365351,
+    "height": 198.70842886892868,
+    "width": 341.19691200908727,
     "tabOrder": 1000
   },
   "visual": {
@@ -164,6 +164,46 @@
             "metadata": "RepartitionSansAbris_MEL.Scorecard Value"
           }
         }
+      ],
+      "fillCustom": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "layout": [
+        {
+          "properties": {
+            "columnCount": {
+              "expr": {
+                "Literal": {
+                  "Value": "1L"
+                }
+              }
+            }
+          }
+        },
+        {
+          "properties": {
+            "backgroundShow": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
       ]
     },
     "visualContainerObjects": {
@@ -212,7 +252,14 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Constat de la situation des personnes sans domicile fixe dans la métropole lilloise en 2026'"
+                  "Value": "'Une crise hors de contrôle'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             },
@@ -223,6 +270,25 @@
                 }
               }
             },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
             "bold": {
               "expr": {
                 "Literal": {
@@ -230,10 +296,10 @@
                 }
               }
             },
-            "show": {
+            "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "30D"
                 }
               }
             }
@@ -324,32 +390,6 @@
           },
           "selector": {
             "id": "default"
-          }
-        }
-      ],
-      "lockAspect": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "general": [
-        {
-          "properties": {
-            "keepLayerOrder": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
           }
         }
       ]

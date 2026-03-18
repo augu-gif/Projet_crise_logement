@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "d073ad266077b499206d",
   "position": {
-    "x": 594.44444444444446,
-    "y": 86.666666666666671,
+    "x": 593.675827822147,
+    "y": 248.85878395386624,
     "z": 0,
-    "height": 472.22222222222223,
-    "width": 674.44444444444446,
+    "height": 471.35540859058563,
+    "width": 686.47062861850384,
     "tabOrder": 0
   },
   "visual": {
@@ -92,21 +92,21 @@
             "zoom": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "9.04D"
                 }
               }
             },
             "centerLatitude": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "50.647761583612265D"
                 }
               }
             },
             "centerLongitude": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "3.03470021458088D"
                 }
               }
             },
@@ -120,7 +120,7 @@
             "pitch": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "30D"
                 }
               }
             },
@@ -577,7 +577,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'- La Signature Fiscale du Territoire MEL'"
+                  "Value": "'La Signature Fiscale du Territoire MEL'"
                 }
               }
             },
@@ -624,7 +624,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "14D"
+                  "Value": "18D"
                 }
               }
             },

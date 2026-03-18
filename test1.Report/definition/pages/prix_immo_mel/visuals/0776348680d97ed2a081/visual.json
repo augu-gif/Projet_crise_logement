@@ -5,7 +5,7 @@
     "x": 0,
     "y": 0,
     "z": 5000,
-    "height": 86,
+    "height": 76,
     "width": 1280,
     "tabOrder": 5000
   },
@@ -19,10 +19,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "Évolution du prix de l'immobilier dans la MEL",
-                    "textStyle": {
-                      "fontSize": "28pt"
-                    }
+                    "value": ""
                   }
                 ],
                 "horizontalTextAlignment": "center"
@@ -36,6 +33,13 @@
       "title": [
         {
           "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
             "titleWrap": {
               "expr": {
                 "Literal": {
@@ -43,10 +47,43 @@
                 }
               }
             },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
             "bold": {
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Le marché immobilier : dynamique et contrasté'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "36D"
                 }
               }
             }
@@ -116,7 +153,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 6,
+                      "ColorId": 5,
                       "Percent": 0.4
                     }
                   }

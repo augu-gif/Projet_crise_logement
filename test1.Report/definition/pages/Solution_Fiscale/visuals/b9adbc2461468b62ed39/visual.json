@@ -3,10 +3,10 @@
   "name": "b9adbc2461468b62ed39",
   "position": {
     "x": 0,
-    "y": 88.5768553056134,
+    "y": 119.79212248147259,
     "z": 3000,
-    "height": 112.83004187738851,
-    "width": 292.09272523398704,
+    "height": 122.03873299631231,
+    "width": 292.09270520428851,
     "tabOrder": 3000
   },
   "visual": {
@@ -42,7 +42,7 @@
             "numericStart": {
               "expr": {
                 "Literal": {
-                  "Value": "2D"
+                  "Value": "2.600000000000001D"
                 }
               }
             }
@@ -79,13 +79,84 @@
                         },
                         "Right": {
                           "Literal": {
-                            "Value": "2D"
+                            "Value": "2.600000000000001D"
                           }
                         }
                       }
                     }
                   }
                 ]
+              }
+            },
+            "orientation": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "numericInputStyle": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "13D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "header": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "22D"
+                }
+              }
+            },
+            "outlineStyle": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "pendingChangesIcon": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "slider": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.25
+                    }
+                  }
+                }
               }
             }
           }
@@ -103,29 +174,10 @@
                 }
               }
             },
-            "heading": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Heading4'"
-                }
-              }
-            },
             "titleWrap": {
               "expr": {
                 "Literal": {
                   "Value": "true"
-                }
-              }
-            },
-            "background": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 6,
-                      "Percent": -0.25
-                    }
-                  }
                 }
               }
             },
@@ -139,7 +191,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "14D"
+                  "Value": "20D"
                 }
               }
             },
@@ -243,13 +295,6 @@
       "visualHeader": [
         {
           "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
             "background": {
               "solid": {
                 "color": {
@@ -286,39 +331,27 @@
           }
         }
       ],
-      "subTitle": [
+      "padding": [
         {
           "properties": {
-            "show": {
+            "top": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "2D"
                 }
               }
-            }
-          }
-        }
-      ],
-      "divider": [
-        {
-          "properties": {
-            "show": {
+            },
+            "left": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "3D"
                 }
               }
-            }
-          }
-        }
-      ],
-      "visualTooltip": [
-        {
-          "properties": {
-            "show": {
+            },
+            "bottom": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "2D"
                 }
               }
             }
@@ -327,5 +360,6 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  }
+  },
+  "parentGroupName": "bf1eb3301bb7d83331b5"
 }
