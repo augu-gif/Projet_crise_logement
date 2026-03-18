@@ -99,14 +99,14 @@
             "centerLatitude": {
               "expr": {
                 "Literal": {
-                  "Value": "50.647761583612265D"
+                  "Value": "50.64747607344657D"
                 }
               }
             },
             "centerLongitude": {
               "expr": {
                 "Literal": {
-                  "Value": "3.03470021458088D"
+                  "Value": "3.034220000000005D"
                 }
               }
             },
@@ -120,7 +120,7 @@
             "pitch": {
               "expr": {
                 "Literal": {
-                  "Value": "30D"
+                  "Value": "0D"
                 }
               }
             },

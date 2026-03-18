@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "c4c4697c0bcd1797b158",
   "position": {
-    "x": 10.003174835763303,
-    "y": 116.03682809485433,
+    "x": 0,
+    "y": 116.3026878015162,
     "z": 5000,
-    "height": 592.18795027718761,
-    "width": 966.30668913473517,
+    "height": 604.0964851826327,
+    "width": 976.71674707098555,
     "tabOrder": 4000
   },
   "visual": {
@@ -160,7 +160,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Le sans‑abrisme explose en Europe'"
+                  "Value": "'Le sans‑abrisme explose'"
                 }
               }
             },

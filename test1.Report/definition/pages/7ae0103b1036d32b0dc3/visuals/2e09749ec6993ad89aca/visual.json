@@ -93,7 +93,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'À vous de jouer : explorez votre solution'"
+                  "Value": "'Explorez votre solution'"
                 }
               }
             },
