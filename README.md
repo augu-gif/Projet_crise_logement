@@ -136,6 +136,10 @@ Application Streamlit correspondant à notre solution pour résoudre la crise du
 https://solutionrelogementsansabris-3mapxcm2i8mdgptbgru6gh.streamlit.app/
 
 ---
+## Présentation 
+Power Point : https://github.com/augu-gif/Projet_crise_logement/blob/main/Projet_crise_logement_presentation.pptx
+
+---
 ## Objectif final
 
 Produire une analyse claire et visuelle permettant de mettre en évidence les tensions du marché du logement et d’alimenter la réflexion sur les politiques publiques locales.
