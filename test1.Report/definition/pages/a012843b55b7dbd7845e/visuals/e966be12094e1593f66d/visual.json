@@ -1,67 +1,47 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "ecca305649f68aa0c880",
+  "name": "e966be12094e1593f66d",
   "position": {
     "x": 0,
-    "y": 128,
-    "z": 2000,
-    "height": 270,
-    "width": 1040,
-    "tabOrder": 2000
+    "y": 377.13687112336322,
+    "z": 4005,
+    "height": 343.26230186078567,
+    "width": 396.33246037215713,
+    "tabOrder": 4005
   },
   "visual": {
-    "visualType": "textbox",
+    "visualType": "image",
     "objects": {
-      "general": [
+      "image": [
         {
           "properties": {
-            "paragraphs": [
-              {
-                "textRuns": [
-                  {
-                    "value": "Merci à toutes celles et ceux qui ont cru en cette démarche.",
-                    "textStyle": {
-                      "fontWeight": "bold",
-                      "fontSize": "32pt"
+            "sourceFile": {
+              "image": {
+                "name": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'QR_code_fabrice.png'"
                     }
                   }
-                ],
-                "horizontalTextAlignment": "center"
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": ""
-                  }
-                ]
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": " Votre engagement redonne de l’espoir et construit l’avenir.",
-                    "textStyle": {
-                      "fontWeight": "bold",
-                      "fontSize": "32pt"
+                },
+                "url": {
+                  "expr": {
+                    "ResourcePackageItem": {
+                      "PackageName": "RegisteredResources",
+                      "PackageType": 1,
+                      "ItemName": "QR_code_fabrice6599904121275202.png"
                     }
                   }
-                ],
-                "horizontalTextAlignment": "center"
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": ""
+                },
+                "scaling": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'Normal'"
+                    }
                   }
-                ]
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": ""
-                  }
-                ]
+                }
               }
-            ]
+            }
           }
         }
       ]
@@ -73,7 +53,21 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Un impact massif, dès maintenant'"
+                  "Value": "'Fabrice Waymel'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "heading": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Heading4'"
                 }
               }
             },
@@ -83,7 +77,56 @@
                   "Value": "true"
                 }
               }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 6,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "24D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
             }
+          }
+        }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "verticalSpacing": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ],
@@ -112,7 +155,7 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "34D"
+                  "Value": "40D"
                 }
               }
             }
@@ -129,17 +172,29 @@
                 }
               }
             },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 3,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            },
             "radius": {
               "expr": {
                 "Literal": {
-                  "Value": "10D"
+                  "Value": "25D"
                 }
               }
             },
             "width": {
               "expr": {
                 "Literal": {
-                  "Value": "1D"
+                  "Value": "6D"
                 }
               }
             }
@@ -192,6 +247,32 @@
           }
         }
       ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "divider": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
       "general": [
         {
           "properties": {
@@ -206,6 +287,19 @@
         }
       ],
       "dropShadow": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualTooltip": [
         {
           "properties": {
             "show": {

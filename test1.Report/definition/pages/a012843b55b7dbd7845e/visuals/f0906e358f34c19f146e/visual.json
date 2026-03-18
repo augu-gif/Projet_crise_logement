@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "7654713c4677c99484a9",
+  "name": "f0906e358f34c19f146e",
   "position": {
-    "x": 0,
-    "y": 0,
-    "z": 0,
-    "height": 719.79615148053779,
-    "width": 1280.2088694189565,
-    "tabOrder": 4000
+    "x": 0.50962264582713424,
+    "y": 0.50962264582713512,
+    "z": 3000,
+    "height": 141.3011739399071,
+    "width": 507.20794526190531,
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "image",
@@ -20,7 +20,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'grand-place-lille-scaled.jpg'"
+                      "Value": "'f2025ebc-874b-4c2a-9028-f17dbb93be84.png'"
                     }
                   }
                 },
@@ -29,7 +29,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "grand-place-lille-scaled7101078719963297.jpg"
+                      "ItemName": "f2025ebc-874b-4c2a-9028-f17dbb8899662577539559.png"
                     }
                   }
                 },
@@ -45,7 +45,7 @@
             "fit": {
               "expr": {
                 "Literal": {
-                  "Value": "'Stretch'"
+                  "Value": "'Fill'"
                 }
               }
             }

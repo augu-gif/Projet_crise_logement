@@ -1,67 +1,47 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "ecca305649f68aa0c880",
+  "name": "3e227256cb62ed2d8732",
   "position": {
-    "x": 0,
-    "y": 128,
-    "z": 2000,
-    "height": 270,
-    "width": 1040,
-    "tabOrder": 2000
+    "x": 435.85279117849757,
+    "y": 114.04438318401102,
+    "z": 4006,
+    "height": 337.61654031702273,
+    "width": 408.75313576843558,
+    "tabOrder": 4006
   },
   "visual": {
-    "visualType": "textbox",
+    "visualType": "image",
     "objects": {
-      "general": [
+      "image": [
         {
           "properties": {
-            "paragraphs": [
-              {
-                "textRuns": [
-                  {
-                    "value": "Merci à toutes celles et ceux qui ont cru en cette démarche.",
-                    "textStyle": {
-                      "fontWeight": "bold",
-                      "fontSize": "32pt"
+            "sourceFile": {
+              "image": {
+                "name": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'QR_code_augu.png'"
                     }
                   }
-                ],
-                "horizontalTextAlignment": "center"
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": ""
-                  }
-                ]
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": " Votre engagement redonne de l’espoir et construit l’avenir.",
-                    "textStyle": {
-                      "fontWeight": "bold",
-                      "fontSize": "32pt"
+                },
+                "url": {
+                  "expr": {
+                    "ResourcePackageItem": {
+                      "PackageName": "RegisteredResources",
+                      "PackageType": 1,
+                      "ItemName": "QR_code_augu7184465749905512.png"
                     }
                   }
-                ],
-                "horizontalTextAlignment": "center"
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": ""
+                },
+                "scaling": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'Normal'"
+                    }
                   }
-                ]
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": ""
-                  }
-                ]
+                }
               }
-            ]
+            }
           }
         }
       ]
@@ -73,11 +53,51 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Un impact massif, dès maintenant'"
+                  "Value": "'Augustin Montreuil'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             },
             "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "24D"
+                }
+              }
+            },
+            "bold": {
               "expr": {
                 "Literal": {
                   "Value": "true"
@@ -112,7 +132,7 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "34D"
+                  "Value": "40D"
                 }
               }
             }
@@ -129,17 +149,29 @@
                 }
               }
             },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 5,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            },
             "radius": {
               "expr": {
                 "Literal": {
-                  "Value": "10D"
+                  "Value": "25D"
                 }
               }
             },
             "width": {
               "expr": {
                 "Literal": {
-                  "Value": "1D"
+                  "Value": "6D"
                 }
               }
             }
@@ -196,19 +228,6 @@
         {
           "properties": {
             "keepLayerOrder": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "dropShadow": [
-        {
-          "properties": {
-            "show": {
               "expr": {
                 "Literal": {
                   "Value": "true"
