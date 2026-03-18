@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "7654713c4677c99484a9",
+  "name": "b26854da51b924366007",
   "position": {
-    "x": 0,
-    "y": 0,
-    "z": 0,
-    "height": 719.79615148053779,
-    "width": 1280.2088694189565,
-    "tabOrder": 4000
+    "x": 1094.7966297420983,
+    "y": 611.94303066592533,
+    "z": 4001,
+    "height": 108.39570591505924,
+    "width": 185.25811556391943,
+    "tabOrder": 4001
   },
   "visual": {
     "visualType": "image",
@@ -20,7 +20,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'grand-place-lille-scaled.jpg'"
+                      "Value": "'le-nouveau-logo-de-la-fondation-pour-le-logement-capture-d-ecran-youtube-fondation-pour-le-logement-1742239676.webp'"
                     }
                   }
                 },
@@ -29,7 +29,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "grand-place-lille-scaled7101078719963297.jpg"
+                      "ItemName": "le-nouveau-logo-de-la-fondatio959097305668002.webp"
                     }
                   }
                 },
@@ -45,7 +45,7 @@
             "fit": {
               "expr": {
                 "Literal": {
-                  "Value": "'Stretch'"
+                  "Value": "'Fill'"
                 }
               }
             }
