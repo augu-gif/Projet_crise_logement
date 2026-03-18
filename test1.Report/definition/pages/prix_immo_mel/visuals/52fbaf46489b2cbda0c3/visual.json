@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "52fbaf46489b2cbda0c3",
   "position": {
-    "x": 294,
-    "y": 270,
+    "x": 783.48337490560425,
+    "y": 269.94851140758374,
     "z": 2000,
-    "height": 450,
-    "width": 482,
+    "height": 450.26568113686812,
+    "width": 496.66308153504662,
     "tabOrder": 2000
   },
   "visual": {
@@ -69,7 +69,7 @@
             "zoom": {
               "expr": {
                 "Literal": {
-                  "Value": "9.06D"
+                  "Value": "8.95D"
                 }
               }
             },
@@ -568,7 +568,40 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Où l’immobilier est le plus cher'"
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "18D"
                 }
               }
             }

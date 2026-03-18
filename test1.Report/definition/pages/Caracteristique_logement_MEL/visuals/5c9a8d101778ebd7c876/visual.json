@@ -2,15 +2,15 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "5c9a8d101778ebd7c876",
   "position": {
-    "x": 0,
-    "y": 413.44759393539886,
+    "x": 777.156456669489,
+    "y": 83.304423442184032,
     "z": 2000,
-    "height": 306.28872775214239,
-    "width": 1280,
+    "height": 636.90976910226777,
+    "width": 502.98999977116182,
     "tabOrder": 2000
   },
   "visual": {
-    "visualType": "columnChart",
+    "visualType": "clusteredBarChart",
     "query": {
       "queryState": {
         "Category": {
@@ -90,6 +90,20 @@
                   "Value": "'VIlles'"
                 }
               }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
             }
           }
         }
@@ -101,6 +115,20 @@
               "expr": {
                 "Literal": {
                   "Value": "'Logement vacants'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }
@@ -115,7 +143,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Nombre de logements vacants dans la MEL'"
+                  "Value": "'Le poids des logements inoccupés'"
                 }
               }
             },
@@ -144,6 +172,25 @@
               "expr": {
                 "Literal": {
                   "Value": "'center'"
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "18D"
                 }
               }
             }

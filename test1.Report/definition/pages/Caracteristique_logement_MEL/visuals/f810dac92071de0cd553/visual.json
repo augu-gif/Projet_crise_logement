@@ -5,8 +5,8 @@
     "x": 0,
     "y": 0,
     "z": 3000,
-    "height": 97.877389584706663,
-    "width": 1280,
+    "height": 75.023811268224776,
+    "width": 1280.4063789777028,
     "tabOrder": 3000
   },
   "visual": {
@@ -20,17 +20,6 @@
                 "textRuns": [
                   {
                     "value": ""
-                  }
-                ],
-                "horizontalTextAlignment": "center"
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": "Caractéristiques des logements de la MEL en 2024",
-                    "textStyle": {
-                      "fontSize": "24pt"
-                    }
                   }
                 ],
                 "horizontalTextAlignment": "center"
@@ -54,7 +43,7 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             },
@@ -69,6 +58,39 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Un parc vieillissant et sous‑occupé'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "36D"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.25
+                    }
+                  }
                 }
               }
             }

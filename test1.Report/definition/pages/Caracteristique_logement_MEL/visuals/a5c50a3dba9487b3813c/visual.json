@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "a5c50a3dba9487b3813c",
   "position": {
-    "x": 0,
-    "y": 97.877389584706663,
-    "z": 5000,
-    "height": 315.57020435069217,
-    "width": 499.51219512195127,
-    "tabOrder": 5000
+    "x": 294.20169797935881,
+    "y": 83.304423442184032,
+    "z": 4000,
+    "height": 636.90976910226777,
+    "width": 473.46438133595734,
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "donutChart",
@@ -90,6 +90,20 @@
                   "Value": "'Percent of total'"
                 }
               }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "18D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
             }
           }
         }
@@ -101,6 +115,20 @@
               "expr": {
                 "Literal": {
                   "Value": "'Type de construction'"
+                }
+              }
+            },
+            "position": {
+              "expr": {
+                "Literal": {
+                  "Value": "'BottomCenter'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "13D"
                 }
               }
             }
@@ -115,7 +143,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Types de logements '"
+                  "Value": "'La structure du parc en 2026'"
                 }
               }
             },
@@ -144,6 +172,25 @@
               "expr": {
                 "Literal": {
                   "Value": "'center'"
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "18D"
                 }
               }
             }

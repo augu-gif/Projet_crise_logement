@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "03240846b650b6ed5d09",
   "position": {
-    "x": 253.36657810477553,
-    "y": 149.56441174466926,
+    "x": 618.41940301647071,
+    "y": 0,
     "z": 0,
-    "height": 570.35383881735811,
-    "width": 632.8583690987125,
+    "height": 720.19689097372679,
+    "width": 662.0383264267233,
     "tabOrder": 0
   },
   "visual": {
@@ -105,7 +105,7 @@
             "zoom": {
               "expr": {
                 "Literal": {
-                  "Value": "0.22D"
+                  "Value": "0.48D"
                 }
               }
             },
@@ -119,7 +119,7 @@
             "centerLongitude": {
               "expr": {
                 "Literal": {
-                  "Value": "0D"
+                  "Value": "-0.2517457028463923D"
                 }
               }
             },
@@ -189,7 +189,7 @@
             "showRoadDetails": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -261,6 +261,13 @@
                   "Value": "'auto'"
                 }
               }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
             }
           }
         },
@@ -300,7 +307,7 @@
                           },
                           "Value": {
                             "Literal": {
-                              "Value": "'#084239'"
+                              "Value": "'#3ec1a9'"
                             }
                           }
                         },
@@ -361,7 +368,7 @@
                           },
                           "Value": {
                             "Literal": {
-                              "Value": "'#143c5f'"
+                              "Value": "'#5393ca'"
                             }
                           }
                         },
@@ -422,7 +429,7 @@
                           },
                           "Value": {
                             "Literal": {
-                              "Value": "'#7e5c0a'"
+                              "Value": "'#e7dfca'"
                             }
                           }
                         },
@@ -454,7 +461,7 @@
                           },
                           "Value": {
                             "Literal": {
-                              "Value": "'#792b14'"
+                              "Value": "'#F15628'"
                             }
                           }
                         }
@@ -670,6 +677,19 @@
             }
           }
         }
+      ],
+      "labels": [
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
       ]
     },
     "visualContainerObjects": {
@@ -679,7 +699,14 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Répartition des sans-abris dans la MEL en 2026'"
+                  "Value": "'Un territoire sous pression : carte 2026'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             },
@@ -687,6 +714,25 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
                 }
               }
             },
@@ -807,6 +853,22 @@
                 }
               }
             }
+          }
+        }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "verticalSpacing": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ]

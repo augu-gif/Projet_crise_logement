@@ -6378,6 +6378,171 @@ cultureInfo fr-FR
 			          }
 			        }
 			      ]
+			    },
+			    "mesure.nb_sdf_2027": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "nb_sdf_2027"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb sdf 2027": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nb_sdf_2027": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2027": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.nb_sdf_2028": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "nb_sdf_2028"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb sdf 2028": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nb_sdf_2028": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2028": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.nb_sdf_2029": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "nb_sdf_2029"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb sdf 2029": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nb_sdf_2029": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2029": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.nb_sdf_2031": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "nb_sdf_2031"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb sdf 2031": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nb_sdf_2031": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2031": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.nb_sdf_2030": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "mesures",
+			          "ConceptualProperty": "nb_sdf_2030"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb sdf 2030": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nb_sdf_2030": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "2030": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
@@ -6754,6 +6919,831 @@ cultureInfo fr-FR
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "finances_2024_have_finances_mel_5ans"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_nb_sdf_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.nb_sdf_2030": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_nb_sdf_2030"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_nb_sdf_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.nb_sdf_2030": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_nb_sdf_2030"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_nb_sdf_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.nb_sdf_2030": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_nb_sdf_2030"
+			        }
+			      ]
+			    },
+			    "repartition_sans_abris_MEL_has_mesure_nb_sdf_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "RepartitionSansAbris_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repartition_sans_abris_MEL": {
+			          "Target": {
+			            "Entity": "repartition_sans_abris_MEL"
+			          }
+			        },
+			        "mesure.nb_sdf_2030": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repartition_sans_abris_MEL"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repartition_sans_abris_MEL_have_nb_sdf_2030"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_nb_sdf_2030": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.nb_sdf_2030": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2030"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2030"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_nb_sdf_2030"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_nb_sdf_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.nb_sdf_2031": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_nb_sdf_2031"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_nb_sdf_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.nb_sdf_2031": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_nb_sdf_2031"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_nb_sdf_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.nb_sdf_2031": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_nb_sdf_2031"
+			        }
+			      ]
+			    },
+			    "repartition_sans_abris_MEL_has_mesure_nb_sdf_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "RepartitionSansAbris_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repartition_sans_abris_MEL": {
+			          "Target": {
+			            "Entity": "repartition_sans_abris_MEL"
+			          }
+			        },
+			        "mesure.nb_sdf_2031": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repartition_sans_abris_MEL"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repartition_sans_abris_MEL_have_nb_sdf_2031"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_nb_sdf_2031": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.nb_sdf_2031": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2031"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2031"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_nb_sdf_2031"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_nb_sdf_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.nb_sdf_2029": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_nb_sdf_2029"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_nb_sdf_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.nb_sdf_2029": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_nb_sdf_2029"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_nb_sdf_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.nb_sdf_2029": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_nb_sdf_2029"
+			        }
+			      ]
+			    },
+			    "repartition_sans_abris_MEL_has_mesure_nb_sdf_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "RepartitionSansAbris_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repartition_sans_abris_MEL": {
+			          "Target": {
+			            "Entity": "repartition_sans_abris_MEL"
+			          }
+			        },
+			        "mesure.nb_sdf_2029": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repartition_sans_abris_MEL"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repartition_sans_abris_MEL_have_nb_sdf_2029"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_nb_sdf_2029": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.nb_sdf_2029": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2029"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2029"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_nb_sdf_2029"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_nb_sdf_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.nb_sdf_2028": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_nb_sdf_2028"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_nb_sdf_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.nb_sdf_2028": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_nb_sdf_2028"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_nb_sdf_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.nb_sdf_2028": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_nb_sdf_2028"
+			        }
+			      ]
+			    },
+			    "repartition_sans_abris_MEL_has_mesure_nb_sdf_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "RepartitionSansAbris_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repartition_sans_abris_MEL": {
+			          "Target": {
+			            "Entity": "repartition_sans_abris_MEL"
+			          }
+			        },
+			        "mesure.nb_sdf_2028": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repartition_sans_abris_MEL"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repartition_sans_abris_MEL_have_nb_sdf_2028"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_nb_sdf_2028": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.nb_sdf_2028": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2028"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2028"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_nb_sdf_2028"
+			        }
+			      ]
+			    },
+			    "per_inv_log_has_mesure_nb_sdf_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "per_inv_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "per_inv_log": {
+			          "Target": {
+			            "Entity": "per_inv_log"
+			          }
+			        },
+			        "mesure.nb_sdf_2027": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "per_inv_log"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "per_inv_log_have_nb_sdf_2027"
+			        }
+			      ]
+			    },
+			    "finances_mel_5an_has_mesure_nb_sdf_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "finances_mel_5ans"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "finances_mel_5an": {
+			          "Target": {
+			            "Entity": "finances_mel_5an"
+			          }
+			        },
+			        "mesure.nb_sdf_2027": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "finances_mel_5an"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "finances_mel_5ans_have_nb_sdf_2027"
+			        }
+			      ]
+			    },
+			    "tx_fiscal_nouv_has_mesure_nb_sdf_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "Tx_fiscal_nouv"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "tx_fiscal_nouv": {
+			          "Target": {
+			            "Entity": "tx_fiscal_nouv"
+			          }
+			        },
+			        "mesure.nb_sdf_2027": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "tx_fiscal_nouv"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tx_fiscal_nouvs_have_nb_sdf_2027"
+			        }
+			      ]
+			    },
+			    "repartition_sans_abris_MEL_has_mesure_nb_sdf_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "RepartitionSansAbris_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repartition_sans_abris_MEL": {
+			          "Target": {
+			            "Entity": "repartition_sans_abris_MEL"
+			          }
+			        },
+			        "mesure.nb_sdf_2027": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repartition_sans_abris_MEL"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repartition_sans_abris_MEL_have_nb_sdf_2027"
+			        }
+			      ]
+			    },
+			    "dvf_mel_has_mesure_nb_sdf_2027": {
+			      "Binding": {
+			        "ConceptualEntity": "DVF_MEL"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dvf_mel": {
+			          "Target": {
+			            "Entity": "dvf_mel"
+			          }
+			        },
+			        "mesure.nb_sdf_2027": {
+			          "Target": {
+			            "Entity": "mesure.nb_sdf_2027"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dvf_mel"
+			            },
+			            "Object": {
+			              "Role": "mesure.nb_sdf_2027"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dvf_mel_have_nb_sdf_2027"
 			        }
 			      ]
 			    },

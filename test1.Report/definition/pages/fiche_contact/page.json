@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
   "name": "cd7060f87e9bb020d005",
-  "displayName": "Page contact",
+  "displayName": "Qui nous somme",
   "displayOption": "FitToPage",
   "height": 720,
   "width": 1280

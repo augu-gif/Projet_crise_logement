@@ -22,7 +22,7 @@ table per_inv_log
 
 	partition per_inv_log = calculated
 		mode: import
-		source = GENERATESERIES(0, 50, 0.5)
+		source = GENERATESERIES(0, 20, 0.1)
 
 	annotation PBI_Id = a8a9d383836a4cf99296fb63f385401a
 

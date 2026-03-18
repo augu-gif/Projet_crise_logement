@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "f5e6b3c29a0a084b001e",
   "position": {
-    "x": 490.23071852340149,
-    "y": 251.44363876071196,
-    "z": 6000,
-    "height": 187.31707317073173,
-    "width": 299.53856295319713,
-    "tabOrder": 6000
+    "x": 0,
+    "y": 255.18570218998147,
+    "z": 3000,
+    "height": 298.4196434701023,
+    "width": 1050.2684271951305,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "textbox",
@@ -19,14 +19,35 @@
               {
                 "textRuns": [
                   {
-                    "value": "Contexte :",
+                    "value": "Un marché immobilier sous tension, ",
                     "textStyle": {
-                      "fontWeight": "bold",
-                      "textDecoration": "underline",
-                      "color": "#ffffff"
+                      "fontSize": "16pt"
                     }
                   }
-                ]
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "des loyers en hausse, ",
+                    "textStyle": {
+                      "fontSize": "16pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "et un accès au logement qui se ferme : le sans‑abrisme progresse.",
+                    "textStyle": {
+                      "fontSize": "16pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
               },
               {
                 "textRuns": [
@@ -38,20 +59,75 @@
               {
                 "textRuns": [
                   {
-                    "value": "Depuis plusieurs années, la France connaît une hausse continue des prix de l’immobilier et une tension croissante sur le marché locatif.",
+                    "value": "objectif :",
                     "textStyle": {
-                      "color": "#ffffff"
+                      "fontWeight": "bold",
+                      "fontSize": "24pt",
+                      "textDecoration": "underline"
                     }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
                   }
                 ]
               },
               {
                 "textRuns": [
                   {
-                    "value": " Cette situation rend l’accès au logement de plus en plus difficile, en particulier pour les ménages précaires, et contribue à l’augmentation du nombre de personnes sans domicile fixe.",
+                    "value": "Reloger. ",
                     "textStyle": {
-                      "color": "#ffffff"
+                      "fontWeight": "bold",
+                      "fontSize": "20pt"
                     }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Comprendre.",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "20pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Planifier.",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "20pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Un territoire, une stratégie, cinq ans pour agir.",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "20pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
                   }
                 ]
               },
@@ -100,7 +176,7 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "34D"
+                  "Value": "40D"
                 }
               }
             }

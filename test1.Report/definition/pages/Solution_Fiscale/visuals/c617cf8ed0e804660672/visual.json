@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "c617cf8ed0e804660672",
   "position": {
-    "x": 800.25398686106439,
-    "y": 532.16890126260773,
-    "z": 9000,
+    "x": 799.84760788336143,
+    "y": 531.94031308764988,
+    "z": 6000,
     "height": 188.05968691235012,
     "width": 480.15239211663862,
-    "tabOrder": 9000
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "funnel",
@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "mesures.nb_sdf_2027",
-              "nativeQueryRef": "nb_sdf_2027"
+              "nativeQueryRef": "2027",
+              "displayName": "2027"
             },
             {
               "field": {
@@ -41,7 +42,8 @@
                 }
               },
               "queryRef": "mesures.nb_sdf_2028",
-              "nativeQueryRef": "nb_sdf_2028"
+              "nativeQueryRef": "2028",
+              "displayName": "2028"
             },
             {
               "field": {
@@ -55,7 +57,8 @@
                 }
               },
               "queryRef": "mesures.nb_sdf_2029",
-              "nativeQueryRef": "nb_sdf_2029"
+              "nativeQueryRef": "2029",
+              "displayName": "2029"
             },
             {
               "field": {
@@ -69,7 +72,8 @@
                 }
               },
               "queryRef": "mesures.nb_sdf_2030",
-              "nativeQueryRef": "nb_sdf_2030"
+              "nativeQueryRef": "2030",
+              "displayName": "2030"
             },
             {
               "field": {
@@ -83,7 +87,8 @@
                 }
               },
               "queryRef": "mesures.nb_sdf_2031",
-              "nativeQueryRef": "nb_sdf_2031"
+              "nativeQueryRef": "2031",
+              "displayName": "2031"
             }
           ]
         }
@@ -108,14 +113,22 @@
       }
     },
     "objects": {
-      "categoryAxis": [
-        {
-          "properties": {}
-        }
-      ],
       "dataPoint": [
         {
-          "properties": {}
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.25
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ],
       "labels": [
@@ -135,13 +148,6 @@
                 }
               }
             },
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
             "labelPosition": {
               "expr": {
                 "Literal": {
@@ -149,10 +155,17 @@
                 }
               }
             },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "10D"
+                  "Value": "40D"
                 }
               }
             }
@@ -178,13 +191,6 @@
                 }
               }
             },
-            "heading": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Heading4'"
-                }
-              }
-            },
             "titleWrap": {
               "expr": {
                 "Literal": {
@@ -197,8 +203,8 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 6,
-                      "Percent": -0.25
+                      "ColorId": 4,
+                      "Percent": -0.5
                     }
                   }
                 }
@@ -211,17 +217,17 @@
                 }
               }
             },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "14D"
-                }
-              }
-            },
             "bold": {
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "18D"
                 }
               }
             }
@@ -290,8 +296,9 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "Literal": {
-                      "Value": "'#F79A7E'"
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": 0.4
                     }
                   }
                 }
@@ -317,13 +324,6 @@
       "visualHeader": [
         {
           "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
             "background": {
               "solid": {
                 "color": {
@@ -354,45 +354,6 @@
                       "Value": "'#FFFFFF'"
                     }
                   }
-                }
-              }
-            }
-          }
-        }
-      ],
-      "visualTooltip": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "subTitle": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "divider": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
                 }
               }
             }

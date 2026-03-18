@@ -5,9 +5,9 @@
     "x": 0,
     "y": 0,
     "z": 0,
-    "height": 720.09815950920245,
-    "width": 1280,
-    "tabOrder": 6000
+    "height": 720.21419254445186,
+    "width": 1280.1464564406508,
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "image",
@@ -39,6 +39,13 @@
                       "Value": "'Normal'"
                     }
                   }
+                }
+              }
+            },
+            "fit": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Stretch'"
                 }
               }
             }
