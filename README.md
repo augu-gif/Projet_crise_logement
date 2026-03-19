@@ -135,7 +135,9 @@ Application Streamlit correspondant à notre solution pour résoudre la crise du
     <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Streamlit App" width="200"/>
   </a>
 </p>
+
 ---
+
 ## Présentation 
 
 Power BI (si vous avez un compte pro) : https://app.powerbi.com/groups/me/reports/468699ee-b142-4b4f-bc42-6083b8a3284d?ctid=ce04be8e-f93b-4c5e-a512-179abbd7d4fd&pbi_source=linkShare&bookmarkGuid=8979a067-dd08-492e-9e9a-04dcae466bf4
