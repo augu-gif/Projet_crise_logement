@@ -58,7 +58,7 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "34D"
+                  "Value": "32D"
                 }
               }
             }
