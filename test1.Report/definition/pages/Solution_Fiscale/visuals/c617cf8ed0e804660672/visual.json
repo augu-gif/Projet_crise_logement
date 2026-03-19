@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "c617cf8ed0e804660672",
   "position": {
-    "x": 799.84760788336143,
-    "y": 531.94031308764988,
-    "z": 6000,
-    "height": 188.05968691235012,
-    "width": 480.15239211663862,
-    "tabOrder": 6000
+    "x": 863.80151619572712,
+    "y": 216.79724328049622,
+    "z": 5000,
+    "height": 350.03721571330118,
+    "width": 416.65720192970366,
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "funnel",
@@ -20,7 +20,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "mesures"
+                      "Entity": "nb_sdf_tot"
                     }
                   },
                   "Property": "nb_sdf_2027"
@@ -35,7 +35,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "mesures"
+                      "Entity": "nb_sdf_tot"
                     }
                   },
                   "Property": "nb_sdf_2028"
@@ -50,7 +50,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "mesures"
+                      "Entity": "nb_sdf_tot"
                     }
                   },
                   "Property": "nb_sdf_2029"
@@ -65,7 +65,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "mesures"
+                      "Entity": "nb_sdf_tot"
                     }
                   },
                   "Property": "nb_sdf_2030"
@@ -80,7 +80,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "mesures"
+                      "Entity": "nb_sdf_tot"
                     }
                   },
                   "Property": "nb_sdf_2031"
@@ -100,7 +100,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "mesures"
+                    "Entity": "nb_sdf_tot"
                   }
                 },
                 "Property": "nb_sdf_2027"
@@ -166,6 +166,32 @@
               "expr": {
                 "Literal": {
                   "Value": "40D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "categoryAxis": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "percentBarLabel": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

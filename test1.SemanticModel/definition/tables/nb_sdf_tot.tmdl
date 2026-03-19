@@ -1,4 +1,4 @@
-table mesures
+table nb_sdf_tot
 	lineageTag: 6a3fa6fe-2f48-4905-823e-b628bf605d75
 
 	measure nb_logement_2027 = (finances_mel_5ans[recette_2027] * per_inv_log[Valeur per_inv_log]/100) / (average(DVF_MEL[prix_m2]) * average(DVF_MEL[Surface reelle bati]))
@@ -106,6 +106,20 @@ table mesures
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure recette_fiscal_sup = [recette_fiscal] - sum(finances_mel_5ans[2026_REC_FILCAL_COM])*5
+		lineageTag: ca1c96b6-62e8-4ef7-94ef-45d36c093ac4
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure logement_tot = [nb_logement_2027] + [nb_logement_2028] + [nb_logement_2029] +[nb_logement_2030]+[nb_logement_2031]
+		formatString: 0
+		lineageTag: 125a37a5-73c0-4cce-92a7-5dac24c9174f
+
+	measure nb_tot_sdf = ([logement_tot])/[Scorecard Value]
+		lineageTag: d1c0113f-61ca-41d4-8dc0-3ebec0d31432
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column impact_taux_impot
 		formatString: 0
 		lineageTag: c9a19479-54f2-4f1a-9ff3-6cf2ff04887d
@@ -115,7 +129,7 @@ table mesures
 
 		annotation SummarizationSetBy = Automatic
 
-	partition mesures = calculated
+	partition nb_sdf_tot = calculated
 		mode: import
 		source = Row("impact_taux_impot", BLANK())
 

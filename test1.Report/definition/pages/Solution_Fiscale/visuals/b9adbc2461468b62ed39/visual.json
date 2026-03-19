@@ -3,11 +3,11 @@
   "name": "b9adbc2461468b62ed39",
   "position": {
     "x": 0,
-    "y": 119.79212248147259,
-    "z": 3000,
-    "height": 122.03873299631231,
-    "width": 292.09270520428851,
-    "tabOrder": 3000
+    "y": 84.686423156443837,
+    "z": 2000,
+    "height": 121.94844934527912,
+    "width": 626.67953135768437,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "slicer",
@@ -42,7 +42,7 @@
             "numericStart": {
               "expr": {
                 "Literal": {
-                  "Value": "2.600000000000001D"
+                  "Value": "2.0000000000000004D"
                 }
               }
             }
@@ -79,7 +79,7 @@
                         },
                         "Right": {
                           "Literal": {
-                            "Value": "2.600000000000001D"
+                            "Value": "2.0000000000000004D"
                           }
                         }
                       }
@@ -360,6 +360,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "parentGroupName": "bf1eb3301bb7d83331b5"
+  }
 }

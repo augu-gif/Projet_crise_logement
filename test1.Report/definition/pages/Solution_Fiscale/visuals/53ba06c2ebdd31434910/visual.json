@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "53ba06c2ebdd31434910",
   "position": {
-    "x": 799.84760788336143,
-    "y": 89.0282560382934,
-    "z": 5000,
-    "height": 235.07460864043765,
-    "width": 480.15239211663862,
-    "tabOrder": 5000
+    "x": 431.33618194348725,
+    "y": 216.79724328049622,
+    "z": 4000,
+    "height": 350.03721571330118,
+    "width": 416.65720192970366,
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "funnel",
@@ -20,7 +20,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "mesures"
+                      "Entity": "nb_sdf_tot"
                     }
                   },
                   "Property": "logment_vacant2027"
@@ -35,7 +35,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "mesures"
+                      "Entity": "nb_sdf_tot"
                     }
                   },
                   "Property": "logment_vacant2028"
@@ -50,7 +50,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "mesures"
+                      "Entity": "nb_sdf_tot"
                     }
                   },
                   "Property": "logment_vacant2029"
@@ -65,7 +65,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "mesures"
+                      "Entity": "nb_sdf_tot"
                     }
                   },
                   "Property": "logment_vacant2030"
@@ -80,7 +80,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "mesures"
+                      "Entity": "nb_sdf_tot"
                     }
                   },
                   "Property": "logment_vacant2031"
@@ -100,7 +100,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "mesures"
+                    "Entity": "nb_sdf_tot"
                   }
                 },
                 "Property": "logment_vacant2027"
@@ -242,6 +242,19 @@
             }
           }
         }
+      ],
+      "percentBarLabel": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
       ]
     },
     "visualContainerObjects": {
@@ -288,17 +301,17 @@
                 }
               }
             },
-            "bold": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
             "fontSize": {
               "expr": {
                 "Literal": {
                   "Value": "18D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

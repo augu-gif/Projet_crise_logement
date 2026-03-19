@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "a6409be0b94c06d201a4",
   "position": {
-    "x": 304.81369898287625,
-    "y": 89.0282560382934,
-    "z": 2000,
-    "height": 235.07460864043765,
-    "width": 479.15207463306228,
-    "tabOrder": 2000
+    "x": 0,
+    "y": 216.79724328049622,
+    "z": 1000,
+    "height": 350.03721571330118,
+    "width": 416.65720192970366,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "funnel",
@@ -257,6 +257,19 @@
               "expr": {
                 "Literal": {
                   "Value": "1000000D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "percentBarLabel": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

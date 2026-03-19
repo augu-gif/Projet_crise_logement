@@ -2235,7 +2235,7 @@ cultureInfo fr-FR
 			    "mesure": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures"
+			          "ConceptualEntity": "nb_sdf_tot"
 			        }
 			      },
 			      "State": "Generated",
@@ -2323,7 +2323,7 @@ cultureInfo fr-FR
 			    "mesure.impact_taux_impot": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "impact_taux_impot"
 			        }
 			      },
@@ -2346,7 +2346,7 @@ cultureInfo fr-FR
 			    "mesure.nb_logement_2027": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "nb_logement_2027"
 			        }
 			      },
@@ -2379,7 +2379,7 @@ cultureInfo fr-FR
 			    "mesure.cout_invest_2027": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "cout_invest_2027"
 			        }
 			      },
@@ -3998,7 +3998,7 @@ cultureInfo fr-FR
 			    "mesure.cout_invest_2028": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "cout_invest_2028"
 			        }
 			      },
@@ -4031,7 +4031,7 @@ cultureInfo fr-FR
 			    "mesure.cout_invest_2029": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "cout_invest_2029"
 			        }
 			      },
@@ -4064,7 +4064,7 @@ cultureInfo fr-FR
 			    "mesure.cout_invest_2030": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "cout_invest_2030"
 			        }
 			      },
@@ -4097,7 +4097,7 @@ cultureInfo fr-FR
 			    "mesure.cout_invest_2031": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "cout_invest_2031"
 			        }
 			      },
@@ -4130,7 +4130,7 @@ cultureInfo fr-FR
 			    "mesure.nb_logement_2028": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "nb_logement_2028"
 			        }
 			      },
@@ -4163,7 +4163,7 @@ cultureInfo fr-FR
 			    "mesure.nb_logement_2029": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "nb_logement_2029"
 			        }
 			      },
@@ -4196,7 +4196,7 @@ cultureInfo fr-FR
 			    "mesure.nb_logement_2030": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "nb_logement_2030"
 			        }
 			      },
@@ -4229,7 +4229,7 @@ cultureInfo fr-FR
 			    "mesure.nb_logement_2031": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "nb_logement_2031"
 			        }
 			      },
@@ -4262,7 +4262,7 @@ cultureInfo fr-FR
 			    "mesure.recette_fiscal": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "recette_fiscal"
 			        }
 			      },
@@ -6194,7 +6194,7 @@ cultureInfo fr-FR
 			    "mesure.log_vacant_2027": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "Log_vacant_2027"
 			        }
 			      },
@@ -6217,7 +6217,7 @@ cultureInfo fr-FR
 			    "mesure.logment_vacant_2027": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "logment_vacant2027"
 			        }
 			      },
@@ -6250,7 +6250,7 @@ cultureInfo fr-FR
 			    "mesure.logment_vacant_2028": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "logment_vacant2028"
 			        }
 			      },
@@ -6283,7 +6283,7 @@ cultureInfo fr-FR
 			    "mesure.logment_vacant_2029": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "logment_vacant2029"
 			        }
 			      },
@@ -6316,7 +6316,7 @@ cultureInfo fr-FR
 			    "mesure.logment_vacant_2030": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "logment_vacant2030"
 			        }
 			      },
@@ -6349,7 +6349,7 @@ cultureInfo fr-FR
 			    "mesure.logment_vacant_2031": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "logment_vacant2031"
 			        }
 			      },
@@ -6382,7 +6382,7 @@ cultureInfo fr-FR
 			    "mesure.nb_sdf_2027": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "nb_sdf_2027"
 			        }
 			      },
@@ -6415,7 +6415,7 @@ cultureInfo fr-FR
 			    "mesure.nb_sdf_2028": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "nb_sdf_2028"
 			        }
 			      },
@@ -6448,7 +6448,7 @@ cultureInfo fr-FR
 			    "mesure.nb_sdf_2029": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "nb_sdf_2029"
 			        }
 			      },
@@ -6481,7 +6481,7 @@ cultureInfo fr-FR
 			    "mesure.nb_sdf_2031": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "nb_sdf_2031"
 			        }
 			      },
@@ -6514,7 +6514,7 @@ cultureInfo fr-FR
 			    "mesure.nb_sdf_2030": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "mesures",
+			          "ConceptualEntity": "nb_sdf_tot",
 			          "ConceptualProperty": "nb_sdf_2030"
 			        }
 			      },
@@ -8574,7 +8574,7 @@ cultureInfo fr-FR
 			    },
 			    "mesure_has_log_vacant_2027": {
 			      "Binding": {
-			        "ConceptualEntity": "mesures"
+			        "ConceptualEntity": "nb_sdf_tot"
 			      },
 			      "State": "Generated",
 			      "Roles": {
@@ -13986,7 +13986,7 @@ cultureInfo fr-FR
 			    },
 			    "mesure_has_impact_taux_impot": {
 			      "Binding": {
-			        "ConceptualEntity": "mesures"
+			        "ConceptualEntity": "nb_sdf_tot"
 			      },
 			      "State": "Generated",
 			      "Roles": {

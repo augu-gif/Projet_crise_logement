@@ -1,79 +1,59 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
-  "name": "21b8fbf9b91a10a97099",
+  "name": "f2cbe4389f4ad8ddd1cf",
   "position": {
-    "x": 0,
-    "y": 242.92234453690537,
-    "z": 1000,
-    "height": 388.04939942480121,
-    "width": 285.49348671967516,
-    "tabOrder": 1000
+    "x": 431.33618194348725,
+    "y": 574.73852515506542,
+    "z": 7000,
+    "height": 145.66064782908339,
+    "width": 416.65720192970366,
+    "tabOrder": 7000
   },
   "visual": {
-    "visualType": "slicer",
+    "visualType": "cardVisual",
     "query": {
       "queryState": {
-        "Values": {
+        "Data": {
           "projections": [
             {
               "field": {
-                "Column": {
+                "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "finances_2024"
+                      "Entity": "nb_sdf_tot"
                     }
                   },
-                  "Property": "LIB_COM_POSTAL"
+                  "Property": "logement_tot"
                 }
               },
-              "queryRef": "Sheet1.LIB_COM_POSTAL",
-              "nativeQueryRef": "LIB_COM_POSTAL",
-              "active": true
+              "queryRef": "mesures.logement_tot",
+              "nativeQueryRef": "logement_tot",
+              "format": "#,0.00"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "nb_sdf_tot"
+                  }
+                },
+                "Property": "logement_tot"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
       }
     },
     "objects": {
-      "data": [
-        {
-          "properties": {
-            "mode": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Basic'"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "general": [
-        {
-          "properties": {}
-        }
-      ],
-      "selection": [
-        {
-          "properties": {
-            "selectAllCheckboxEnabled": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "singleSelect": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "header": [
+      "label": [
         {
           "properties": {
             "show": {
@@ -83,6 +63,32 @@
                 }
               }
             }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "value": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "40D"
+                }
+              }
+            },
+            "horizontalAlignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ]
@@ -94,7 +100,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Villes de la MEL'"
+                  "Value": "'Réhabilitation sur 5 ans'"
                 }
               }
             },
@@ -112,10 +118,15 @@
                 }
               }
             },
-            "bold": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": -0.25
+                    }
+                  }
                 }
               }
             },
@@ -123,6 +134,20 @@
               "expr": {
                 "Literal": {
                   "Value": "'center'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "18D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }
@@ -175,8 +200,9 @@
               "solid": {
                 "color": {
                   "expr": {
-                    "Literal": {
-                      "Value": "'#FDD472'"
+                    "ThemeDataColor": {
+                      "ColorId": 5,
+                      "Percent": 0.4
                     }
                   }
                 }
@@ -237,66 +263,37 @@
             }
           }
         }
-      ]
-    },
-    "syncGroup": {
-      "groupName": "LIBCOM",
-      "fieldChanges": true,
-      "filterChanges": true
-    },
-    "drillFilterOtherVisuals": true
-  },
-  "parentGroupName": "bf1eb3301bb7d83331b5",
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "370837dae6d99e82bd4e",
-        "type": "Exclude",
-        "filter": {
-          "Version": 2,
-          "From": [
-            {
-              "Name": "f",
-              "Entity": "finances_2024",
-              "Type": 0
-            }
-          ],
-          "Where": [
-            {
-              "Condition": {
-                "Not": {
-                  "Expression": {
-                    "In": {
-                      "Expressions": [
-                        {
-                          "Column": {
-                            "Expression": {
-                              "SourceRef": {
-                                "Source": "f"
-                              }
-                            },
-                            "Property": "LIB_COM_POSTAL"
-                          }
-                        }
-                      ],
-                      "Values": [
-                        [
-                          {
-                            "Literal": {
-                              "Value": "null"
-                            }
-                          }
-                        ]
-                      ]
-                    }
-                  }
+      ],
+      "spacing": [
+        {
+          "properties": {
+            "verticalSpacing": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
                 }
               }
             }
-          ]
-        },
-        "howCreated": "Exclude"
-      }
-    ]
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
   }
 }
