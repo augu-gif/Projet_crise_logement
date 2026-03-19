@@ -105,7 +105,9 @@
             "zoom": {
               "expr": {
                 "Literal": {
+
                   "Value": "9.84D"
+
                 }
               }
             },
@@ -119,7 +121,9 @@
             "centerLongitude": {
               "expr": {
                 "Literal": {
+
                   "Value": "3.0480827093124105D"
+
                 }
               }
             },

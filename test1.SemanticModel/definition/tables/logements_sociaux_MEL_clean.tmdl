@@ -173,7 +173,7 @@ table logements_sociaux_MEL_clean
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("C:\Formation\crise_immo\Projet_crise_logement\dataset_bi\logements_sociaux_MEL_clean.csv"),[Delimiter=",", Columns=16, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    Source = Csv.Document(File.Contents("C:\Users\augus\OneDrive\Documents\GitHub\Projet_crise_logement\dataset_bi\logements_sociaux_MEL_clean.csv"),[Delimiter=",", Columns=16, Encoding=65001, QuoteStyle=QuoteStyle.None]),
 				    #"En-têtes promus" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"Libéllé Commune", type text}, {"Code Postal", Int64.Type}, {"Code IRIS - Code de la zone", type text}, {"Type de construction - Libellé", type text}, {"Année de construction", Int64.Type}, {"Année de première mise en location", Int64.Type}, {"Année d’entrée dans le patrimoine", Int64.Type}, {"Etiquette DPE Energie", type text}, {"Etiquette DPE GES", type text}, {"Situation en QPV - Libellé", type text}, {"Code QPV 2024", type text}, {"Financement initial - Libellé", type text}, {"Convention APL", Int64.Type}, {"passoire_energetique", type logical}, {"logement_qpv", type logical}, {"age_logement", Int64.Type}})
 				in

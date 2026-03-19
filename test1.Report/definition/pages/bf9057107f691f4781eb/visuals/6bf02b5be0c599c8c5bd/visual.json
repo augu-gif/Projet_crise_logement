@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "6bf02b5be0c599c8c5bd",
   "position": {
-    "x": 139.19220119453536,
-    "y": 176.09922423854093,
+    "x": 280.84341987083531,
+    "y": 236.49972199649287,
     "z": 2000,
-    "height": 142.35566031259296,
-    "width": 715.99624705370832,
+    "height": 211.86433428852487,
+    "width": 742.01787776399635,
     "tabOrder": 2000
   },
   "visual": {
@@ -19,9 +19,17 @@
               {
                 "textRuns": [
                   {
+                    "value": ""
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
                     "value": "De la crise à la solution",
                     "textStyle": {
-                      "fontSize": "40pt"
+                      "fontSize": "36pt"
                     }
                   }
                 ],
@@ -32,7 +40,7 @@
                   {
                     "value": "Notre feuille de route",
                     "textStyle": {
-                      "fontSize": "40pt"
+                      "fontSize": "36pt"
                     }
                   }
                 ],

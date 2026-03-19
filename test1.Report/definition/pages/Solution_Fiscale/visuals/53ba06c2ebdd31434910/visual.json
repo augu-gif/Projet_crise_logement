@@ -2,12 +2,14 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "53ba06c2ebdd31434910",
   "position": {
+
     "x": 431.33618194348725,
     "y": 216.79724328049622,
     "z": 4000,
     "height": 350.03721571330118,
     "width": 416.65720192970366,
     "tabOrder": 4000
+
   },
   "visual": {
     "visualType": "funnel",
