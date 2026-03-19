@@ -108,12 +108,10 @@ Plusieurs pistes d’action sont étudiées :
 
 ## Organisation du projet
 
-Le suivi des tâches est disponible ici :
+Nous avons utilisés Trello pour la plannification des tâches
 
 <p align="center">
-  <a href="https://trello.com/b/vCHzIbpy/criselogement">
     <img src="https://images.icon-icons.com/2699/PNG/512/trello_logo_icon_168452.png" alt="Streamlit App" width="200"/>
-  </a>
 </p>
 
 
@@ -146,7 +144,7 @@ Application Streamlit correspondant à notre solution pour résoudre la crise du
 
 ## Présentation 
 <p align="center">
-  <a href="https://app.powerbi.com/view?r=eyJrIjoiMTViODI3MmUtNzhhMy00OWEzLWFkNWQtNmY0MmE2YmE0ZTk3IiwidCI6ImNlMDRiZThlLWY5M2ItNGM1ZS1hNTEyLTE3OWFiYmQ3ZDRmZCJ9&pageName=8d3210910a28d30325c7">
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiMTViODI3MmUtNzhhMy00OWEzLWFkNWQtNmY0MmE2YmE0ZTk3IiwidCI6ImNlMDRiZThlLWY5M2ItNGM1ZS1hNTEyLTE3OWFiYmQ3ZDRmZCJ9">
     <img src="https://klint-consulting.com/wp-content/uploads/2023/04/Power-BI-Microsoft-logo.png" alt="Streamlit App" width="200"/>
   </a>
 </p>
