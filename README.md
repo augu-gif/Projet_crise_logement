@@ -5,7 +5,7 @@
 Le logement est devenu l’un des principaux enjeux sociaux et politiques en France.
 La hausse des prix de l’immobilier, la difficulté d’accès à la propriété et la tension sur le marché locatif rendent l’accès au logement de plus en plus complexe pour de nombreux ménages.
 
-Dans ce projet, nous avons choisi de nous concentrer sur **la Métropole Européenne de Lille (MEL)** afin d’analyser les dynamiques locales du marché du logement. En nous appuyant sur différentes données publiques (INSEE, données immobilières, recensement des logements…), nous cherchons à mieux comprendre les tensions immobilières, les inégalités territoriales et les difficultés d’accès au logement dans cette métropole.
+Dans ce projet, nous avons choisi de nous concentrer sur **la Métropole Européenne de Lille (MEL)** afin d’analyser les dynamiques locales du marché du logement. En nous appuyant sur différentes données publiques (INSEE, données immobilières, data gouv ...), nous cherchons à mieux comprendre les tensions immobilières, les inégalités territoriales et les difficultés d’accès au logement dans cette métropole.
 
 L’objectif est d’identifier les zones les plus en tension et d’explorer des pistes de solutions à l’échelle locale, comme si nous étions **conseillers auprès de la MEL** afin d’éclairer les décisions publiques en matière de politique du logement.
 
@@ -15,11 +15,9 @@ L’objectif est d’identifier les zones les plus en tension et d’explorer de
 
 Nous cherchons à répondre à plusieurs questions clés :
 
-* Où manque-t-il le plus de logements sociaux ?
+* Quelle est la situation en France ?
 * Les logements vacants peuvent-ils constituer une solution à la crise du logement ?
-* Pourquoi certains logements restent-ils vacants ?
-* Quelle est la part de propriétaires par rapport aux locataires selon les territoires ?
-* Est-il possible de devenir propriétaire dans la Métropole Européenne de Lille (MEL) avec un revenu moyen, et si oui dans quelles communes ?
+* Comment pouvons nous résoudre cett crise grâce à la fiscalitée des communes ?
 
 ---
 
@@ -28,8 +26,6 @@ Nous cherchons à répondre à plusieurs questions clés :
 L’objectif est de produire une analyse accessible permettant de :
 
 * comprendre les dynamiques du marché immobilier
-* identifier les zones où la pression immobilière est la plus forte
-* mettre en évidence les inégalités territoriales
 * proposer des pistes de solutions pour les décideurs publics
 * budgétiser des solutions et proposer un plan d’action sur 5 ans
 
@@ -42,15 +38,13 @@ Le projet est présenté comme si nous étions **conseillers auprès de la Métr
 Les analyses s’appuient sur plusieurs sources de données publiques :
 
 * Recensement des logements (INSEE)
-* Données sur les logements sociaux
-* Données sur les prix de l’immobilier
-* Données socio-économiques territoriales
+* Données du budget des communes de la MEL (data gouv) 
+* Données socio-économiques territoriales (data gouv)
+* Données immobilières (DVF)
 
 Ces données permettent de croiser :
 
 * la structure du parc immobilier
-* le niveau de revenu des habitants
-* la part de logements sociaux
 * les logements vacants
 * l’évolution des prix de l’immobilier
 * la répartition du budget dans la MEL
@@ -94,7 +88,7 @@ Plusieurs axes d’analyse sont explorés.
 
 Une **régression linéaire** est utilisée afin d’estimer :
 
-* l’évolution des prix immobiliers
+* L'évolution du nombre de sans abris 
 * les budgets nécessaires pour la construction ou la rénovation de logements
 
 Le modèle permet de réaliser des **estimations budgétaires sur 5 ans (à partir de N+1)**.
@@ -128,13 +122,19 @@ Le projet est structuré en plusieurs parties :
 
 ---
 ## Applications
-
 Application Streamlit sur les insights liées au nombre de sans-abris dans la métropole lilloise et prédiction de leur nombre sur 10 ans :
-https://homelessmelanalysis-fnhvfq6nzfiude9nsnjc4z.streamlit.app/
+<p align="center">
+  <a href="https://homelessmelanalysis-fnhvfq6nzfiude9nsnjc4z.streamlit.app/">
+    <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Streamlit App" width="200"/>
+  </a>
+</p>
 
 Application Streamlit correspondant à notre solution pour résoudre la crise du logement dans la MEL :
-https://solutionrelogementsansabris-3mapxcm2i8mdgptbgru6gh.streamlit.app/
-
+<p align="center">
+  <a href="https://solutionrelogementsansabris-3mapxcm2i8mdgptbgru6gh.streamlit.app/">
+    <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Streamlit App" width="200"/>
+  </a>
+</p>
 ---
 ## Présentation 
 
