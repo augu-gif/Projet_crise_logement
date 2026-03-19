@@ -137,7 +137,10 @@ https://solutionrelogementsansabris-3mapxcm2i8mdgptbgru6gh.streamlit.app/
 
 ---
 ## Présentation 
-Power Point : https://github.com/augu-gif/Projet_crise_logement/blob/main/Projet_crise_logement_presentation.pptx
+
+Power BI: https://app.powerbi.com/links/fDdt8jC22k?ctid=ce04be8e-f93b-4c5e-a512-179abbd7d4fd&pbi_source=linkShare
+
+PDF : [Rapport PDF (lecture rapide)]("C:/Users/augus/OneDrive/Documents/GitHub/Projet_crise_logement/Projet_crise_logement_presentation.pptx".pdf)
 
 ---
 ## Objectif final
