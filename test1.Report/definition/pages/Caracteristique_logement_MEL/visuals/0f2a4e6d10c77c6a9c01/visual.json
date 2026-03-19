@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
   "name": "0f2a4e6d10c77c6a9c01",
   "position": {
-    "x": 0,
-    "y": 569.66723988602564,
+    "x": 0.98541550831872027,
+    "y": 543.94936059193367,
     "z": 1000,
-    "height": 150.12891159451215,
-    "width": 284.83361994301282,
+    "height": 176.38937598905093,
+    "width": 284.7850819041102,
     "tabOrder": 1000
   },
   "visual": {
@@ -17,18 +17,22 @@
           "projections": [
             {
               "field": {
-                "Measure": {
+                "Aggregation": {
                   "Expression": {
-                    "SourceRef": {
-                      "Entity": "LogementsVacants_MEL_Exploitabl"
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "LogementsVacants_MEL_Exploitabl"
+                        }
+                      },
+                      "Property": "pp_vacant_plus_2ans_24"
                     }
                   },
-                  "Property": "pourcentage_de_logement_vacant_24_de_plus_de_deux_ans"
+                  "Function": 0
                 }
               },
-              "queryRef": "LogementsVacants_MEL_Exploitabl.pourcentage_de_logement_vacant_24_de_plus_de_deux_ans",
-              "nativeQueryRef": "pourcentage_de_logement_vacant_24_de_plus_de_deux_ans",
-              "format": "0.00 %;-0.00 %;0.00 %"
+              "queryRef": "Sum(LogementsVacants_MEL_Exploitabl.pp_vacant_plus_2ans_24)",
+              "nativeQueryRef": "Somme de pp_vacant_plus_2ans_24"
             }
           ]
         }
@@ -37,13 +41,18 @@
         "sort": [
           {
             "field": {
-              "Measure": {
+              "Aggregation": {
                 "Expression": {
-                  "SourceRef": {
-                    "Entity": "LogementsVacants_MEL_Exploitabl"
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "LogementsVacants_MEL_Exploitabl"
+                      }
+                    },
+                    "Property": "pp_vacant_plus_2ans_24"
                   }
                 },
-                "Property": "pourcentage_de_logement_vacant_24_de_plus_de_deux_ans"
+                "Function": 0
               }
             },
             "direction": "Descending"
@@ -325,7 +334,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Vacance durable'"
+                  "Value": "'Vacance durable de plus de 2 ans'"
                 }
               }
             },

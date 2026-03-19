@@ -4991,22 +4991,6 @@ cultureInfo fr-FR
 			        }
 			      ]
 			    },
-			    "logements_vacants_MEL_exploitabl.pourcentage_de_logement_vacant_24_de_plus_de_deux_ans": {
-			      "Definition": {
-			        "Binding": {
-			          "ConceptualEntity": "LogementsVacants_MEL_Exploitabl",
-			          "ConceptualProperty": "pourcentage_de_logement_vacant_24_de_plus_de_deux_ans"
-			        }
-			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "pourcentage de logement vacant 24 de plus de deux ans": {
-			            "State": "Generated"
-			          }
-			        }
-			      ]
-			    },
 			    "logements_sociaux_MEL_clean": {
 			      "Definition": {
 			        "Binding": {
