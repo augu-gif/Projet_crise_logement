@@ -138,9 +138,7 @@ https://solutionrelogementsansabris-3mapxcm2i8mdgptbgru6gh.streamlit.app/
 ---
 ## Présentation 
 
-Power BI: https://app.powerbi.com/links/fDdt8jC22k?ctid=ce04be8e-f93b-4c5e-a512-179abbd7d4fd&pbi_source=linkShare
-
-PDF : [Rapport PDF (lecture rapide)]("C:/Users/augus/OneDrive/Documents/GitHub/Projet_crise_logement/Projet_crise_logement_presentation.pptx".pdf)
+PDF : https://drive.google.com/file/d/1eI9aPocvBtnWnBob2HTfRy1gqoh2_6YL/view?usp=sharing
 
 ---
 ## Objectif final
