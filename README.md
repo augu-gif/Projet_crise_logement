@@ -138,6 +138,8 @@ https://solutionrelogementsansabris-3mapxcm2i8mdgptbgru6gh.streamlit.app/
 ---
 ## Présentation 
 
+Power BI (si vous avez un compte pro) : https://app.powerbi.com/groups/me/reports/468699ee-b142-4b4f-bc42-6083b8a3284d?ctid=ce04be8e-f93b-4c5e-a512-179abbd7d4fd&pbi_source=linkShare&bookmarkGuid=8979a067-dd08-492e-9e9a-04dcae466bf4
+
 PDF : https://drive.google.com/file/d/1eI9aPocvBtnWnBob2HTfRy1gqoh2_6YL/view?usp=sharing
 
 ---
