@@ -139,9 +139,9 @@ Application Streamlit correspondant à notre solution pour résoudre la crise du
 ---
 
 ## Présentation 
-
+<iframe title="Projet_crise_logement_BI" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTViODI3MmUtNzhhMy00OWEzLWFkNWQtNmY0MmE2YmE0ZTk3IiwidCI6ImNlMDRiZThlLWY5M2ItNGM1ZS1hNTEyLTE3OWFiYmQ3ZDRmZCJ9&pageName=8d3210910a28d30325c7" frameborder="0" allowFullScreen="true"></iframe>
 <p align="center">
-  <a href="https://app.powerbi.com/groups/me/reports/468699ee-b142-4b4f-bc42-6083b8a3284d?ctid=ce04be8e-f93b-4c5e-a512-179abbd7d4fd&pbi_source=linkShare&bookmarkGuid=8979a067-dd08-492e-9e9a-04dcae466bf4">
+  <a href="https://app.powerbi.com/view?r=eyJrIjoiMTViODI3MmUtNzhhMy00OWEzLWFkNWQtNmY0MmE2YmE0ZTk3IiwidCI6ImNlMDRiZThlLWY5M2ItNGM1ZS1hNTEyLTE3OWFiYmQ3ZDRmZCJ9&pageName=8d3210910a28d30325c7">
     <img src="https://klint-consulting.com/wp-content/uploads/2023/04/Power-BI-Microsoft-logo.png" alt="Streamlit App" width="200"/>
   </a>
 </p>
