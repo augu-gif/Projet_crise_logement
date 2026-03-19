@@ -140,9 +140,17 @@ Application Streamlit correspondant à notre solution pour résoudre la crise du
 
 ## Présentation 
 
-Power BI (si vous avez un compte pro) : https://app.powerbi.com/groups/me/reports/468699ee-b142-4b4f-bc42-6083b8a3284d?ctid=ce04be8e-f93b-4c5e-a512-179abbd7d4fd&pbi_source=linkShare&bookmarkGuid=8979a067-dd08-492e-9e9a-04dcae466bf4
+<p align="center">
+  <a href="https://app.powerbi.com/groups/me/reports/468699ee-b142-4b4f-bc42-6083b8a3284d?ctid=ce04be8e-f93b-4c5e-a512-179abbd7d4fd&pbi_source=linkShare&bookmarkGuid=8979a067-dd08-492e-9e9a-04dcae466bf4">
+    <img src="https://klint-consulting.com/wp-content/uploads/2023/04/Power-BI-Microsoft-logo.png" alt="Streamlit App" width="200"/>
+  </a>
+</p>
 
-PDF : https://drive.google.com/file/d/1eI9aPocvBtnWnBob2HTfRy1gqoh2_6YL/view?usp=sharing
+<p align="center">
+  <a href="https://drive.google.com/file/d/1eI9aPocvBtnWnBob2HTfRy1gqoh2_6YL/view?usp=sharing">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/PDF_icon.svg/1280px-PDF_icon.svg.png" alt="Streamlit App" width="200"/>
+  </a>
+</p>
 
 ---
 ## Objectif final
