@@ -110,7 +110,13 @@ Plusieurs pistes d’action sont étudiées :
 
 Le suivi des tâches est disponible ici :
 
-https://trello.com/b/vCHzIbpy/criselogement
+<p align="center">
+  <a href="https://trello.com/b/vCHzIbpy/criselogement">
+    <img src="https://images.icon-icons.com/2699/PNG/512/trello_logo_icon_168452.png" alt="Streamlit App" width="200"/>
+  </a>
+</p>
+
+
 
 Le projet est structuré en plusieurs parties :
 
