@@ -152,5 +152,5 @@ Ce projet s’inscrit dans une démarche à la fois **data, sociale et politique
 ---
 ## Retour au Portfolio
 
-[Portfolio](https://github.com/augu-gif/mon-portfolio-data)
+[Retour au portfolio](https://github.com/augu-gif/mon-portfolio-data)
 
