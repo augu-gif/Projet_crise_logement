@@ -150,7 +150,6 @@ Produire une analyse claire et visuelle permettant de mettre en évidence les te
 Ce projet s’inscrit dans une démarche à la fois **data, sociale et politique**, visant à rendre les données plus accessibles afin de mieux comprendre les enjeux du logement.
 
 ---
-## Retour au Portfolio
 
 [Retour au portfolio](https://github.com/augu-gif/mon-portfolio-data)
 
