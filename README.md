@@ -108,12 +108,10 @@ Plusieurs pistes d’action sont étudiées :
 
 ## Organisation du projet
 
-Le suivi des tâches est disponible ici :
+Nous avons utilisés Trello pour la plannification des tâches
 
 <p align="center">
-  <a href="https://trello.com/b/vCHzIbpy/criselogement">
     <img src="https://images.icon-icons.com/2699/PNG/512/trello_logo_icon_168452.png" alt="Streamlit App" width="200"/>
-  </a>
 </p>
 
 
